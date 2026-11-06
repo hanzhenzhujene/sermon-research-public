@@ -335,12 +335,15 @@
       "checked_on": "2026-11-05",
       "source_urls": [
         "https://www.orthodoxcheyenne.org/",
-        "https://www.orthodoxcheyenne.org/about_us/"
+        "https://www.orthodoxcheyenne.org/about_us/",
+        "https://www.denver.goarch.org/wyoming-parishes"
       ],
       "people": [],
       "pastor_status": "No named local clergy role was established in the inspected reviewed pages.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_note": "Greek Orthodox, local self-identification. Specific jurisdiction remains unverified; the regional directory returned HTTP 403.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:9b17bab3-3dde-4292-8090-c12145d7f89d",
@@ -597,20 +600,25 @@
       "state_name": "California",
       "division": "Pacific",
       "sample": "Original sample",
-      "affiliation": "Not established",
-      "affiliation_as_stated": "Not established",
-      "affiliation_scope": "Exact denomination not established",
+      "affiliation": "Anglican Church in North America (ACNA)",
+      "affiliation_as_stated": "Anglican Church in North America (ACNA)",
+      "affiliation_scope": "Local church’s explicit affiliation statement",
       "identity_status": "Supported by church pages",
       "checked_on": "2026-11-05",
       "source_urls": [
         "https://eucharistsf.org/",
         "https://eucharistsf.org/vision",
-        "https://eucharistsf.org/sundays"
+        "https://eucharistsf.org/sundays",
+        "https://eucharistsf.org/affiliation",
+        "https://c4so.org/church-locator/"
       ],
       "people": [],
       "pastor_status": "A link says Meet our New Rector, but the inspected pages do not give that rector's name.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_organization": "Churches for the Sake of Others (C4SO)",
+      "affiliation_note": "The church’s Affiliation page identifies ACNA and C4SO as its diocese. The individual C4SO directory entry was not independently rendered.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:e1e5cf13-41e8-4020-a3b5-4874258e3e23",
@@ -762,7 +770,9 @@
       "people": [],
       "pastor_status": "The only named parish priest is in the church's 1950 founding history.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_note": "Serbian Orthodox, local self-identification. Current eparchy remains unestablished.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:8eabc047-d2d2-4a94-9ea7-a900dd00bda0",
@@ -1628,18 +1638,22 @@
       "state_name": "Colorado",
       "division": "Mountain",
       "sample": "Additional sample",
-      "affiliation": "Not established",
-      "affiliation_as_stated": "Not established",
-      "affiliation_scope": "Exact denomination not established",
+      "affiliation": "Catholic Church",
+      "affiliation_as_stated": "Catholic Church",
+      "affiliation_scope": "Church statement and regional ministry directory",
       "identity_status": "Supported by church pages",
       "checked_on": "2026-11-05",
       "source_urls": [
-        "https://www.saintmarkcc.org/"
+        "https://www.saintmarkcc.org/",
+        "https://archden.org/eflm/youth-ministry/find-youth-minister/"
       ],
       "people": [],
       "pastor_status": "No named local clergy role was established in the inspected reviewed pages.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_organization": "Archdiocese of Denver",
+      "affiliation_note": "The church website and Archdiocese of Denver youth-ministry directory identify the same Westminster church and website. The diocesan source is a ministry directory, not a canonical parish register.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:27992171-cb68-4126-805c-a9704e5abf81",
@@ -1649,13 +1663,14 @@
       "state_name": "Iowa",
       "division": "West North Central",
       "sample": "Additional sample",
-      "affiliation": "Not established",
-      "affiliation_as_stated": "Not established",
-      "affiliation_scope": "Exact denomination not established",
+      "affiliation": "Catholic Church",
+      "affiliation_as_stated": "Catholic Church",
+      "affiliation_scope": "Official denominational directory and matching parish website",
       "identity_status": "Named in an official directory",
       "checked_on": "2026-11-05",
       "source_urls": [
-        "https://cfosparishes.org/st-aloysius"
+        "https://cfosparishes.org/st-aloysius",
+        "https://dbqarch.org/parishfinder"
       ],
       "people": [
         {
@@ -1685,7 +1700,10 @@
       ],
       "pastor_status": "Named role in a church or official directory page",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_organization": "Archdiocese of Dubuque",
+      "affiliation_note": "The Archdiocese of Dubuque parish finder identifies St Aloysius in Calmar and links the matching parish website.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:8a08295f-9f33-4642-adc9-70abc4e0e95d",
@@ -1862,7 +1880,9 @@
       "people": [],
       "pastor_status": "No named local clergy role was established in the inspected reviewed pages.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_note": "The latest affiliation follow-up was unavailable; a reliable origin HTTP status was not established. The church name alone does not confirm denominational membership.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:e8775ef2-7a5f-4fd2-80c6-c313381815a0",
@@ -1893,18 +1913,23 @@
       "state_name": "Montana",
       "division": "Mountain",
       "sample": "Additional sample",
-      "affiliation": "Not established",
-      "affiliation_as_stated": "Not established",
-      "affiliation_scope": "Exact denomination not established",
+      "affiliation": "United Methodist Church",
+      "affiliation_as_stated": "United Methodist Church",
+      "affiliation_scope": "Official conference directory and matching church website",
       "identity_status": "Supported by church pages",
       "checked_on": "2026-11-05",
       "source_urls": [
-        "https://www.steviumc.org/"
+        "https://www.steviumc.org/",
+        "https://www.mtnskyumc.org/churchdetail/3649515",
+        "https://www.mtnskyumc.org/appointments?topic=Montana+West"
       ],
       "people": [],
       "pastor_status": "No named local clergy role was established in the inspected reviewed pages.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_organization": "Mountain Sky Conference, Montana West",
+      "affiliation_note": "The Mountain Sky Conference directory identifies Stevensville United Methodist Church and links its website. Appointment records show changes across years; a shared appointment does not establish a shared sermon corpus.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:f22d27d1-93f2-4b5c-bafa-7e35692efe0f",
@@ -2199,7 +2224,9 @@
       ],
       "pastor_status": "Named role in a church or official directory page",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_note": "The latest affiliation follow-up returned HTTP 403. Earlier clergy evidence remains dated to its original observation; exact affiliation is unconfirmed.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:062203ea-4af0-458d-a340-f3384724112a",
@@ -2323,18 +2350,22 @@
       "state_name": "Arizona",
       "division": "Mountain",
       "sample": "Additional sample",
-      "affiliation": "Not established",
-      "affiliation_as_stated": "Not established",
-      "affiliation_scope": "Exact denomination not established",
+      "affiliation": "Catholic Church",
+      "affiliation_as_stated": "Roman Catholic Church",
+      "affiliation_scope": "Local church’s explicit affiliation statement",
       "identity_status": "Supported by church pages",
       "checked_on": "2026-11-05",
       "source_urls": [
-        "https://www.stboc.org/"
+        "https://www.stboc.org/",
+        "https://stboc.org/about"
       ],
       "people": [],
       "pastor_status": "An article author and an event leader are named. Those bylines do not establish their local appointments.",
       "sermon_status": "No study-eligible sermon text linked to this sampled church",
-      "eligible_sermons": 0
+      "eligible_sermons": 0,
+      "affiliation_organization": "Diocese of Phoenix",
+      "affiliation_note": "The church’s About page identifies it as a parish in the Roman Catholic Diocese of Phoenix. This is the church’s own statement.",
+      "affiliation_checked_on": "2026-11-06"
     },
     {
       "id": "overture:672fe520-c90c-404e-a451-acaee9f6adf4",
@@ -5106,7 +5137,7 @@
     "additional_churches": 38,
     "churches_with_named_clergy": 28,
     "named_clergy_records": 41,
-    "affiliation_not_established": 48,
+    "affiliation_not_established": 43,
     "items": 47,
     "earlier_items": 36,
     "separate_items": 11,

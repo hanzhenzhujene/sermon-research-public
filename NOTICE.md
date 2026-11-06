@@ -13,3 +13,5 @@ Church-location selection derives from **Overture Maps Places release 2026-10-21
 The U.S. state map uses the geometry and attribution recorded in `data/catalogue.json`, with the [original ISC notice](notices/us-atlas-ISC.txt). The interactive HTML includes these notices as well.
 
 Publisher names, source titles and linked works remain subject to their respective rights and terms. There is no blanket license here over third-party sermon works. Making this catalogue public does not change those rights.
+
+The collection-feasibility data adds original summaries of publisher indexes, dated item observations, access conditions and license notices. Original links accompany each source and item. No full page, manuscript, caption or recording bodies are included. Creative Commons notices described in source details apply only to identified works and uses; they do not license this entire catalogue or unrelated church material.

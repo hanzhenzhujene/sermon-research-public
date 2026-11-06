@@ -1,48 +1,66 @@
 # Sermon research catalogue
 
-**[Open the website](https://sermon-research-jenny.landenini.chatgpt.site/)** to browse church identities, clergy roles, text-item records and original sources. This repository contains the same public catalogue, its metadata and the notices required by its data sources.
+**[Open the website](https://sermon-research-jenny.landenini.chatgpt.site/)** to compare collection routes, inspect church and clergy evidence, and follow original sources.
 
-**Find the map:** open [Churches & pastors](https://sermon-research-jenny.landenini.chatgpt.site/#view=churches), then expand **Map and state counts**. **Affiliation counts** is directly below it. Both reflect the active filters, so clear filters to see all 86 accepted identities.
+Start with **[Collection feasibility](https://sermon-research-jenny.landenini.chatgpt.site/#view=feasibility)**. For the map, open **[Churches & pastors → Map and state counts](https://sermon-research-jenny.landenini.chatgpt.site/#view=churches&map=open)**. Affiliation counts sit below the map; both follow the active filters.
 
-## What is included
+## What can be collected?
 
-| Section | Current contents |
+Twelve sources were deliberately selected for closer inspection. These assessments identify routes and remaining checks; they are not a representative national sample or acquired text corpus.
+
+| Assessment | Sources | What remains |
+|---|---|---|
+| 2 priority text candidates | Fourth Presbyterian, Chicago; Adam Thomas / St Mark’s Episcopal, Mystic | Resolve item-level conflicts and apply intended-use conditions. |
+| 1 supplemental text route | Memorial Congregational, Sudbury | Use the specifically licensed author work within its conditions; two observed manuscripts do not establish weekly coverage. |
+| 3 platform routes | Heritage Baptist, Trinity Baptist, Woodruff Road Presbyterian | Validate permitted SermonAudio export, historical coverage and transcript provenance. |
+| 1 recording candidate | Holy Trinity Greek Orthodox, San Francisco | Establish recording/transcription rights, speakers and recording boundaries. |
+| 5 deferred continuous-panel sources | Haller Lake, St Louis, Blessed Trinity, Co-Cathedral of St Theresa, Saint Katherine | Resolve sparse archives, restricted access, missing dates or incomplete two-period coverage. |
+
+**[Three supplemental leads](https://sermon-research-jenny.landenini.chatgpt.site/#view=feasibility&group=supplemental)**—St James Cathedral in Seattle, Star of the Sea and Grace Cathedral in San Francisco—remain outside those twelve. One of the twelve overlaps the existing identity catalogue; do not add these collections together.
+
+### Inspect the strongest examples
+
+- **[Fourth Presbyterian](https://sermon-research-jenny.landenini.chatgpt.site/#view=feasibility&id=fourth-chicago-il):** 107 annual index records, including two explicit no-sermon services and one grouped youth entry. The 33 exact-target checks are a subset: 32 bodies rendered, 28 without an inspected conflict, four discrepancies and one unavailable target. Indexed and target-header service times remain separate; 2025 times are unconfirmed. Speaker tables retain 2022/2025 index and target counts.
+- **[Adam Thomas / St Mark’s](https://sermon-research-jenny.landenini.chatgpt.site/#view=feasibility&id=stmark-mystic-ct):** 88 annual entries include nine October observations. Eight latest page reads succeeded; one failed after an earlier successful observation. Three same-liturgical-label pairs contain one equal-header-passage pair and two different passages. Index, event and publication dates remain distinct, including the May 9 index / May 8 header discrepancy.
+
+These are metadata observations. They do not establish complete delivery, retained text or AI use.
+
+## Other catalogue sections
+
+| Section | Contents and counting unit |
 |---|---|
-| Overview | What the catalogue contains and what it can establish. |
-| Churches & pastors | 86 source-supported church identities, with city/state, affiliation evidence and original links. 28 churches have 41 named clergy-role records. Former clergy, interim roles and undated history claims are identified separately. |
-| Sermon & text records | 47 item records: 36 earlier mixed-genre archive texts, four publisher timed transcripts and seven manuscripts. Records include titles, attributed authors/speakers, dates and their meaning, formats, quality limits and publisher links. |
-| Sources & methods | 83 source records: 70 originals inspected, 11 inspection blocks and two discovery leads. Inspection does not establish collection permission or a usable corpus. |
+| Churches & pastors | **86 supported identities** across 43 states and D.C.; **41 clergy-role records at 28 churches**. Historical, interim and undated role claims keep their qualifications. |
+| Sermon & text records | **47 item records**: 36 earlier mixed-genre archive items, four publisher timed transcripts and seven manuscripts. This separate collection is not the twelve-source assessment. |
+| Sources & methods | **83 source records**: 70 originals inspected, 11 inspection blocks and two discovery leads. Inspection does not establish permission or a usable corpus. |
 
-**Full sermon texts, captions and recordings are not included.** Follow an item's original publisher link to see what that source makes available. Public reading, private retention and research reuse have different permission requirements.
+**Full sermon texts, captions and recordings are not included.** Original publisher links show what each source makes available. A church role does not identify the speaker of every event, and lack of AI disclosure means unknown use.
 
-## Why does the website show 86 churches?
+The 86 accepted identities comprise 48 from the original 128 candidates and 38 from an additional 6,000. The original sample has 36 identity holds, one exclusion and 43 unreviewed candidates; the additional sample has 78 holds, five exclusions and 5,879 unreviewed candidates. The goal of 1,000 audited churches has not been reached.
 
-The 86 are identities supported by completed reviews: **48 from the original sample plus 38 from the additional sample**. The larger numbers count candidate locations selected for checking, not verified churches or collected sermons.
+Five source-linked affiliation updates bring the filled count to **43**, with **43 still unestablished**. Evidence varies between local statements and organization directories; this is not 43 equally precise verified jurisdictions. Two broad-tradition findings and two unavailable follow-ups remain notes, not exact affiliations. Clergy names remain unestablished for 58 accepted identities. These gaps overlap.
 
-| Identity review | Original sample | Additional sample |
-|---|---:|---:|
-| Candidates selected | 128 | 6,000 |
-| Identity supported | 48 | 38 |
-| More identity evidence needed | 36 | 78 |
-| Excluded from current counting | 1 | 5 |
-| Not yet reviewed | 43 | 5,879 |
+No item linked to the frozen church samples yet meets every church-linkage, date, delivery, quality and permission requirement. This does **not** mean there are zero feasible collection routes.
 
-The accepted identities span 43 states and D.C. This is not a representative national sample, and the goal of 1,000 audited churches has not been reached. Among the 86 accepted identities, 58 lack a supported clergy name and 48 lack an exact denominational affiliation. These gaps overlap.
+## Access and reuse
 
-**Zero formal sermon units currently meet every requirement** for church linkage, date, delivery, text quality and permission. The 47 text-item records are separate collections and do not fill that gap. Neither text style nor a lack of disclosure establishes whether a preacher used AI.
+The website distinguishes operations rather than assigning one blanket permission label. Thomas’s observed **CC BY-NC-ND 3.0** notice supports conditional unchanged noncommercial copying/collections and necessary technical format changes, but not general adaptation permission. The specifically identified Allen Vander Meulen **CC BY-NC 4.0** work supports conditional noncommercial adaptation. Analysis is not automatically adaptation; assess the actual operation. Notices do not cover unrelated works or third-party materials. See the source detail pages and [attribution](NOTICE.md).
 
-## Files and local use
+## Files and reproducibility
 
-- [index.html](index.html): the complete interactive catalogue, unchanged from the approved public v20 build. Download it, then open the downloaded file in a browser. Search, filters and the map work without a server; original-source links need internet access. GitHub's file view does not run the website.
-- [data/catalogue.json](data/catalogue.json): the exact dataset embedded in the HTML, including source links and evidence limits.
-- [Church CSV](data/churches.csv), [item CSV](data/items.csv), [source CSV](data/sources.csv): selected fields for browsing or analysis. Use the JSON or website details for the full qualifications.
-- [snapshot.json](snapshot.json): counts, date and the HTML checksum.
-- [NOTICE.md](NOTICE.md) and [notices/](notices/): source attribution and applicable license texts.
+- [index.html](index.html): standalone interactive website. Download and open it in a browser; search, filters and the map work without a server. Original links require internet. GitHub’s file view does not run HTML.
+- [data/catalogue.json](data/catalogue.json): existing church, item and source records with stable IDs.
+- [data/feasibility.json](data/feasibility.json): separately counted collection screens, supplemental leads, nested observations and operation-specific rights.
+- [Collection-route CSV](data/collection-feasibility.csv), [supplemental-lead CSV](data/supplemental-leads.csv), [church CSV](data/churches.csv), [item CSV](data/items.csv), [source CSV](data/sources.csv). Detail-page exports preserve inspected exceptions and unknowns.
+- [src/](src/): readable website code and styles; [snapshot.json](snapshot.json): counts and HTML checksum; [notices/](notices/): required data and map license notices.
 
-This snapshot was prepared on **6 November 2026**. Individual records retain their own source-check dates. A source-stated clergy role is not an independently verified current appointment; an item date does not prove delivery as written.
+Run these offline checks with Python 3 and Node.js:
 
-## Check or update the catalogue
+```sh
+python3 scripts/build.py
+python3 scripts/validate.py
+node tests/public.test.cjs
+```
 
-Run `python3 scripts/validate.py` to check counts, the HTML checksum, JSON agreement, CSV row counts and the public-data boundary. It makes no network requests.
+The build uses only the two public JSON files. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
 
-Updates should start with reviewed public metadata and source links. Preserve stable record identifiers and evidence dates, keep unknowns explicit, and validate before committing. Do not add raw webpages, correspondence, credentials, or sermon/transcript bodies without separately established publication rights. This repository starts with a fresh history containing only the public edition; the underlying research archive remains private.
+Evidence retains its individual review dates; this edition is dated **6 November 2026**. Keep unknowns, source links and separate counting units when updating. The original research repository and its restricted text history remain private.

@@ -1,15 +1,15 @@
 {
-  "source": "Approved public Site v20 catalogue",
+  "source": "Public catalogue with reviewed collection-feasibility metadata",
   "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
   "snapshot_date": "2026-11-06",
-  "index_sha256": "f93a5bda694436785e9a1a20aeaaf56a4a307ecbe116fa3587913a336ab95fca",
+  "index_sha256": "51acf2ffb49a03f3dce9b9eddde50efe7d81f9f3e14aec43fb9e0248e70773cd",
   "counts": {
     "churches": 86,
     "original_churches": 48,
     "additional_churches": 38,
     "churches_with_named_clergy": 28,
     "named_clergy_records": 41,
-    "affiliation_not_established": 48,
+    "affiliation_not_established": 43,
     "items": 47,
     "earlier_items": 36,
     "separate_items": 11,
@@ -18,5 +18,19 @@
     "eligible_formal_sermons": 0
   },
   "full_texts_included": false,
-  "data_origin": "data/catalogue.json is exactly the dataset embedded in index.html; CSV files contain selected fields from it."
+  "data_origin": "catalogue.json and feasibility.json are separately embedded in index.html; CSV files contain selected public metadata fields.",
+  "feasibility_counts": {
+    "screens": 12,
+    "screen_states": 12,
+    "supplemental_leads": 3,
+    "categories": {
+      "platform_export": 3,
+      "priority_text": 2,
+      "supplemental_text": 1,
+      "deferred_panel": 5,
+      "recording_candidate": 1
+    },
+    "overlap_with_identity_catalogue": 1,
+    "full_texts_retained": 0
+  }
 }
