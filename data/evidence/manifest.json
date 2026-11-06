@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "evidence.json",
-      "bytes": 412244,
-      "sha256": "ee933c2d361c44ab3438ad940387bf1493f734b3db6df5bbeec4853ce81367e4"
+      "bytes": 458738,
+      "sha256": "02a82654cb69281ca76a937ecc0520ce38bcd55f45250eea590a686b033cb911"
     },
     {
       "path": "evidence/README.md",
-      "bytes": 1668,
-      "sha256": "1c038fd3d707aecc4c5919f9867e9fa09f34600264135a769d5099a4087e7554"
+      "bytes": 1854,
+      "sha256": "0e4bba3e864d827bcfe0107421302b409386e481607c9f651a9f18f54507a49d"
     },
     {
       "path": "evidence/ai-cases.json",
@@ -44,23 +44,23 @@
     },
     {
       "path": "evidence/source-decisions.csv",
-      "bytes": 11181,
-      "sha256": "88cf6c629c573dd93cd43b1e3d6a027b65e1edbbba40dc24430a2dc00484ce88"
+      "bytes": 11223,
+      "sha256": "e8ec348d709b8bebec77a984b8b3a9d4b4e55de84c4722555eca11a829c725ac"
     },
     {
       "path": "evidence/source-decisions.json",
-      "bytes": 17496,
-      "sha256": "bcc6ca152ad4baeb386d179f8f13f0158717c1a39c40b4be13a829b5fc395fad"
+      "bytes": 17538,
+      "sha256": "dd7c7189a8b4d6e76d318d9958d252ed2274e1a97b70225dabba1645011b1061"
     },
     {
       "path": "evidence/thomas/README.md",
-      "bytes": 560,
-      "sha256": "37ccdb2c53816813e27b50c2382ab7060173ca84b3271341220a5bc7cda307a0"
+      "bytes": 581,
+      "sha256": "f8cde3bd62bf27c549da79adcdbd1d2b6158ae60c6a587d34e9cb497cf6948f4"
     },
     {
       "path": "evidence/thomas/README.txt",
-      "bytes": 560,
-      "sha256": "37ccdb2c53816813e27b50c2382ab7060173ca84b3271341220a5bc7cda307a0"
+      "bytes": 581,
+      "sha256": "f8cde3bd62bf27c549da79adcdbd1d2b6158ae60c6a587d34e9cb497cf6948f4"
     },
     {
       "path": "evidence/thomas/candidate-queue.csv",
@@ -109,18 +109,18 @@
     },
     {
       "path": "evidence/thomas-comparisons.csv",
-      "bytes": 8679,
-      "sha256": "6432966e8a2d54a15d1aef43080b09f87346c449b8ac8af34bbc804d0b2e3dea"
+      "bytes": 13248,
+      "sha256": "55917adea41fd7ea0e2b668bdd280592bc8bf96f33468a362d43d5643dfe7d3a"
     },
     {
       "path": "evidence/thomas-details.csv",
-      "bytes": 31153,
-      "sha256": "ef1f321a82d5975443bb9cf1573a864e1b96609858661c6ad0a7b19d93c75260"
+      "bytes": 48561,
+      "sha256": "ec5aaf43f8730156f20782d7da9d209854ac52aa8c0626b749fc6b7aeda26b49"
     },
     {
       "path": "evidence/thomas-details.json",
-      "bytes": 69112,
-      "sha256": "d15794d46f87f66aa4e1a75974b1db30e54898796e960449a756ceb5d8eed621"
+      "bytes": 103924,
+      "sha256": "a5ca9eb330a49c3f9abebef39331b62a0aeb778df32acad6b3d398ed32e05f51"
     }
   ]
 }

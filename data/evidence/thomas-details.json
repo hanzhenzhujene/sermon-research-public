@@ -1,25 +1,55 @@
 {
   "status": {
     "checked_on": "2026-11-06",
-    "scope": "All ten cutoff-eligible candidates with complete displayed-reference-list equality in the fixed annual metadata map have separate detail observations. This does not expand the candidate rule or church population.",
     "counts": {
-      "annual_index_items": 88,
-      "all_annual_pairs": 1935,
-      "cutoff_pairs": 1800,
-      "cutoff_candidate_pairs": 14,
-      "cutoff_complete_reference_list_candidates": 10,
-      "detail_checked_pairs": 10,
-      "distinct_detail_pages": 20,
-      "new_addendum_pairs": 7,
-      "new_addendum_pages": 14,
-      "new_page_specific_license_notice_observed": 5,
-      "new_page_license_not_observed_unknown": 9,
-      "raw_detail_label_equal_pairs": 9,
-      "equivalent_occasion_with_label_wording_difference_pairs": 1
+      "detail_observed_candidates": 14,
+      "distinct_pages": 28,
+      "equal_complete_displayed_reference_list_pairs": 10,
+      "partial_reference_overlap_pairs": 4,
+      "raw_detail_label_equal_pairs": 13,
+      "equivalent_occasion_label_wording_exception_pairs": 1
     },
-    "remaining_four_partial_reference_candidates": "Not upgraded by this detail pass; they remain separate index candidates.",
-    "one_label_difference": "Rank 5: 2022 page says Palm/Passion Sunday C; 2025 page says Palm/Passion C. Both exact strings are retained, with equivalent occasion distinguished from literal equality.",
-    "meaning": "Same speaker, listed reference and occasion support descriptive comparison, not full-text reuse, AI use, historical delivery, unchanged historical wording or causal effects.",
+    "annual_counts": {
+      "index_items": 88,
+      "annual_pairs": 1935,
+      "cutoff_pairs": 1800,
+      "cutoff_candidate_pairs": 14
+    },
+    "new_addendum": {
+      "candidate_ranks": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "pairs": 4,
+      "pages": 8,
+      "source_specific_license_observed": 1,
+      "source_specific_license_unknown": 7
+    },
+    "annual_classifier_changed": false,
+    "limits": [
+      "All 14 means the complete fixed cutoff-eligible candidate queue, not all sermons or a national population.",
+      "Detail readability does not make the four partial-reference pairs equal whole-reference-list matches.",
+      "No full-text corpus, numeric prose similarity, historical text version, event venue, AI authorship or causal effect is verified.",
+      "Earlier ten-pair evidence is preserved in its own addendum; this file is the latest combined status."
+    ],
+    "pair_ids": [
+      "AT-2022-042__AT-2025-043",
+      "AT-2022-035__AT-2025-036",
+      "AT-2022-034__AT-2025-035",
+      "AT-2022-031__AT-2025-032",
+      "AT-2022-030__AT-2025-031",
+      "AT-2022-028__AT-2025-027",
+      "AT-2022-021__AT-2025-020",
+      "AT-2022-019__AT-2025-018",
+      "AT-2022-017__AT-2025-016",
+      "AT-2022-008__AT-2025-008",
+      "AT-2022-043__AT-2025-044",
+      "AT-2022-032__AT-2025-033",
+      "AT-2022-014__AT-2025-014",
+      "AT-2022-013__AT-2025-013"
+    ],
     "pairs": [
       {
         "candidate_rank": 1,
@@ -230,6 +260,70 @@
         "historical_delivery_independently_verified": false,
         "historical_wording_frozen": false,
         "numerical_body_similarity_computed": false
+      },
+      {
+        "pair_id": "AT-2022-043__AT-2025-044",
+        "candidate_rank": 11,
+        "record_ids": [
+          "AT-2022-043",
+          "AT-2025-044"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/01/10/you-are-mine-my-love-my-joy/",
+          "https://wherethewind.com/2025/01/13/forty-two/"
+        ],
+        "raw_detail_liturgical_labels_identical": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": false,
+        "comparison_group": "partial_reference"
+      },
+      {
+        "pair_id": "AT-2022-032__AT-2025-033",
+        "candidate_rank": 12,
+        "record_ids": [
+          "AT-2022-032",
+          "AT-2025-033"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/03/28/begin-again/",
+          "https://wherethewind.com/2025/03/31/racing-to-meet-us-updated/"
+        ],
+        "raw_detail_liturgical_labels_identical": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": false,
+        "comparison_group": "partial_reference"
+      },
+      {
+        "pair_id": "AT-2022-014__AT-2025-014",
+        "candidate_rank": 13,
+        "record_ids": [
+          "AT-2022-014",
+          "AT-2025-014"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/09/12/gone-astray/",
+          "https://wherethewind.com/2025/09/15/sin-and-salvation/"
+        ],
+        "raw_detail_liturgical_labels_identical": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": false,
+        "comparison_group": "partial_reference"
+      },
+      {
+        "pair_id": "AT-2022-013__AT-2025-013",
+        "candidate_rank": 14,
+        "record_ids": [
+          "AT-2022-013",
+          "AT-2025-013"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/09/19/your-neighbors-cloak/",
+          "https://wherethewind.com/2025/09/22/i-am-ashamed-to-beg/"
+        ],
+        "raw_detail_liturgical_labels_identical": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": false,
+        "comparison_group": "partial_reference"
       }
     ]
   },
@@ -1053,6 +1147,422 @@
       ],
       "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
       "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-043",
+      "pair_id": "AT-2022-043__AT-2025-044",
+      "candidate_rank": 11,
+      "source_url": "https://wherethewind.com/2022/01/10/you-are-mine-my-love-my-joy/",
+      "title": "You are Mine, My Love, My Joy",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-01-09",
+      "liturgical_label_exact": "Epiphany 1C",
+      "scripture_header_exact": [
+        "isaiah 43:1-7",
+        "luke 3:15-17,21-22"
+      ],
+      "annual_listed_references": [
+        "isaiah 43:1-7",
+        "luke 3:15-17,21-22"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2022-01-10",
+      "additional_displayed_date": "2022-01-31",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Opens with Jesus praying after baptism and develops relationship, identity and joy, ending with an invitation to prayer and baptismal purpose.",
+      "genre": "Thematic prose with a closing prayer invitation.",
+      "version_note": "No explicit update or sermon-reuse statement was observed.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "yesterday",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "No specific event venue is identified in the prose. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2022-01-10",
+        "2022-01-31"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "No specific event venue is identified in the prose. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-044",
+      "pair_id": "AT-2022-043__AT-2025-044",
+      "candidate_rank": 11,
+      "source_url": "https://wherethewind.com/2025/01/13/forty-two/",
+      "title": "Forty-Two",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-01-12",
+      "liturgical_label_exact": "Epiphany 1C",
+      "scripture_header_exact": [
+        "luke 3:15-17,21-22"
+      ],
+      "annual_listed_references": [
+        "luke 3:15-17,21-22"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2025-01-13",
+      "additional_displayed_date": "2025-02-03",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Uses the author’s forty-second birthday and a science-fiction introduction to organize forty-two lessons about life, learning and love.",
+      "genre": "Birthday-based list of forty-two lessons, not the same prose structure as the 2022 item.",
+      "version_note": "No explicit update or sermon-reuse statement was observed. A reference to an existing book is not a link to an earlier version of this sermon.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "last month",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "The birthday setting is the author’s account; no specific event venue is identified. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2025-01-13",
+        "2025-02-03"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "The birthday setting is the author’s account; no specific event venue is identified. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-032",
+      "pair_id": "AT-2022-032__AT-2025-033",
+      "candidate_rank": 12,
+      "source_url": "https://wherethewind.com/2022/03/28/begin-again/",
+      "title": "Begin Again",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-03-27",
+      "liturgical_label_exact": "Lent 4C",
+      "scripture_header_exact": [
+        "2 corinthians 5:16-21",
+        "luke 15:1-3,11b-32"
+      ],
+      "annual_listed_references": [
+        "2 corinthians 5:16-21",
+        "luke 15:1-3,11b-32"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2022-03-28",
+      "additional_displayed_date": "2022-04-19",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Connects beginning again and new creation with a memory of the author’s first sermon, the prodigal son, and a closing parent–child building-block activity.",
+      "genre": "Reflective prose with a personal recollection and family-activity ending.",
+      "version_note": "The author recalls a 2003 sermon about new creation but does not say this manuscript reuses it or link an earlier version.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "yesterday",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "St. Michael and All Angels Church in Dallas belongs to the 2003 internship memory, not a verified venue for the 2022 event. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2022-03-28",
+        "2022-04-19"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "St. Michael and All Angels Church in Dallas belongs to the 2003 internship memory, not a verified venue for the 2022 event. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-033",
+      "pair_id": "AT-2022-032__AT-2025-033",
+      "candidate_rank": 12,
+      "source_url": "https://wherethewind.com/2025/03/31/racing-to-meet-us-updated/",
+      "title": "Racing to Meet Us (updated)",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-03-30",
+      "liturgical_label_exact": "Lent 4C",
+      "scripture_header_exact": [
+        "luke 15:1-3,11b-32"
+      ],
+      "annual_listed_references": [
+        "luke 15:1-3,11b-32"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2025-03-31",
+      "additional_displayed_date": "2025-04-21",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "prior_footer_observation_retained",
+        "notice": "CC BY-NC-ND 3.0 Unported",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+        "interpretation": "An earlier observation of this page exposed the blog’s CC BY-NC-ND 3.0 footer and separate NRSV/CEB notices. A later extraction did not reproduce that footer. This preserves the earlier observation; it is not a new live license confirmation or evidence that the license disappeared."
+      },
+      "summary": "Moves from a middle-school experience of shame to the father welcoming the prodigal son and restoring belonging.",
+      "genre": "Personal narrative and interpretation, with an acceptance-focused ending.",
+      "version_note": "The title says “updated,” but no earlier sermon date, title, version relationship or earlier-version link is identified. The 2022 comparison is not an established predecessor.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "8 months ago",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "No specific event venue is identified in the prose. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2025-03-31",
+        "2025-04-21"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "No specific event venue is identified in the prose. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-014",
+      "pair_id": "AT-2022-014__AT-2025-014",
+      "candidate_rank": 13,
+      "source_url": "https://wherethewind.com/2022/09/12/gone-astray/",
+      "title": "Gone Astray",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-09-11",
+      "liturgical_label_exact": "Proper 19C",
+      "scripture_header_exact": [
+        "luke 15:1-10"
+      ],
+      "annual_listed_references": [
+        "luke 15:1-10"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2022-09-12",
+      "additional_displayed_date": "2022-10-04",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Uses music and a personal gaming experience to discuss being lost and found. The closing prose introduces prayer and an existing song.",
+      "genre": "Prose followed by a song; the page should not be treated as one uniform prose unit. The song was not played or copied.",
+      "version_note": "The author says the personal experience has been discussed before and uses a song written early in the pandemic. Neither establishes a version relationship with the 2025 sermon.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "last month",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "No specific event venue is identified in the prose. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2022-09-12",
+        "2022-10-04"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "No specific event venue is identified in the prose. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-014",
+      "pair_id": "AT-2022-014__AT-2025-014",
+      "candidate_rank": 13,
+      "source_url": "https://wherethewind.com/2025/09/15/sin-and-salvation/",
+      "title": "Sin and Salvation",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-09-14",
+      "liturgical_label_exact": "Proper 19C",
+      "scripture_header_exact": [
+        "1 timothy 1:12-17",
+        "luke 15:1-10"
+      ],
+      "annual_listed_references": [
+        "1 timothy 1:12-17",
+        "luke 15:1-10"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2025-09-15",
+      "additional_displayed_date": "2025-10-13",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Contrasts understandings of salvation through Luke 15 and First Timothy, ending with Eucharistic reflection and a concrete sense of mission.",
+      "genre": "Interpretive prose with Eucharistic and mission-focused reflection.",
+      "version_note": "No explicit update or sermon-reuse statement was observed.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "2 weeks ago",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "The Eucharistic setting does not identify a verifiable church or event venue. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2025-09-15",
+        "2025-10-13"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "The Eucharistic setting does not identify a verifiable church or event venue. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-013",
+      "pair_id": "AT-2022-013__AT-2025-013",
+      "candidate_rank": 14,
+      "source_url": "https://wherethewind.com/2022/09/19/your-neighbors-cloak/",
+      "title": "Your Neighbor’s Cloak",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-09-18",
+      "liturgical_label_exact": "Proper 20C",
+      "scripture_header_exact": [
+        "jeremiah 8:18-9:1",
+        "luke 16:1-13"
+      ],
+      "annual_listed_references": [
+        "jeremiah 8:18-9:1",
+        "luke 16:1-13"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2022-09-19",
+      "additional_displayed_date": "2022-10-24",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Acknowledges the difficult steward parable, focuses on debt reduction and interest, and uses Jeremiah and Exodus to discuss poverty, generosity and practical support.",
+      "genre": "Interpretive prose with additional scripture and a contemporary news example.",
+      "version_note": "No explicit update or sermon-reuse statement was observed.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "yesterday",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "St. Andrews Episcopal Church on Martha’s Vineyard is a news example, not a verified venue for this sermon. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2022-09-19",
+        "2022-10-24"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "St. Andrews Episcopal Church on Martha’s Vineyard is a news example, not a verified venue for this sermon. Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-013",
+      "pair_id": "AT-2022-013__AT-2025-013",
+      "candidate_rank": 14,
+      "source_url": "https://wherethewind.com/2025/09/22/i-am-ashamed-to-beg/",
+      "title": "I am Ashamed to Beg",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-09-21",
+      "liturgical_label_exact": "Proper 20C",
+      "scripture_header_exact": [
+        "luke 16:1-13"
+      ],
+      "annual_listed_references": [
+        "luke 16:1-13"
+      ],
+      "detail_header_matches_annual_list": true,
+      "publication_date_first_displayed": "2025-09-22",
+      "additional_displayed_date": "2025-10-13",
+      "additional_displayed_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "url": null,
+        "interpretation": "The page extraction did not expose a license footer. Notices on other pages do not resolve this page’s rights or third-party material."
+      },
+      "summary": "Acknowledges the difficult steward parable, then focuses on shame about asking for help, poverty stigma, local wages, charity and justice.",
+      "genre": "Interpretive prose with local economic examples and a closing prayer for action.",
+      "version_note": "No explicit update or sermon-reuse statement was observed.",
+      "third_party_note": "Scripture, song text, images and other third-party material have separate rights. Public readability or attribution is not republication permission.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "retrieval_cache_label_as_reported": "2 weeks ago",
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Current readable representation only; live-origin completeness, historical wording and spoken delivery are not independently verified."
+      },
+      "venue_limit": "Calling New London County local and mentioning a deacon does not verify the specific church or event venue. Church association does not establish this event’s venue or independent delivery.",
+      "event_venue": null,
+      "event_venue_verified": false,
+      "historical_version_verified": false,
+      "explicit_prior_version_url_observed": false,
+      "earlier_sermon_version_links_observed": [],
+      "published_dates": [
+        "2025-09-22",
+        "2025-10-13"
+      ],
+      "additional_date_scope": "Two dates appear beside the byline. The first matches the URL date; the meaning of the second was not separately verified. The sermon date comes from the detail header, not the post-date display.",
+      "venue_status": "Calling New London County local and mentioning a deacon does not verify the specific church or event venue. Church association does not establish this event’s venue or independent delivery."
     }
   ],
   "comparisons": [
@@ -1255,6 +1765,102 @@
       "numerical_body_similarity_computed": false,
       "genre_comparison": "Both are autobiographical, centered respectively on prayer practice and help-seeking.",
       "reuse_limit": "This pair was already known. Revisited describes the prayer practice, not proven whole-sermon republication."
+    },
+    {
+      "pair_id": "AT-2022-043__AT-2025-044",
+      "candidate_rank": 11,
+      "title": "Baptismal identity and forty-two life lessons",
+      "summary": "Both discuss the beloved identity expressed in baptism. The 2022 item develops relationship, identity and joy with additional scripture; the 2025 item uses a birthday-based list of forty-two lessons, with beloved identity as its starting point.",
+      "genre": "Thematic prose versus a birthday-based list: similar subject matter does not establish the same manuscript.",
+      "decision": "Retain as a partial-reference descriptive comparison; not complete scripture control or an AI-use label.",
+      "limit": "Only part of the listed scripture is shared. This supports a descriptive comparison, not complete scripture control or demonstrated text reuse.",
+      "source_urls": [
+        "https://wherethewind.com/2022/01/10/you-are-mine-my-love-my-joy/",
+        "https://wherethewind.com/2025/01/13/forty-two/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": false,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "comparison_group": "partial_reference",
+      "complete_scripture_control": false,
+      "sermon_reuse_established": false,
+      "reference_jaccard_ratio": 0.5,
+      "genre_comparison": "Thematic prose versus a birthday-based list: similar subject matter does not establish the same manuscript.",
+      "reuse_limit": "Only part of the listed scripture is shared. This supports a descriptive comparison, not complete scripture control or demonstrated text reuse."
+    },
+    {
+      "pair_id": "AT-2022-032__AT-2025-033",
+      "candidate_rank": 12,
+      "title": "Beginning again and being welcomed",
+      "summary": "The 2022 item connects new creation in Second Corinthians, a first-sermon memory and beginning again. The 2025 item moves from middle-school shame to the prodigal son’s acceptance.",
+      "genre": "Both use personal narrative, with different framing and an additional listed passage in 2022.",
+      "decision": "Retain as a partial-reference descriptive comparison; not complete scripture control or an AI-use label.",
+      "limit": "“Updated” identifies a title marker, not an earlier manuscript. No version link establishes the 2022 item as the 2025 item’s predecessor.",
+      "source_urls": [
+        "https://wherethewind.com/2022/03/28/begin-again/",
+        "https://wherethewind.com/2025/03/31/racing-to-meet-us-updated/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": false,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "comparison_group": "partial_reference",
+      "complete_scripture_control": false,
+      "sermon_reuse_established": false,
+      "reference_jaccard_ratio": 0.5,
+      "genre_comparison": "Both use personal narrative, with different framing and an additional listed passage in 2022.",
+      "reuse_limit": "“Updated” identifies a title marker, not an earlier manuscript. No version link establishes the 2022 item as the 2025 item’s predecessor."
+    },
+    {
+      "pair_id": "AT-2022-014__AT-2025-014",
+      "candidate_rank": 13,
+      "title": "Being found and being sent",
+      "summary": "The 2022 item uses music and personal experience to discuss being lost and found, with prose introducing a closing song. The 2025 item moves from Luke 15 to First Timothy and the mission that follows salvation.",
+      "genre": "Prose with a song ending versus prose with Eucharistic and mission-focused reflection; the additional listed passage differs.",
+      "decision": "Retain as a partial-reference descriptive comparison; not complete scripture control or an AI-use label.",
+      "limit": "A shared lost-and-found theme does not establish manuscript reuse or complete scripture control. Keep the song component separate from prose.",
+      "source_urls": [
+        "https://wherethewind.com/2022/09/12/gone-astray/",
+        "https://wherethewind.com/2025/09/15/sin-and-salvation/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": false,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "comparison_group": "partial_reference",
+      "complete_scripture_control": false,
+      "sermon_reuse_established": false,
+      "reference_jaccard_ratio": 0.5,
+      "genre_comparison": "Prose with a song ending versus prose with Eucharistic and mission-focused reflection; the additional listed passage differs.",
+      "reuse_limit": "A shared lost-and-found theme does not establish manuscript reuse or complete scripture control. Keep the song component separate from prose."
+    },
+    {
+      "pair_id": "AT-2022-013__AT-2025-013",
+      "candidate_rank": 14,
+      "title": "The steward parable and poverty",
+      "summary": "Both acknowledge the steward parable’s difficulty before selecting a detail and reject a simple individual-blame account of poverty. The 2022 item emphasizes interest, debt, Jeremiah and Exodus; 2025 emphasizes shame about asking for help, local wages, charity and justice.",
+      "genre": "Shared opening structure and poverty theme, with different details and additional scripture.",
+      "decision": "Retain as a partial-reference descriptive comparison; not complete scripture control or an AI-use label.",
+      "limit": "These observations describe structural and thematic continuity, not a demonstrated manuscript-reuse relationship. No explicit version chain or prose-similarity measurement is established.",
+      "source_urls": [
+        "https://wherethewind.com/2022/09/19/your-neighbors-cloak/",
+        "https://wherethewind.com/2025/09/22/i-am-ashamed-to-beg/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": false,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "comparison_group": "partial_reference",
+      "complete_scripture_control": false,
+      "sermon_reuse_established": false,
+      "reference_jaccard_ratio": 0.5,
+      "genre_comparison": "Shared opening structure and poverty theme, with different details and additional scripture.",
+      "reuse_limit": "These observations describe structural and thematic continuity, not a demonstrated manuscript-reuse relationship. No explicit version chain or prose-similarity measurement is established."
     }
   ]
 }

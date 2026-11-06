@@ -2,7 +2,7 @@
   "source": "Public catalogue with reviewed collection-feasibility metadata",
   "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
   "snapshot_date": "2026-11-06",
-  "index_sha256": "9f4f83d6ee5fd392fb9a93b28baa6c73c81bc3e24b1e60f31712faf80c4cae5c",
+  "index_sha256": "bf49c261b166e3c57819ceb3662830268cd3320ee7dd5b32f084c440fb909332",
   "counts": {
     "churches": 86,
     "original_churches": 48,
@@ -94,11 +94,13 @@
     "thomas_all_pairs": 1935,
     "thomas_cutoff_pairs": 1800,
     "thomas_cutoff_candidates": 14,
-    "thomas_detail_pairs": 10,
-    "thomas_detail_pages": 20,
+    "thomas_detail_pairs": 14,
+    "thomas_detail_pages": 28,
     "covenant_items": 14,
     "fourth_same_speaker_edges": 53,
     "ai_cases": 4,
-    "full_texts_hosted": 0
+    "full_texts_hosted": 0,
+    "thomas_complete_reference_pairs": 10,
+    "thomas_partial_reference_pairs": 4
   }
 }

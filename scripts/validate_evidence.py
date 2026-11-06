@@ -50,19 +50,31 @@ def main():
  assert all(r['url_path_date_is_verified_publication_date'] is False for r in inv)
  assert len(q)==15 and sum(r['cutoff_eligible_2022'] for r in q)==14
  assert sum(r['complete_list_equality'] is True and r['cutoff_eligible_2022'] for r in q)==10
- assert len(pages)==20 and len({p['source_url'] for p in pages})==20 and len(pairs)==10
+ assert len(pages)==28 and len({p['source_url'] for p in pages})==28 and len(pairs)==14
  assert {p['record_id'] for p in pages}=={x for r in status['pairs'] for x in r['record_ids']}
  assert {p['pair_id'] for p in pairs}=={r['pair_id'] for r in status['pairs']}
- assert Counter(p['raw_labels_identical'] for p in pairs)=={True:9,False:1}
+ assert Counter(p['raw_labels_identical'] for p in pairs)=={True:13,False:1}
  for r in q:
   ps=[p for p in pages if p['pair_id']==r['pair_id']]
-  assert len(ps)==(2 if r['candidate_rank']<=10 else 0)
+  assert len(ps)==(2 if r['candidate_rank']<=14 else 0)
   for p in ps:
    assert p['source_url'] in [r['url_2022'],r['url_2025']]
    assert p['byline']=='Adam Thomas'
  rank5=[p for p in pages if p['candidate_rank']==5]
  assert {p['liturgical_label_exact'] for p in rank5}=={'Palm/Passion Sunday C','Palm/Passion C'}
- assert Counter(p['license_observation']['status'] for p in pages)=={'notice_observed_on_this_page':7,'unknown_in_this_observation':13}
+ assert Counter(p['license_observation']['status'] for p in pages)=={'notice_observed_on_this_page':7,'unknown_in_this_observation':20,'prior_footer_observation_retained':1}
+ assert Counter(p['complete_displayed_references_match'] for p in pairs)=={True:10,False:4}
+ assert status['counts']['detail_observed_candidates']==14 and status['counts']['distinct_pages']==28
+ assert len(t['prior_detail_status']['pairs'])==10
+ for r in pages:
+  if r['candidate_rank']>=11:
+   assert r['event_venue'] is None and r['event_venue_verified'] is False
+   assert r['historical_version_verified'] is False and r['earlier_sermon_version_links_observed']==[]
+   assert r['readable_prose']['representation_may_be_cached'] is True
+ lic=next(p['license_observation'] for p in pages if p['record_id']=='AT-2025-033')
+ assert lic['status']=='prior_footer_observation_retained' and 'later extraction did not reproduce' in lic['interpretation']
+ assert 'forty-two' in next(p['summary'] for p in pages if p['record_id']=='AT-2025-044')
+ assert 'song' in next(p['genre'] for p in pages if p['record_id']=='AT-2022-014')
  assert all(p['readable_prose']['opening_visible'] is True and p['readable_prose']['ending_visible'] is True for p in pages)
  assert '1935' not in json.dumps(t.get('all_pairs',[])) and 'pair_classifications' not in t
  full=read(ROOT/'data/evidence/thomas/pair-classifications.json')
@@ -103,5 +115,5 @@ def main():
   except AssertionError:pass
   else:raise AssertionError('Safety fixture accepted')
  subprocess.run([sys.executable,str(ROOT/'data/evidence/thomas/verify_pair_map.py')],check=True)
- print('PASS: baseline hashes; seven 2/2/3 routes; Thomas 88/1935/1800/14/10/20, raw labels, Sunday dates, nulls, rights and exports; Covenant 14/11+3/7+2+5 and Monday conflict; Fourth 53/3/2 and false flags; four bounded AI cases; manifests, English projection and privacy/formula checks.')
+ print('PASS: baseline hashes; seven 2/2/3 routes; Thomas 88/1935/1800/14/28 and 10+4 groups, raw labels, Sunday dates, nulls, rights and exports; Covenant 14/11+3/7+2+5 and Monday conflict; Fourth 53/3/2 and false flags; four bounded AI cases; manifests, English projection and privacy/formula checks.')
 if __name__=='__main__':main()

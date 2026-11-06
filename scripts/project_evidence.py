@@ -6,6 +6,7 @@ translations of supplied researcher summaries, not quotations from sermon bodies
 Original input manifests are verified before projection; public outputs receive a
 separate reproducible manifest. The exhaustive Thomas map is not embedded in HTML.
 """
+from partial_evidence import extend_partial
 from pathlib import Path
 import csv, hashlib, io, json, re, sys
 ROOT=Path(__file__).resolve().parents[1]
@@ -119,6 +120,7 @@ def project(base):
   r['shared_exact_header_references']=json.loads(r['shared_exact_header_references']) if r['shared_exact_header_references'] else None
   edges.append(r)
  y={'checked_on':'2026-11-06','counts':{'written_routes':7,'primary_routes':2,'priority_gaps':2,'supplements':3,'separate_recording_routes':1,'thomas_index_items':88,'thomas_all_pairs':1935,'thomas_cutoff_pairs':1800,'thomas_cutoff_candidates':14,'thomas_detail_pairs':10,'thomas_detail_pages':20,'covenant_items':14,'fourth_same_speaker_edges':53,'ai_cases':4,'full_texts_hosted':0},'decisions':decisions,'thomas':{'summary':summary,'inventory':inventory,'candidates':candidates,'detail_status':detail,'pages':pages,'comparisons':comparisons,'prior_caveats':get('thomas/prior-observation-caveats.json'),'date_metadata':get('thomas/date-metadata.json'),'association_limit':'Adam Thomas’s archive is officially associated with St Mark’s, Mystic. This does not independently verify each event’s venue.','downloads':{'directory':'data/evidence/thomas/','all_pairs_json':'data/evidence/thomas/pair-classifications.json','all_pairs_csv':'data/evidence/thomas/pair-classifications.csv','inventory_json':'data/evidence/thomas/inventory.json','inventory_csv':'data/evidence/thomas/inventory.csv','candidate_queue_json':'data/evidence/thomas/candidate-queue.json','candidate_queue_csv':'data/evidence/thomas/candidate-queue.csv','verifier':'data/evidence/thomas/verify_pair_map.py'}},'covenant':{'church':cov['church'],'counts':cov['counts'],'series':cov['series'],'records':cov_records,'source_representation_limit':cov['source_representation_limit'],'pre_cutoff_version_status':cov['pre_cutoff_version_status'],'archive_limits':{'named_archive_url':'https://christcovenant.org/sermon-series/pastor-kevin-deyoung-archive/','named_archive_type':'Series taxonomy, not a complete author/year feed','search_url':'https://christcovenant.org/sermons/?_sermon_search=2025','search_result':'The tested keyword search returned several years; 2025 is not a clean event-year filter.','annual_coverage':'Unknown','historical_public_availability':'Unknown','text_version_history':'Unknown','reuse_permission':'Unknown; a visible print control is not a blanket license.'}},'fourth':{'diagnostic':fourth,'edges':edges},'rights':select(get('rights/operation-rights.json'),'checked_on purpose principle records separate_checks not_equivalent sources'),'ai':select(get('ai-evidence/disclosed-cases.json'),'checked_on scope cases sources collection rights verification')}
+ y=extend_partial(y,base)
  for p in y['thomas']['pages']:
   p['published_dates']=[v for v in [p['publication_date_first_displayed'],p['additional_displayed_date']] if v]
   p['additional_date_scope']=p['additional_displayed_date_scope'];p['venue_status']=p['venue_limit']
@@ -147,9 +149,9 @@ def main(base):
 
 Factual metadata, direct source links and short original researcher summaries only. No sermon, caption or media bodies are included.
 
-The current source decisions use the latest ten-pair Thomas and fourteen-item Covenant detail observations. Earlier annual index data remain fixed; a source-listed date does not establish historical availability, unchanged wording or delivery. Author–church association is separate from event venue.
+The current source decisions use the latest fourteen-pair Thomas and fourteen-item Covenant detail observations. Earlier annual index data remain fixed; a source-listed date does not establish historical availability, unchanged wording or delivery. Author–church association is separate from event venue.
 
-English summaries translate the supplied researcher observations without adding quotations. The projection script records the translations explicitly. Page-specific license unknowns remain unknown.
+English summaries translate the supplied researcher observations without adding quotations. The projection script records the translations explicitly. Page-specific license unknowns remain unknown. One partial-pair page retains an earlier footer observation that a later extraction did not reproduce; this is not fresh live confirmation or evidence that the license disappeared.
 
 The `thomas/` directory preserves the complete 88-item annual map, 1,935 classified pairs, 15 annual candidates and prior-observation sidecar. The cutoff subset contains 1,800 pairs and 14 candidates; ten have equal complete displayed reference lists. Run `python3 verify_pair_map.py` from that directory. It has no network or acquisition operations. Jaccard measures exact reference-token overlap, not prose similarity. Unknown complete-list equality remains null, including Good Friday.
 
@@ -161,10 +163,10 @@ Rights are operation- and work-specific. Public access and a license notice do n
 
 Run `python3 verify_pair_map.py` in this directory to reconstruct 88 annual rows, 1,935 pairs and the 15-row ranking. The cutoff subset has 1,800 pairs and 14 candidates. No network or text-body operations occur.
 
-The annual map is fixed index metadata. Current detail observations for ten candidates are in `../thomas-details.json`; they do not rewrite annual dates or classifications. Keep the prior-observation sidecar and date metadata with these files. See `../README.md` for interpretation, unknowns, CSV typing and rights.
+The annual map is fixed index metadata. Current detail observations for fourteen cutoff-eligible candidates are in `../thomas-details.json`; they do not rewrite annual dates or classifications. Keep the prior-observation sidecar and date metadata with these files. See `../README.md` for interpretation, unknowns, CSV typing and rights.
 ''')
  (out/'thomas/README.txt').write_text((out/'thomas/README.md').read_text())
  payloads=[ROOT/'data/evidence.json']+sorted(p for p in out.rglob('*') if p.is_file() and p.name!='manifest.json')
  manifest={'edition':'2026-11-06','scope':'Selected public metadata and original summaries; no third-party bodies','files':[{'path':str(p.relative_to(ROOT/'data')),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in payloads]}
- (out/'manifest.json').write_text(dumps(manifest));print('Projected seven source decisions, ten Thomas comparisons, fourteen Covenant items, Fourth alignment and four attributed AI cases.')
+ (out/'manifest.json').write_text(dumps(manifest));print('Projected seven source decisions, fourteen Thomas comparisons, fourteen Covenant items, Fourth alignment and four attributed AI cases.')
 if __name__=='__main__':main(Path(sys.argv[1]).resolve())

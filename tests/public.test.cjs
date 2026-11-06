@@ -241,10 +241,10 @@ test('AI cases remain component-specific with delivery uncertainty',()=>{
  run("aiCaseDetail(Y.ai.cases.find(r=>r.id==='ai-mockingbird-2022'))");
  assert.ok(main.innerHTML.includes('Exclude from delivered-sermon exposure counts'));
 });
-test('Thomas scopes separate fourteen cutoff candidates, ten checks and annual fifteenth',()=>{
+test('Thomas scopes separate fourteen checked cutoff candidates and the index-only fifteenth',()=>{
  assert.equal(run('thomasPairs().length'),14);assert.equal(run("thomasPairs({scope:'all'}).length"),15);
- assert.equal(run("thomasPairs({scope:'after'}).length"),1);assert.equal(run("thomasPairs({evidence:'detail'}).length"),10);
- assert.equal(run("thomasPairs({evidence:'index'}).length"),4);assert.equal(run("thomasAnnualRows({year:'2022'}).length"),43);
+ assert.equal(run("thomasPairs({scope:'after'}).length"),1);assert.equal(run("thomasPairs({evidence:'detail'}).length"),14);
+ assert.equal(run("thomasPairs({evidence:'index'}).length"),0);assert.equal(run("thomasAnnualRows({year:'2022'}).length"),43);
  assert.equal(run("thomasAnnualRows({year:'2025'}).length"),45);
 });
 test('Thomas detail preserves rank-five label difference and author association limits',()=>{
@@ -257,4 +257,21 @@ test('Thomas detail preserves rank-five label difference and author association 
 test('All fifteen pair details render without object noise or untranslated text',()=>{
  for(const r of evidence.thomas.candidates){run('state={};thomasPairDetail(thomasPairRecords().find(r=>r.pair_id==='+JSON.stringify(r.pair_id)+'))');assert.ok(!/\[object Object\]|[\u3400-\u9fff]/.test(main.innerHTML));}
 });
-console.log('35 public interaction and safety test groups passed.');
+test('Thomas partial-reference group preserves genre, license history and no reuse claim',()=>{
+ assert.equal(run("thomasPairs({references:'equal',evidence:'detail'}).length"),10);
+ assert.equal(run("thomasPairs({references:'partial',evidence:'detail'}).length"),4);
+ assert.equal(run("thomasPairs({scope:'all',evidence:'index'}).length"),1);
+ assert.equal(run("thomasPairs({scope:'after',evidence:'detail'}).length"),0);
+ for(const rank of [11,12,13,14]){
+  run(`state={};thomasPairDetail(thomasPairRecords().find(r=>r.candidate_rank===${rank}))`);
+  assert.ok(main.innerHTML.includes('Partial-reference comparison')&&main.innerHTML.includes('0.5 — metadata only, not prose similarity'));
+  assert.ok(!main.innerHTML.includes('This candidate remains index-level'));
+ }
+ run("thomasPairDetail(thomasPairRecords().find(r=>r.candidate_rank===12))");
+ assert.ok(main.innerHTML.includes('later extraction did not reproduce')&&main.innerHTML.includes('not an established predecessor'));
+ run("thomasPairDetail(thomasPairRecords().find(r=>r.candidate_rank===13))");
+ assert.ok(main.innerHTML.includes('Prose followed by a song'));
+ run("thomasPairDetail(thomasPairRecords().find(r=>r.candidate_rank===15))");
+ assert.ok(main.innerHTML.includes('outside the November 30, 2022')&&main.innerHTML.includes('This candidate remains index-level'));
+});
+console.log('36 public interaction and safety test groups passed.');
