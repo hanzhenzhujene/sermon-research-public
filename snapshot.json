@@ -2,7 +2,7 @@
   "source": "Public catalogue with reviewed collection-feasibility metadata",
   "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
   "snapshot_date": "2026-11-06",
-  "index_sha256": "51acf2ffb49a03f3dce9b9eddde50efe7d81f9f3e14aec43fb9e0248e70773cd",
+  "index_sha256": "778b4fd78f84efca3907522ab0b23f4cbb162f8e5369e4e17fe7b5797e28f015",
   "counts": {
     "churches": 86,
     "original_churches": 48,
@@ -18,7 +18,7 @@
     "eligible_formal_sermons": 0
   },
   "full_texts_included": false,
-  "data_origin": "catalogue.json and feasibility.json are separately embedded in index.html; CSV files contain selected public metadata fields.",
+  "data_origin": "catalogue.json, feasibility.json and extensions.json are embedded separately. Historical study entities, source screens and church identities are distinct populations; CSV files contain public metadata only.",
   "feasibility_counts": {
     "screens": 12,
     "screen_states": 12,
@@ -32,5 +32,16 @@
     },
     "overlap_with_identity_catalogue": 1,
     "full_texts_retained": 0
+  },
+  "extension_counts": {
+    "historical_entities": 150,
+    "historical_date_rows": 450,
+    "historical_states": 30,
+    "historical_dc": true,
+    "historical_county_state_pairs": 50,
+    "orthodox_archive_items": 97,
+    "orthodox_nested_october_items": 8,
+    "study_notes": 6,
+    "full_texts_hosted": 0
   }
 }

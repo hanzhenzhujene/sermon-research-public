@@ -5,10 +5,11 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'data/catalogue.json'),'utf8'));
 const feasibility=JSON.parse(fs.readFileSync(path.join(root,'data/feasibility.json'),'utf8'));
+const extensions=JSON.parse(fs.readFileSync(path.join(root,'data/extensions.json'),'utf8'));
 const main={innerHTML:''};
-const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:feasibility)}}};
+const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:extensions)}}};
 vm.createContext(context);
-vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8'),context);
+vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8'),context);
 const run=source=>vm.runInContext(source,context);
 const test=(name,fn)=>{fn();console.log('PASS '+name)};
 test('selected and supplemental populations stay separate',()=>{
@@ -59,4 +60,43 @@ test('rights clarification applies only to the identified work',()=>{
   const unrelated=run("itemRights(D.items.find(r=>r.id==='manuscript:vandermeulen-2025-07-13'))");
   assert.ok(unrelated.includes('bounded private use')&&!unrelated.includes('<table>'));
 });
-console.log('8 public interaction and safety test groups passed.');
+test('historical roster filters retain separate counting units',()=>{
+  assert.equal(run('state={};historicalRows().length'),150);
+  assert.equal(run("state={tradition:'Catholic'};historicalRows().length"),50);
+  assert.equal(run("state={region:'Alaska'};historicalRows().length"),3);
+  assert.equal(run("state={region:'Alaska',tradition:'Mainline Protestant'};historicalRows().length"),1);
+  assert.equal(run("state={denomination:'United Methodist'};historicalRows().length"),20);
+  assert.equal(run("state={q:'Abundant Life Outreach'};historicalRows().length"),1);
+  assert.equal(run('D.churches.length'),86);assert.equal(run('F.screens.length'),12);
+});
+test('historical details preserve original date labels and rejected identity match',()=>{
+  run("state={};historicalDetail(E.roster.records.find(r=>r.id==='YALE2022-133'))");
+  assert.ok(main.innerHTML.includes('Morris County')&&main.innerHTML.includes('Passaic'));
+  assert.ok(main.innerHTML.includes('Not independently verified'));
+  assert.equal(run('E.overlap.accepted_matches'),0);assert.equal(run('E.overlap.actual_overlap'),null);
+});
+test('Holy Trinity yearly, speaker and youth filters expose compositional differences',()=>{
+  assert.equal(run('orthodoxRows().length'),97);
+  assert.equal(run("orthodoxRows({year:'2022'}).length"),47);
+  assert.equal(run("orthodoxRows({year:'2025'}).length"),50);
+  assert.equal(run("orthodoxRows({year:'2022',speaker:'Aris Metrakos'}).length"),22);
+  assert.equal(run("orthodoxRows({year:'2022',speaker:'Aris Metrakos',kind:'youth sermon'}).length"),7);
+  assert.equal(run("orthodoxRows({year:'2025',speaker:'Aris Metrakos',kind:'youth sermon'}).length"),0);
+  assert.equal(run("E.orthodox.records.filter(r=>r.filename_date&&r.filename_date!==r.date).length"),7);
+});
+test('extension exports preserve unknowns, original dates and safe links',()=>{
+  assert.equal(run('historicalExportRows(E.roster.records).length'),150);
+  assert.equal(run("orthodoxExportRows(E.orthodox.records).filter(r=>r[12]===null).length"),97);
+  const rendered=run("orthodoxRowMarkup({...E.orthodox.records[0],title:'<img onerror=1>',media_url:'javascript:alert(1)'})").join('');
+  assert.ok(rendered.includes('&lt;img'));
+  assert.ok(!rendered.includes('href="javascript:'));
+  assert.ok(!rendered.includes('<audio'));
+});
+test('unnamed speakers are filterable and additional attribution retains its role',()=>{
+  assert.equal(run("orthodoxRows({speaker:'Name not stated'}).length"),13);
+  const html=run("orthodoxRowMarkup(E.orthodox.records.find(r=>r.id==='holy_trinity_sf_2022-09-11_063'))").join('');
+  assert.ok(html.includes('Father Nicholas — reminders'));
+  assert.ok(!html.includes('[object Object]'));
+  assert.equal(run("orthodoxExportRows([E.orthodox.records.find(r=>r.id==='holy_trinity_sf_2022-09-11_063')])[0][10]"),'Father Nicholas — reminders');
+});
+console.log('13 public interaction and safety test groups passed.');

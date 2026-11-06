@@ -113,3 +113,9 @@ for fixture in [{'body':'restricted'}, {'address':'private'}, {'note':'/Users/pr
     except AssertionError:pass
     else:raise AssertionError('Privacy rejection fixture was accepted')
 print('PASS: baseline IDs, 86 churches, 41 clergy roles, 47 items and 83 sources preserved; 5 affiliation changes; 12 screens + 3 leads; nested 107/33 and 88/9 checks, exceptions, rights, CSVs, notices and public-data boundaries agree.')
+extensions=json.loads((ROOT/'data/extensions.json').read_text())
+extensions_embedded=json.loads(re.search(r'<script id="extensions-data" type="application/json">(.*?)</script>',html.decode(),re.S)[1])
+assert extensions_embedded==extensions, 'Extension JSON differs from website'
+assert snapshot['extension_counts']==extensions['counts'], 'Extension snapshot counts differ'
+inspect(extensions)
+print('PASS: extension data, embedded website data and snapshot counters agree.')

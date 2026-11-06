@@ -25,6 +25,18 @@ Twelve sources were deliberately selected for closer inspection. These assessmen
 
 These are metadata observations. They do not establish complete delivery, retained text or AI use.
 
+## Historical roster and published studies
+
+The **[historical study roster](https://sermon-research-jenny.landenini.chatgpt.site/#view=historical)** adds a separate view of Paul Lendway’s [Yale Dataverse V2 Tally](https://doi.org/10.60600/YU/C1PIEY): **450 source-recorded date rows grouped into 150 church-name/county/state entities**, three dates each. Search or filter by name, county, state, source-reported tradition and denomination, then export the matching metadata.
+
+There are 50 groups per source-reported tradition—Catholic, Evangelical Protestant and Mainline Protestant—across 30 states plus D.C. and 50 county/state pairs. These are historical source-listed entities, not independently verified current congregations. The source does not establish individual speakers or original sermon URLs. June 26 and November 5/6 are deliberate date strata, not a random weekly sample. The 444 rows before November 30, 2022 and six afterward do not identify AI use or non-use.
+
+One equal-name/state match was rejected because the counties conflict. Accepted matches are zero; actual overlap across aliases is unknown. **Do not add 150 to 86 as a deduplicated church total.** The historical roster is not plotted on the existing identity map.
+
+The **[Holy Trinity archive detail](https://sermon-research-jenny.landenini.chatgpt.site/#view=feasibility&id=holy_trinity_sf)** now contains metadata for **47 entries in 2022 and 50 in 2025**, covering 39/52 and 47/52 literal calendar Sundays. Its eight earlier October observations are included within those 97 entries. Displayed dates, filename clues and unverified delivery dates remain separate. Audio destinations were observed, not played or downloaded; no transcripts were acquired. Filters distinguish named, unnamed and role-only attributions and item types. Aris’s 2022 candidate group covers January–June and includes seven youth sermons, so same-name totals alone do not establish comparable speaker panels.
+
+**[Six published-study access notes](https://sermon-research-jenny.landenini.chatgpt.site/#view=studies)** distinguish reported scale from accessible material and our holdings. Kaurov’s underlying data require an author request; Pew’s inspected methodology does not establish a public corpus download; Boussalis, Coan and Holman’s documented token sample is not a verified church/date/speaker panel. The Harvard thesis remains an unverified lead. No third-party study corpus is republished here.
+
 ## Other catalogue sections
 
 | Section | Contents and counting unit |
@@ -49,7 +61,9 @@ The website distinguishes operations rather than assigning one blanket permissio
 
 - [index.html](index.html): standalone interactive website. Download and open it in a browser; search, filters and the map work without a server. Original links require internet. GitHub’s file view does not run HTML.
 - [data/catalogue.json](data/catalogue.json): existing church, item and source records with stable IDs.
-- [data/feasibility.json](data/feasibility.json): separately counted collection screens, supplemental leads, nested observations and operation-specific rights.
+- [data/feasibility.json](data/feasibility.json): the original collection screens, supplemental leads, nested observations and operation-specific rights. Holy Trinity’s annual extension is displayed from the separate file below.
+- [data/extensions.json](data/extensions.json): historical study roster, Holy Trinity annual metadata, source-access notes and overlap limits.
+- [Historical-entity CSV](data/published-study-churches.csv), [source-date CSV](data/published-study-events.csv), [Holy Trinity archive CSV](data/holy-trinity-archive.csv). These contain metadata, not sermon texts.
 - [Collection-route CSV](data/collection-feasibility.csv), [supplemental-lead CSV](data/supplemental-leads.csv), [church CSV](data/churches.csv), [item CSV](data/items.csv), [source CSV](data/sources.csv). Detail-page exports preserve inspected exceptions and unknowns.
 - [src/](src/): readable website code and styles; [snapshot.json](snapshot.json): counts and HTML checksum; [notices/](notices/): required data and map license notices.
 
@@ -58,9 +72,10 @@ Run these offline checks with Python 3 and Node.js:
 ```sh
 python3 scripts/build.py
 python3 scripts/validate.py
+python3 scripts/validate_extensions.py
 node tests/public.test.cjs
 ```
 
-The build uses only the two public JSON files. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
+The build uses the three public JSON files. `scripts/project_extensions.py INPUT_DIRECTORY` reproduces the selected extension fields and three metadata CSVs from its separately supplied reviewed package. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
 
 Evidence retains its individual review dates; this edition is dated **6 November 2026**. Keep unknowns, source links and separate counting units when updating. The original research repository and its restricted text history remain private.

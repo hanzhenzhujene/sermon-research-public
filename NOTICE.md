@@ -15,3 +15,9 @@ The U.S. state map uses the geometry and attribution recorded in `data/catalogue
 Publisher names, source titles and linked works remain subject to their respective rights and terms. There is no blanket license here over third-party sermon works. Making this catalogue public does not change those rights.
 
 The collection-feasibility data adds original summaries of publisher indexes, dated item observations, access conditions and license notices. Original links accompany each source and item. No full page, manuscript, caption or recording bodies are included. Creative Commons notices described in source details apply only to identified works and uses; they do not license this entire catalogue or unrelated church material.
+
+The historical roster derives from **Paul Lendway (2026), The Political Ramifications of Sermon Rhetoric among White U.S. Protestants and White Catholics, Yale Dataverse, V2**: [dataset DOI](https://doi.org/10.60600/YU/C1PIEY), [Tally file 42422, version 2.0](https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0). Selected factual metadata were grouped by normalized name, county and state. The dataset’s CC0 notice applies only to rights the depositor can waive; it does not clear third-party sermons or imply endorsement. No respondent data are published.
+
+Holy Trinity annual metadata come from its [official sermon archive](https://www.holytrinitysf.org/holy-trinity-sermons), checked 6 November 2026. The [official parish directory](https://sanfran.goarch.org/parishes/holy-trinity-greek-orthodox-church-san-francisco) supports current name associations, not every historical appointment or event. Audio links are references only; this catalogue acquires or redistributes no recording or transcript.
+
+The published-study notes cite original articles, documentation and the inspected repository. Article licenses and code-license statements do not establish rights to underlying third-party sermon or caption bodies.
