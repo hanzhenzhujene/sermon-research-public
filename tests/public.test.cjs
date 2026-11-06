@@ -6,11 +6,12 @@ const root=path.resolve(__dirname,'..');
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'data/catalogue.json'),'utf8'));
 const feasibility=JSON.parse(fs.readFileSync(path.join(root,'data/feasibility.json'),'utf8'));
 const extensions=JSON.parse(fs.readFileSync(path.join(root,'data/extensions.json'),'utf8'));
+const comparison=JSON.parse(fs.readFileSync(path.join(root,'data/comparison.json'),'utf8'));
 const catholic=JSON.parse(fs.readFileSync(path.join(root,'data/catholic.json'),'utf8'));
 const main={innerHTML:''};
-const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:id==='extensions-data'?extensions:catholic)}}};
+const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:id==='extensions-data'?extensions:id==='catholic-data'?catholic:comparison)}}};
 vm.createContext(context);
-vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/catholic.js'),'utf8'),context);
+vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/catholic.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/comparison.js'),'utf8'),context);
 const run=source=>vm.runInContext(source,context);
 const test=(name,fn)=>{fn();console.log('PASS '+name)};
 test('selected and supplemental populations stay separate',()=>{
@@ -141,4 +142,65 @@ test('Catholic non-sermon context retains its original links',()=>{
   assert.ok(main.innerHTML.includes('href="https://seas-aloha.org/fathers-notes-2022"'));
   assert.ok(main.innerHTML.includes('Clergy introduction, not sermon'));
 });
-console.log('19 public interaction and safety test groups passed.');
+test('source decisions have exclusive action groups and separate recording evidence',()=>{
+  assert.equal(run('decisionRows().length'),6);
+  assert.equal(run("decisionRows({group:'primary_written_comparison'}).length"),2);
+  assert.equal(run("decisionRows({group:'priority_gap_resolution'}).length"),1);
+  assert.equal(run("decisionRows({group:'supplementary_written_source'}).length"),3);
+  assert.equal(run("decisionRows({q:'Seattle'})[0].detail_id"),'supplemental-stjames-seattle');
+  assert.equal(run("decisionRows({q:'Adam Thomas'})[0].detail_id"),'stmark-mystic-ct');
+  assert.ok(run("decisionCard(X.decisions.items.find(r=>r.id==='catholic-irvine-tony'))").includes('2025-02-17') || run("decisionCard(X.decisions.items.find(r=>r.id==='catholic-irvine-tony'))").includes('February 17'));
+});
+test('Seattle raw and quarantined candidate units remain distinct',()=>{
+  assert.equal(run('seattleWrittenRows().length'),48);
+  assert.equal(run("seattleWrittenRows({kind:'homily_candidate'}).length"),46);
+  assert.equal(run("seattleWrittenRows({kind:'other_writing'}).length"),2);
+  assert.equal(run("seattleWrittenRows({status:'quarantined'}).length"),1);
+  assert.equal(run("seattleWrittenRows({kind:'homily_candidate'}).filter(r=>r.sunday).length"),40);
+  assert.equal(run("new Set(seattleWrittenRows({kind:'homily_candidate'}).filter(r=>r.sunday).map(r=>r.index_date)).size"),39);
+  assert.equal(run("new Set(seattleWrittenRows({kind:'homily_candidate'}).filter(r=>r.sunday&&!r.quarantined_index_date).map(r=>r.index_date)).size"),38);
+});
+test('Seattle year and month filters preserve 2022 unknown written coverage',()=>{
+  assert.equal(run("seattleEventRows({year:'2022'}).length"),70);
+  assert.equal(run("seattleEventRows({year:'2025'}).length"),60);
+  assert.equal(run("seattleSundayRows({year:'2022'}).length"),52);
+  assert.equal(run("seattleSundayRows({year:'2025',month:'06'}).length"),5);
+  assert.equal(run("seattleSundayRows({year:'2022'}).every(r=>r.written_status==='not_enumerated')"),true);
+  assert.equal(run("seattleWrittenRows({month:'2025-06',status:'quarantined'}).length"),1);
+});
+test('Seattle omitted video field and mixed voices are explicit',()=>{
+  assert.equal(run("observationFor('https://www.stjames-cathedral.org/Pubs/Pastor/2025/25aug10.aspx').video_link_observed"),null);
+  assert.ok(run("seattleObservationMarkup(observationFor('https://www.stjames-cathedral.org/Pubs/Pastor/2025/25aug10.aspx'))").includes('Unspecified'));
+  assert.ok(run("seattleObservationMarkup(observationFor('https://www.stjames-cathedral.org/Pubs/Pastor/2022/22may1.aspx'))").includes('testimony'));
+});
+test('Fourth evidence filters do not add targets or remove original conflicts',()=>{
+  assert.equal(run('fourthEvidenceRows().length'),17);
+  assert.equal(run("fourthEvidenceRows({year:'2025',status:'enriched'}).length"),11);
+  assert.equal(run("fourthEvidenceRows({year:'2025',status:'unknown'}).length"),2);
+  assert.equal(run("fourthEvidenceRows({status:'conflict'}).length"),4);
+  assert.equal(run('F.fourth.target_checks.length'),33);
+  assert.equal(run("F.fourth.target_checks.filter(r=>r.status==='discrepancy').length"),4);
+});
+test('Fourth later corroboration and service-specific limits survive rendering',()=>{
+  run("state={};fourthEvidenceDetail(X.fourth.conflicts_2022.find(r=>r.text_link_url.endsWith('092522-400.html')))");
+  assert.ok(main.innerHTML.includes('Earlier bulletin observation')&&main.innerHTML.includes('Separate later bulletin corroboration'));
+  assert.ok(main.innerHTML.includes('January 1, 2017')&&main.innerHTML.includes('Listen to the Prophets'));
+  run("fourthEvidenceDetail(X.fourth.targets_2025.find(r=>r.event_date_as_indexed==='2025-05-11'))");
+  assert.ok(main.innerHTML.includes('11:00 only')&&main.innerHTML.includes('9:30'));
+  run("fourthEvidenceDetail(X.fourth.targets_2025.find(r=>r.event_date_as_indexed==='2025-01-05'))");
+  assert.ok(main.innerHTML.includes('Epiphanies and Ongoing Revelations')&&main.innerHTML.includes('Epiphanies and Revelations'));
+});
+test('Sunday author and evidence filters preserve unknowns and exclusions',()=>{
+  assert.equal(run("seattleSundayRows({year:'2022',status:'not_enumerated'}).length"),52);
+  assert.equal(run("seattleSundayRows({year:'2022',author:'Michael G. Ryan'}).length"),0);
+  assert.equal(run("seattleSundayRows({year:'2025',status:'quarantined'}).length"),1);
+  assert.equal(run("seattleSundayRows({year:'2025',status:'candidate'}).length"),38);
+  assert.equal(run("seattleSundayRows({year:'2025',status:'not_observed'}).length"),13);
+});
+test('Fourth earlier time uncertainty is scoped beside later bulletin evidence',()=>{
+  const text=run("expandedScreen(F.screens.find(r=>r.id==='fourth-chicago-il')).limits.join(' ')");
+  assert.ok(text.includes('earlier manuscript-header checks')&&text.includes('11 of 13'));
+  assert.ok(!text.includes('All 2025 target service times remain unconfirmed.'));
+  assert.ok(run("F.fourth.limits.join(' ')").includes('All 2025 target service times remain unconfirmed.'));
+});
+console.log('27 public interaction and safety test groups passed.');

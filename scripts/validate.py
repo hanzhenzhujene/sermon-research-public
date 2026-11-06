@@ -126,3 +126,10 @@ assert catholic_embedded==catholic, 'Catholic data differs from website'
 assert snapshot['catholic_counts']==catholic['counts'], 'Catholic snapshot counts differ'
 inspect(catholic)
 print('PASS: Catholic data, embedded website data and snapshot counters agree.')
+
+comparison=json.loads((ROOT/'data/comparison.json').read_text())
+comparison_embedded=json.loads(re.search(r'<script id="comparison-data" type="application/json">(.*?)</script>',html.decode(),re.S)[1])
+assert comparison_embedded==comparison, 'Comparison metadata differs from website'
+assert snapshot['comparison_counts']==comparison['counts'], 'Comparison counts differ from snapshot'
+inspect(comparison)
+print('PASS: comparison metadata, embedded website and snapshot counters agree.')

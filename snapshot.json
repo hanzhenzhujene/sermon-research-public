@@ -2,7 +2,7 @@
   "source": "Public catalogue with reviewed collection-feasibility metadata",
   "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
   "snapshot_date": "2026-11-06",
-  "index_sha256": "2523225d3c72e07eaa640f56f2fc28abccce3881fb06b930daf26cc340a43ff2",
+  "index_sha256": "729158dac8e2519c1b0f894791a42d66fb18578337705b58bb36e5fa1055b0e6",
   "counts": {
     "churches": 86,
     "original_churches": 48,
@@ -18,7 +18,7 @@
     "eligible_formal_sermons": 0
   },
   "full_texts_included": false,
-  "data_origin": "Four metadata datasets are embedded separately. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.",
+  "data_origin": "Five metadata datasets are embedded separately. Source decisions and new Seattle/Fourth observations extend existing sources without adding church or corpus totals. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.",
   "feasibility_counts": {
     "screens": 12,
     "screen_states": 12,
@@ -62,5 +62,26 @@
     "full_texts_hosted": 0,
     "clergy_conflicts": 2,
     "documented_clergy_changes": 2
+  },
+  "comparison_counts": {
+    "written_sources": 6,
+    "primary_written_sources": 2,
+    "priority_gap_sources": 1,
+    "supplementary_written_sources": 3,
+    "separate_recording_sources": 1,
+    "seattle_event_urls": 130,
+    "seattle_writing_urls": 48,
+    "seattle_raw_homily_candidates": 46,
+    "seattle_candidates_after_quarantine": 45,
+    "seattle_sunday_urls_raw": 40,
+    "seattle_sunday_urls_after_quarantine": 39,
+    "seattle_candidate_sundays_raw": 39,
+    "seattle_candidate_sundays_after_quarantine": 38,
+    "seattle_non_sunday_candidates": 6,
+    "seattle_calendar_rows": 104,
+    "seattle_body_target_observations": 12,
+    "fourth_joined_targets": 17,
+    "new_churches": 0,
+    "full_texts_hosted": 0
   }
 }
