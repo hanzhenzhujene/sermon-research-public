@@ -1,0 +1,861 @@
+{
+  "church": {
+    "name": "Christ Covenant Church",
+    "location": "Matthews, North Carolina",
+    "denomination": "PCA",
+    "distinction": "Not the Indiana OPC congregation",
+    "senior_pastor_context": "Kevin DeYoung was called as senior pastor in 2017 according to the church biography; historical role and current page labels remain separate.",
+    "biography_source": "https://christcovenant.org/staff/kevin-deyoung/"
+  },
+  "counts": {
+    "series_2022_items": 7,
+    "series_2025_items": 7,
+    "total_items": 14,
+    "newly_checked": 11,
+    "inherited_not_reopened": 3,
+    "written_body_observed_or_inherited": 14,
+    "new_body_beginning_observations": 11,
+    "new_ending_and_section_boundary_observations": 7,
+    "inherited_concluding_prayer_observations": 2,
+    "ending_not_separately_checked": 5,
+    "preachers": {
+      "Dr. Kevin DeYoung": 13,
+      "Derek Wells": 1
+    },
+    "2022_series_preachers": {
+      "Dr. Kevin DeYoung": 6,
+      "Derek Wells": 1
+    },
+    "2025_series_preachers": {
+      "Dr. Kevin DeYoung": 7
+    },
+    "on_or_before_2022_11_30_by_page_asserted_event_date": 3,
+    "on_or_before_cutoff_preachers": {
+      "Dr. Kevin DeYoung": 3
+    },
+    "unresolved_event_date_conflicts": 1
+  },
+  "series": [
+    {
+      "title": "3:16 and the Person of Christ",
+      "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+      "visible_rows": 7,
+      "no_further_pagination_observed": true,
+      "advertised_count_matches": true,
+      "index_reopened_this_pass": false
+    },
+    {
+      "title": "Holy Week Parables",
+      "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+      "visible_rows": 7,
+      "no_further_pagination_observed": true,
+      "advertised_count_matches": true,
+      "index_reopened_this_pass": false
+    }
+  ],
+  "records": [
+    {
+      "url": "https://christcovenant.org/sermons/jesus-christ-the-mystery-of-godliness/",
+      "title": "Jesus Christ: The Mystery of Godliness",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-12-25",
+        "published": "2022-12-25T15:45:01-05:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:52-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-12-25",
+      "sermon_event_date": "2022-12-25",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "1 Timothy 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Thematic introduction, opening prayer, series conclusion and exposition."
+        },
+        "ending": {
+          "status": "not separately checked",
+          "page_boundary_verified": false,
+          "detail": "No inference of a complete ending from a title, index or print control."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:jesus-christ-the-mystery-of-godliness",
+      "original_summary": "Uses an early confession of faith to organize Christ’s person and work and help listeners reconsider belief amid uncertainty.",
+      "notes": "The body identifies Christmas morning and the last of seven sermons, and mentions Derek’s previous-week 1 John 3:16 sermon."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/jesus-christ-the-lover-of-our-souls/",
+      "title": "Jesus Christ: The Lover of our Souls",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-12-18",
+        "published": "2022-12-18T15:45:00-05:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:51-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-12-18",
+      "sermon_event_date": "2022-12-18",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Derek Wells",
+        "role_label": "Speaker",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "1 John 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, series recap and introduction to love."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:jesus-christ-the-lover-of-our-souls",
+      "original_summary": "Grounds love in Christ’s self-giving and calls for sacrificial action for others.",
+      "notes": "The header names Derek Wells; do not include it in a DeYoung-only set."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/jesus-christ-the-lord-of-peace/",
+      "title": "Jesus Christ: The Lord of Peace",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-12-11",
+        "published": "2022-12-11T15:45:18-05:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:50-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-12-11",
+      "sermon_event_date": "2022-12-11",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "2 Thessalonians 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, passage introduction and exposition of peace in the benediction."
+        },
+        "ending": {
+          "status": "not separately checked",
+          "page_boundary_verified": false,
+          "detail": "No inference of a complete ending from a title, index or print control."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:jesus-christ-the-lord-of-peace",
+      "original_summary": "Explains the peace Christ gives through the setting of 2 Thessalonians and applies it to a pressured church.",
+      "notes": "The body announces Derek Wells for the next week and an adjustment to the Christmas sequence."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/jesus-christ-the-promise-of-the-covenant/",
+      "title": "Jesus Christ: The Promise of the Covenant",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-12-04",
+        "published": "2022-12-04T15:45:32-05:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:48-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-12-04",
+      "sermon_event_date": "2022-12-04",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Galatians 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, an Eden introduction and Galatians exposition."
+        },
+        "ending": {
+          "status": "not separately checked",
+          "page_boundary_verified": false,
+          "detail": "No inference of a complete ending from a title, index or print control."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:jesus-christ-the-promise-of-the-covenant",
+      "original_summary": "Explains Christ’s fulfillment of redemptive hope through covenant, offspring and promise.",
+      "notes": "A spoken title variant includes Promised Child; it is not treated as another sermon."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/jesus-christ-the-object-of-our-faith/",
+      "title": "Jesus Christ: The Object of Our Faith",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-11-27",
+        "published": "2022-11-27T15:45:01-05:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:48-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-11-27",
+      "sermon_event_date": "2022-11-27",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in prior audit; inherited",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "John 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "inherited prior substantive prose observation; not reopened",
+        "beginning": {
+          "status": "exact opening unknown in inherited metadata",
+          "description": "Earlier observation confirms substantial exposition; an exact opening boundary was not recorded."
+        },
+        "ending": {
+          "status": "inherited concluding prayer observation",
+          "page_boundary_verified": false,
+          "detail": "Exact endpoint/boundary not recorded in inherited metadata; not rechecked."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "Prior audit recorded no copyright/reuse grant found; inherited, not a new license check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": true,
+      "inherited_prior_observation": {
+        "prose_verified": "substantial exposition and concluding prayer",
+        "original_service_type": "Sunday Morning",
+        "other_displayed_date": "2024-05-15",
+        "other_date_meaning": "unlabeled in retrieved view; not used as sermon date",
+        "preparation_note_observed": false
+      },
+      "observation_basis": "earlier recorded detail observation, not re-opened in this series check",
+      "id": "covenant:jesus-christ-the-object-of-our-faith",
+      "original_summary": "Distinguishes durable trust from superficial assent and presents faith as receiving Christ rather than earning salvation.",
+      "notes": "Earlier preaching on the same passage is mentioned but explicitly distinguished as a different sermon or theme."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/jesus-christ-the-giver-of-the-holy-spirit/",
+      "title": "Jesus Christ: The Giver of the Holy Spirit",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-11-20",
+        "published": "2022-11-20T15:45:50-05:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:47-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-11-20",
+      "sermon_event_date": "2022-11-20",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Luke 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, explanation of the resumed series, and exposition of Spirit and fire."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": true,
+      "observation_basis": "new detail observation",
+      "id": "covenant:jesus-christ-the-giver-of-the-holy-spirit",
+      "original_summary": "Distinguishes baptism with the Spirit from judgment by fire and describes sharing Christ’s benefits through union with him.",
+      "notes": "The body describes a late-October start and several interruptions for travel and meetings; the series is not continuous weekly coverage."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/the-beloved-son-of-the-father/",
+      "title": "The Beloved Son of the Father",
+      "series": "3:16 and the Person of Christ",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/316-and-the-person-of-christ-2/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2022-10-30",
+        "published": "2022-10-30T14:45:53-04:00",
+        "published_class": "entry-date published",
+        "updated": "2024-05-15T20:23:44-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2022-10-30",
+      "sermon_event_date": "2022-10-30",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 3:16",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, introduction to a seven-sermon series and exposition of Jesus’ baptism."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": true,
+      "observation_basis": "new detail observation",
+      "id": "covenant:the-beloved-son-of-the-father",
+      "original_summary": "Reads Jesus’ baptism as evidence of identity and mission, emphasizing Father, Son and Spirit.",
+      "notes": "The body calls this the first of the new series and anticipates gaps in coming weeks."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/all-authority/",
+      "title": "All Authority",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-05-04",
+        "published": "2025-05-04T10:45:00-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-05-07T14:26:35-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-05-04",
+      "sermon_event_date": "2025-05-04",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 28:16-20",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, passage introduction and connection to Matthew’s overall themes."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:all-authority",
+      "original_summary": "Organizes Christ’s authority, mission, commands and presence around four universal expressions in the Great Commission.",
+      "notes": "The body distinguishes this sermon from previous preaching on the passage; no full-text comparison was performed."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/facts-still-matter/",
+      "title": "Facts Still Matter",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-04-28",
+        "published": "2025-04-28T13:32:35-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-04-30T16:09:54-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-04-28",
+      "sermon_event_date": null,
+      "sermon_event_date_status": "unresolved: Monday date versus Sunday service label",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 28:11-15",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, series recap around Easter and exposition of the guards’ report."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": null,
+      "observation_basis": "new detail observation",
+      "id": "covenant:facts-still-matter",
+      "original_summary": "Uses the empty tomb and guards’ report to discuss the historical and rational dimensions of faith and invite a response.",
+      "notes": "Index and header give April 28, 2025, a Monday, while the service label says Sunday Morning. The event date remains unresolved and is not changed to April 27."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/faithful-servants-worthless-servants/",
+      "title": "Faithful Servants, Worthless Servants",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-04-13",
+        "published": "2025-04-13T10:45:00-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-04-23T11:54:12-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-04-13",
+      "sermon_event_date": "2025-04-13",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in prior audit; inherited",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 25:14-30",
+      "written_body": {
+        "available": true,
+        "verification": "inherited prior substantive prose observation; not reopened",
+        "beginning": {
+          "status": "exact opening unknown in inherited metadata",
+          "description": "Earlier observation confirms substantial exposition; an exact opening boundary was not recorded."
+        },
+        "ending": {
+          "status": "inherited concluding prayer observation",
+          "page_boundary_verified": false,
+          "detail": "Exact endpoint/boundary not recorded in inherited metadata; not rechecked."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "Prior audit recorded no copyright/reuse grant found; inherited, not a new license check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "inherited_prior_observation": {
+        "prose_verified": "substantial exposition and concluding prayer",
+        "original_service_type": "Sunday Morning; body identifies Palm Sunday",
+        "other_displayed_date": "2025-04-23",
+        "other_date_meaning": "unlabeled in retrieved view; not used as sermon date",
+        "preparation_note_observed": false
+      },
+      "observation_basis": "earlier recorded detail observation, not re-opened in this series check",
+      "id": "covenant:faithful-servants-worthless-servants",
+      "original_summary": "Uses the talents parable to urge faithful use of opportunities rather than avoidance through self-protection.",
+      "notes": "No replay or earlier sermon date observed; references the previous week’s parable."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/watching-and-waiting/",
+      "title": "Watching and Waiting",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-04-06",
+        "published": "2025-04-06T10:45:00-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-04-10T16:35:43-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-04-06",
+      "sermon_event_date": "2025-04-06",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in prior audit; inherited",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 25:1-13",
+      "written_body": {
+        "available": true,
+        "verification": "inherited prior substantive prose observation; not reopened",
+        "beginning": {
+          "status": "exact opening unknown in inherited metadata",
+          "description": "Earlier observation confirms substantial exposition; an exact opening boundary was not recorded."
+        },
+        "ending": {
+          "status": "not separately checked in prior audit",
+          "page_boundary_verified": false,
+          "detail": "Exact endpoint/boundary not recorded in inherited metadata; not rechecked."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "Prior audit recorded no copyright/reuse grant found; inherited, not a new license check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "inherited_prior_observation": {
+        "prose_verified": "substantial continuous exposition beyond title and opening; ending not separately checked",
+        "original_service_type": "Sunday Morning",
+        "other_displayed_date": "2025-04-10",
+        "other_date_meaning": "unlabeled in retrieved view; not used as sermon date",
+        "preparation_note_observed": false
+      },
+      "observation_basis": "earlier recorded detail observation, not re-opened in this series check",
+      "id": "covenant:watching-and-waiting",
+      "original_summary": "Uses the ten bridesmaids to discuss spiritual readiness and warn against assumed security.",
+      "notes": "No replay label in the inspected portion; no full comparison or origin-date verification."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/the-wedding-banquet-you-dont-want-to-miss/",
+      "title": "The Wedding Banquet You Don’t Want To Miss",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-03-30",
+        "published": "2025-03-30T10:45:00-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-04-03T13:19:48-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-03-30",
+      "sermon_event_date": "2025-03-30",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 22:1-14",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, wedding-banquet passage and warning against religious complacency."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:the-wedding-banquet-you-dont-want-to-miss",
+      "original_summary": "Uses the invitation and wedding garment to challenge complacency and emphasize a response to grace rather than external religious identity.",
+      "notes": "The body identifies one of five parables before Easter; the series index does not cover every service in the season."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/when-jesus-speaks-against-you/",
+      "title": "When Jesus Speaks Against You",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-03-23",
+        "published": "2025-03-23T10:45:00-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-03-27T09:27:15-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-03-23",
+      "sermon_event_date": "2025-03-23",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 21:33-46",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Passage and context introduction, opening prayer, scripture and vineyard exposition."
+        },
+        "ending": {
+          "status": "not separately checked",
+          "page_boundary_verified": false,
+          "detail": "No inference of a complete ending from a title, index or print control."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:when-jesus-speaks-against-you",
+      "original_summary": "Uses the vineyard tenants to encourage self-examination, stewardship, faith and repentance.",
+      "notes": "Opening and substantial exposition were inspected; the ending was not separately checked."
+    },
+    {
+      "url": "https://christcovenant.org/sermons/the-other-two-sons/",
+      "title": "The Other Two Sons",
+      "series": "Holy Week Parables",
+      "index_metadata": {
+        "source_url": "https://christcovenant.org/sermon-series/holy-week-parables/",
+        "provenance": "Previously observed named-series index metadata, not re-opened during this page check.",
+        "displayed_date": "2025-03-16",
+        "published": "2025-03-16T10:45:00-04:00",
+        "published_class": "entry-date published",
+        "updated": "2025-03-24T12:25:01-04:00",
+        "updated_class": "updated",
+        "meaning_limit": "CMS index publication/update fields; neither establishes first public availability nor body-version date"
+      },
+      "sermon_header_date": "2025-03-16",
+      "sermon_event_date": "2025-03-16",
+      "sermon_event_date_status": "page-asserted event date; no independent event record checked",
+      "first_public_availability": "unknown",
+      "current_content_version": "unknown",
+      "preacher": {
+        "name": "Dr. Kevin DeYoung",
+        "role_label": "Senior Pastor",
+        "identity_basis": "page header verified in this pass",
+        "role_scope": "Role label as displayed in the inspected page; not separate verification of the historical title."
+      },
+      "service_label": "Sunday Morning",
+      "scripture_header": "Matthew 21:28-32",
+      "written_body": {
+        "available": true,
+        "verification": "substantial continuous exposition visible beyond title and opening",
+        "beginning": {
+          "status": "observed",
+          "description": "Opening prayer, Holy Week parable-series introduction and exposition."
+        },
+        "ending": {
+          "status": "concluding prayer and transition to Related Sermons observed",
+          "page_boundary_verified": true,
+          "detail": "Boundary observed in the current readable page representation, not an immutable historical version."
+        },
+        "printable_transcript_control_visible": true,
+        "print_control_tested": false,
+        "limits": "No audio/video comparison, no print test, no full-text export, no full continuity/transcription accuracy verification; observed body is not proven identical to the event-date or cutoff-date version."
+      },
+      "per_page_license": {
+        "express_reuse_grant_observed": false,
+        "license_status": "unknown",
+        "observation": "No express reuse grant seen in inspected page portions; no comprehensive site-policy or rights-holder permission check."
+      },
+      "public_before_2022_11_30": "unknown",
+      "event_on_or_before_2022_11_30": false,
+      "observation_basis": "new detail observation",
+      "id": "covenant:the-other-two-sons",
+      "original_summary": "Contrasts verbal agreement with actual obedience, emphasizing repentance and fruitful faith over empty religious statements.",
+      "notes": "The body says the five-parable sequence starts this week and ends with an invitation to repentance."
+    }
+  ],
+  "source_representation_limit": "Readable representations inspected on the audit date may be cached, not guaranteed live-origin snapshots. Initial availability and text-version history remain unknown.",
+  "pre_cutoff_version_status": "For the three source-listed event dates on or before 2022-11-30, first public availability and cutoff-era wording have not been verified.",
+  "archive_limits": {
+    "named_archive_url": "https://christcovenant.org/sermon-series/pastor-kevin-deyoung-archive/",
+    "named_archive_type": "Series taxonomy, not a complete author/year feed",
+    "search_url": "https://christcovenant.org/sermons/?_sermon_search=2025",
+    "search_result": "The tested keyword search returned several years; 2025 is not a clean event-year filter.",
+    "annual_coverage": "Unknown",
+    "historical_public_availability": "Unknown",
+    "text_version_history": "Unknown",
+    "reuse_permission": "Unknown; a visible print control is not a blanket license."
+  }
+}

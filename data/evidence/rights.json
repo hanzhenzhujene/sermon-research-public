@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-11-06",
+  "purpose": "Operational clarification of previously recorded source licenses, not legal advice or a new rights grant.",
+  "principle": "Decide rights per proposed operation and source. No observed open license does not mean all research is unlawful; a visible license does not authorize every operation or third-party element.",
+  "records": [
+    {
+      "source_group": "Adam Thomas / Where the Wind",
+      "observed_license": "CC BY-NC-ND 3.0 Unported, from earlier source inspection; not newly checked across each work here",
+      "positive_license_scope": "Subject to its terms and rights covered, version 3.0 grants reproduction, inclusion in Collections as defined in section 1(b), with each work in full and unmodified alongside separate independent contributions and distribution/public performance of unmodified works; attribution, notices and noncommercial restrictions apply. Technically necessary format changes are expressly contemplated.",
+      "limit": "Unlike 4.0 ND, version 3.0 does not grant a general right to create adaptations. Whether a particular extraction, transformation or feature calculation requires copyright permission must be evaluated for that operation, jurisdiction and any exception; do not label every computational analysis an adaptation.",
+      "third_party": "Scripture translations, quotations, images and other third-party content may have different rights."
+    },
+    {
+      "source_group": "Allen Vander Meulen III selected works",
+      "observed_license": "CC BY-NC 4.0 terms recorded on individual inspected works",
+      "positive_license_scope": "The applicable 4.0 noncommercial license can support reproduction and adaptation subject to its conditions and the rights covered.",
+      "limit": "Check the actual work and exact planned purpose; do not extend to the full author/church archive or third-party material."
+    },
+    {
+      "source_group": "Fourth, Seattle and Catholic PDF supplements",
+      "observed_license": "No open sermon reuse grant established in bounded inspections",
+      "positive_license_scope": "The project can continue source-linked factual metadata and original observations within authorized public access. A lack of license evidence is not an adjudication that every research use is prohibited.",
+      "limit": "Before retaining or transforming a corpus or republishing third-party material, document the relevant license, permission or applicable statutory basis for the exact operation. No permission request has been sent."
+    }
+  ],
+  "separate_checks": [
+    "Copyright/license or exception for the exact material and operation",
+    "Website/API access terms and access restrictions",
+    "User authorization for external sharing, contact, payments or account changes",
+    "Analytical provenance: correct speaker/date/version, independent observations and AI-exposure evidence"
+  ],
+  "not_equivalent": [
+    "Publicly readable is not a blanket corpus license.",
+    "No open license established is not proven unlawful use.",
+    "Noncommercial does not automatically follow from being a nonprofit or researcher.",
+    "ND does not automatically forbid all analysis, and 4.0 rules must not be retroactively applied to 3.0.",
+    "A legal access/copy basis does not authenticate historical wording or AI use."
+  ],
+  "sources": [
+    {
+      "url": "https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode.en",
+      "supports": "Sections 2, 3 and 4: exceptions preserved, reproduction/collections, format provisions and restrictions."
+    },
+    {
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions#Adaptations_of_NoDerivatives_material_permitted_when_not_shared",
+      "supports": "Difference between private adaptation grant in 4.0 and earlier ND versions; applicable exceptions preserved."
+    },
+    {
+      "url": "https://creativecommons.org/faq/#can-i-conduct-textdata-mining-on-a-cc-licensed-database",
+      "supports": "Mining analysis depends on whether copyright/database permission is implicated; 4.0 mining provisions are version-specific."
+    },
+    {
+      "url": "https://creativecommons.org/faq/#does-my-use-violate-the-noncommercial-clause-of-the-licenses",
+      "supports": "Noncommercial restriction concerns use, not simply identity of the user."
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode.en",
+      "supports": "Previously reviewed individual-work license basis; no new source-site grant established by this explanatory document."
+    }
+  ]
+}

@@ -26,12 +26,12 @@ def write_csv(name, headers, rows):
     (ROOT / 'data' / name).write_text(out.getvalue(), encoding='utf-8')
 
 def main():
-    data, f, e, c, x = read('data/catalogue.json'), read('data/feasibility.json'), read('data/extensions.json'), read('data/catholic.json'), read('data/comparison.json')
+    data, f, e, c, x, y = read('data/catalogue.json'), read('data/feasibility.json'), read('data/extensions.json'), read('data/catholic.json'), read('data/comparison.json'), read('data/evidence.json')
     data['counts']['affiliation_not_established'] = sum(r['affiliation'] == 'Not established' for r in data['churches'])
     (ROOT / 'data/catalogue.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    app = '\n'.join((ROOT / 'src' / n).read_text() for n in ('app.js', 'feasibility.js', 'extensions.js', 'catholic.js', 'comparison.js', 'startup.js'))
+    app = '\n'.join((ROOT / 'src' / n).read_text() for n in ('app.js', 'feasibility.js', 'extensions.js', 'catholic.js', 'comparison.js', 'evidence.js', 'thomas-evidence.js', 'startup.js'))
     html = (ROOT / 'src/template.html').read_text()
-    for marker, value in [('@@CSS@@', (ROOT / 'src/styles.css').read_text() + '\n' + (ROOT / 'src/feasibility.css').read_text()), ('@@CATALOGUE@@', json_script(data)), ('@@FEASIBILITY@@', json_script(f)), ('@@EXTENSIONS@@', json_script(e)), ('@@CATHOLIC@@', json_script(c)), ('@@COMPARISON@@', json_script(x)), ('@@APP@@', app)]:
+    for marker, value in [('@@CSS@@', (ROOT / 'src/styles.css').read_text() + '\n' + (ROOT / 'src/feasibility.css').read_text()), ('@@CATALOGUE@@', json_script(data)), ('@@FEASIBILITY@@', json_script(f)), ('@@EXTENSIONS@@', json_script(e)), ('@@CATHOLIC@@', json_script(c)), ('@@COMPARISON@@', json_script(x)), ('@@EVIDENCE@@', json_script(y)), ('@@APP@@', app)]:
         assert html.count(marker) == 1, marker
         html = html.replace(marker, value)
     (ROOT / 'index.html').write_text(html)
@@ -45,9 +45,10 @@ def main():
     snapshot['extension_counts'] = e['counts']
     snapshot['catholic_counts'] = c['counts']
     snapshot['comparison_counts'] = x['counts']
-    snapshot['data_origin'] = 'Five metadata datasets are embedded separately. Source decisions and new Seattle/Fourth observations extend existing sources without adding church or corpus totals. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.'
+    snapshot['evidence_counts'] = y['counts']
+    snapshot['data_origin'] = 'Six metadata datasets are embedded separately. Source decisions and new Seattle/Fourth observations extend existing sources without adding church or corpus totals. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.'
     (ROOT / 'snapshot.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n')
-    print('Built standalone HTML and CSVs from five separate public metadata datasets.')
+    print('Built standalone HTML and CSVs from six separate public metadata datasets.')
 
 if __name__ == '__main__':
     main()

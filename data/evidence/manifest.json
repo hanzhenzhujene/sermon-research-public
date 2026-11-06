@@ -1,0 +1,126 @@
+{
+  "edition": "2026-11-06",
+  "scope": "Selected public metadata and original summaries; no third-party bodies",
+  "files": [
+    {
+      "path": "evidence.json",
+      "bytes": 412244,
+      "sha256": "ee933c2d361c44ab3438ad940387bf1493f734b3db6df5bbeec4853ce81367e4"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 1668,
+      "sha256": "1c038fd3d707aecc4c5919f9867e9fa09f34600264135a769d5099a4087e7554"
+    },
+    {
+      "path": "evidence/ai-cases.json",
+      "bytes": 8422,
+      "sha256": "804624a6d3825b80b0cb3058b46d3fd6e441997d1943962170123ea7c9a42120"
+    },
+    {
+      "path": "evidence/covenant-series.csv",
+      "bytes": 33237,
+      "sha256": "a18273f458152cd247072c3f6998852819aa3649bbb9ef82909ae3bb945f693c"
+    },
+    {
+      "path": "evidence/covenant-series.json",
+      "bytes": 46830,
+      "sha256": "04166068b0949a8fa7a11bb8013cbf873e7141c50d611e1e9818579573358922"
+    },
+    {
+      "path": "evidence/fourth-matching.csv",
+      "bytes": 10384,
+      "sha256": "f40b4e0875d5425aabcc5ea587ef9155ae5da6d04d36de44218b6c0d58113f06"
+    },
+    {
+      "path": "evidence/fourth-matching.json",
+      "bytes": 36134,
+      "sha256": "1f1053501673377b0ec2d150d3e42f8e8c2b660d0f712eec6ff328c02ffb867b"
+    },
+    {
+      "path": "evidence/rights.json",
+      "bytes": 4568,
+      "sha256": "1af0a5d8d55961a0acdfa14c84e4d79c302dafa41af9f406c0158dad2d9db641"
+    },
+    {
+      "path": "evidence/source-decisions.csv",
+      "bytes": 11181,
+      "sha256": "88cf6c629c573dd93cd43b1e3d6a027b65e1edbbba40dc24430a2dc00484ce88"
+    },
+    {
+      "path": "evidence/source-decisions.json",
+      "bytes": 17496,
+      "sha256": "bcc6ca152ad4baeb386d179f8f13f0158717c1a39c40b4be13a829b5fc395fad"
+    },
+    {
+      "path": "evidence/thomas/README.md",
+      "bytes": 560,
+      "sha256": "37ccdb2c53816813e27b50c2382ab7060173ca84b3271341220a5bc7cda307a0"
+    },
+    {
+      "path": "evidence/thomas/README.txt",
+      "bytes": 560,
+      "sha256": "37ccdb2c53816813e27b50c2382ab7060173ca84b3271341220a5bc7cda307a0"
+    },
+    {
+      "path": "evidence/thomas/candidate-queue.csv",
+      "bytes": 9466,
+      "sha256": "3f1b85fbab6192faeba39c704acfc7c6aa886cdfdfd2e3a981ba6775cab6422c"
+    },
+    {
+      "path": "evidence/thomas/candidate-queue.json",
+      "bytes": 22190,
+      "sha256": "19103423b5e5919f91fb545f8e222c067ff2669f8b2fa26bd4f0850bf83d81fc"
+    },
+    {
+      "path": "evidence/thomas/date-metadata.json",
+      "bytes": 2208,
+      "sha256": "3624b5f552a8c865b8e8a4857e7272ec30497bba548243807015b080f1bf541e"
+    },
+    {
+      "path": "evidence/thomas/inventory.csv",
+      "bytes": 64259,
+      "sha256": "56e5560daef7871fea3978a6b94641a8f212c90bb8526ef7cf078f3a27f15e5e"
+    },
+    {
+      "path": "evidence/thomas/inventory.json",
+      "bytes": 164471,
+      "sha256": "1edc87ab4e980d622e86201679bbb4f62c591e60e54f2952742f20417bd44cd4"
+    },
+    {
+      "path": "evidence/thomas/pair-classifications.csv",
+      "bytes": 1106016,
+      "sha256": "f05bbf851cc32f48b6b3d3b14fb4fb9d8c4032276f0e1b843fbc9eac088568d2"
+    },
+    {
+      "path": "evidence/thomas/pair-classifications.json",
+      "bytes": 2809982,
+      "sha256": "d7dbf8aafbaa7232cdf5b0898a7bb9d1a7ea886b68866ff719ab29e2ae9fd42c"
+    },
+    {
+      "path": "evidence/thomas/prior-observation-caveats.json",
+      "bytes": 7578,
+      "sha256": "df9b57334f9d67bc101a77312c74501d45e5f3c3a551a670601629d7e7f4253c"
+    },
+    {
+      "path": "evidence/thomas/verify_pair_map.py",
+      "bytes": 6072,
+      "sha256": "e49982fb01ebfafd01a4fa18a82df448415afb30f1f9554742034ad650525208"
+    },
+    {
+      "path": "evidence/thomas-comparisons.csv",
+      "bytes": 8679,
+      "sha256": "6432966e8a2d54a15d1aef43080b09f87346c449b8ac8af34bbc804d0b2e3dea"
+    },
+    {
+      "path": "evidence/thomas-details.csv",
+      "bytes": 31153,
+      "sha256": "ef1f321a82d5975443bb9cf1573a864e1b96609858661c6ad0a7b19d93c75260"
+    },
+    {
+      "path": "evidence/thomas-details.json",
+      "bytes": 69112,
+      "sha256": "d15794d46f87f66aa4e1a75974b1db30e54898796e960449a756ceb5d8eed621"
+    }
+  ]
+}

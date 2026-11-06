@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-11-06",
+  "method": "Inspection of current time-element labels inside the publication-date links on the two named official pages.",
+  "records": [
+    {
+      "source_url": "https://wherethewind.com/2022/11/21/nimby-and-the-reign-of-christ/",
+      "published": {
+        "class": "entry-date published",
+        "datetime": "2022-11-21T08:00:00-05:00",
+        "text": "November 21, 2022"
+      },
+      "updated": {
+        "class": "updated",
+        "datetime": "2022-12-19T08:30:36-05:00",
+        "text": "December 19, 2022"
+      },
+      "record_id": "AT-2022-004"
+    },
+    {
+      "source_url": "https://wherethewind.com/2022/11/07/the-uncommon-lives-of-saints/",
+      "published": {
+        "class": "entry-date published",
+        "datetime": "2022-11-07T09:52:06-05:00",
+        "text": "November 7, 2022"
+      },
+      "updated": {
+        "class": "updated",
+        "datetime": "2022-12-19T08:31:05-05:00",
+        "text": "December 19, 2022"
+      },
+      "record_id": "AT-2022-006"
+    }
+  ],
+  "interpretation": "The previously ambiguous second date is identified by current page markup as updated. This establishes a current CMS update field, not what changed, whether sermon wording changed, how much changed, or whether the current text existed before the cutoff. Do not infer AI use or automatically exclude these sources solely from this field.",
+  "display_note": "The two date roles are established by current HTML labels. The separately marked updated element was present, but its CSS visibility was not established; markup labels do not show what changed.",
+  "fulltext_retained": false,
+  "source_specific_license_observation": {
+    "record_id": "AT-2022-004",
+    "source_url": "https://wherethewind.com/2022/11/21/nimby-and-the-reign-of-christ/",
+    "location": "Page footer",
+    "observation": "On the NIMBY page the rendered footer currently states CC BY-NC-ND 3.0 Unported for the blog and separate reserved rights for NRSV/CEB scripture quotations. This is not a new grant for all third-party content.",
+    "scope": "Observed on this source page only; not a new grant, a blanket permission, or a license for all third-party material."
+  }
+}

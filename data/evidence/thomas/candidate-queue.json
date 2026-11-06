@@ -1,0 +1,659 @@
+[
+  {
+    "pair_id": "AT-2022-042__AT-2025-043",
+    "record_2022_id": "AT-2022-042",
+    "record_2025_id": "AT-2025-043",
+    "date_2022": "2022-01-16",
+    "date_2025": "2025-01-19",
+    "title_2022": "For the Common Good",
+    "title_2025": "Common Cause",
+    "url_2022": "https://wherethewind.com/2022/01/17/for-the-common-good-with-a-lot-of-help-from-dr-king/",
+    "url_2025": "https://wherethewind.com/2025/01/20/common-cause/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Epiphany 2C",
+    "label_2025": "Epiphany 2C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "1 corinthians 12:1-11"
+    ],
+    "references_2025": [
+      "1 corinthians 12:1-11"
+    ],
+    "exact_shared_references": [
+      "1 corinthians 12:1-11"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date",
+      "index_title_differs_from_mechanically_normalized_url_slug"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 1
+  },
+  {
+    "pair_id": "AT-2022-035__AT-2025-036",
+    "record_2022_id": "AT-2022-035",
+    "record_2025_id": "AT-2025-036",
+    "date_2022": "2022-03-06",
+    "date_2025": "2025-03-09",
+    "title_2022": "The Discipline of Gentleness",
+    "title_2025": "For it is Written",
+    "url_2022": "https://wherethewind.com/2022/03/07/the-discipline-of-gentleness/",
+    "url_2025": "https://wherethewind.com/2025/03/10/for-it-is-written/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Lent 1C",
+    "label_2025": "Lent 1C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "luke 4:1-13"
+    ],
+    "references_2025": [
+      "luke 4:1-13"
+    ],
+    "exact_shared_references": [
+      "luke 4:1-13"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 2
+  },
+  {
+    "pair_id": "AT-2022-034__AT-2025-035",
+    "record_2022_id": "AT-2022-034",
+    "record_2025_id": "AT-2025-035",
+    "date_2022": "2022-03-13",
+    "date_2025": "2025-03-16",
+    "title_2022": "The Shadow of Your Wings",
+    "title_2025": "With My Arms Spread Wide (updated)",
+    "url_2022": "https://wherethewind.com/2022/03/14/the-shadow-of-your-wings/",
+    "url_2025": "https://wherethewind.com/2025/03/17/with-my-arms-spread-wide-updated/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Lent 2C",
+    "label_2025": "Lent 2C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "luke 13:31-35"
+    ],
+    "references_2025": [
+      "luke 13:31-35"
+    ],
+    "exact_shared_references": [
+      "luke 13:31-35"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [
+      "updated"
+    ],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 3
+  },
+  {
+    "pair_id": "AT-2022-031__AT-2025-032",
+    "record_2022_id": "AT-2022-031",
+    "record_2025_id": "AT-2025-032",
+    "date_2022": "2022-04-03",
+    "date_2025": "2025-04-06",
+    "title_2022": "Unlearn What You Have Learned",
+    "title_2025": "The Capacity to Act",
+    "url_2022": "https://wherethewind.com/2022/04/04/unlearn-what-you-have-learned/",
+    "url_2025": "https://wherethewind.com/2025/04/07/the-capacity-to-act/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Lent 5C",
+    "label_2025": "Lent 5C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "philippians 3:4b-14"
+    ],
+    "references_2025": [
+      "philippians 3:4b-14"
+    ],
+    "exact_shared_references": [
+      "philippians 3:4b-14"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 4
+  },
+  {
+    "pair_id": "AT-2022-030__AT-2025-031",
+    "record_2022_id": "AT-2022-030",
+    "record_2025_id": "AT-2025-031",
+    "date_2022": "2022-04-10",
+    "date_2025": "2025-04-13",
+    "title_2022": "The Com-Passion Gospel",
+    "title_2025": "Three Definitions of Passion",
+    "url_2022": "https://wherethewind.com/2022/04/11/the-com-passion-gospel/",
+    "url_2025": "https://wherethewind.com/2025/04/14/three-definitions-of-passion/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Palm/Passion C",
+    "label_2025": "Palm/Passion C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "luke 22:39-23:49"
+    ],
+    "references_2025": [
+      "luke 22:39-23:49"
+    ],
+    "exact_shared_references": [
+      "luke 22:39-23:49"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 5
+  },
+  {
+    "pair_id": "AT-2022-028__AT-2025-027",
+    "record_2022_id": "AT-2022-028",
+    "record_2025_id": "AT-2025-027",
+    "date_2022": "2022-05-01",
+    "date_2025": "2025-05-04",
+    "title_2022": "Peter and Jesus",
+    "title_2025": "The Other Side of the Boat",
+    "url_2022": "https://wherethewind.com/2022/05/02/peter-and-jesus/",
+    "url_2025": "https://wherethewind.com/2025/05/05/the-other-side-of-the-boat/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Easter 3C",
+    "label_2025": "Easter 3C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "john 21:1-19"
+    ],
+    "references_2025": [
+      "john 21:1-19"
+    ],
+    "exact_shared_references": [
+      "john 21:1-19"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_entry_missing_closing_parenthesis",
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 6
+  },
+  {
+    "pair_id": "AT-2022-021__AT-2025-020",
+    "record_2022_id": "AT-2022-021",
+    "record_2025_id": "AT-2025-020",
+    "date_2022": "2022-06-26",
+    "date_2025": "2025-06-29",
+    "title_2022": "Called to Freedom",
+    "title_2025": "The Flow of God’s Love",
+    "url_2022": "https://wherethewind.com/2022/06/27/called-to-freedom/",
+    "url_2025": "https://wherethewind.com/2025/06/30/the-flow-of-gods-love/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Proper 8C",
+    "label_2025": "Proper 8C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "galatians 5:1,13-25"
+    ],
+    "references_2025": [
+      "galatians 5:1,13-25"
+    ],
+    "exact_shared_references": [
+      "galatians 5:1,13-25"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 7
+  },
+  {
+    "pair_id": "AT-2022-019__AT-2025-018",
+    "record_2022_id": "AT-2022-019",
+    "record_2025_id": "AT-2025-018",
+    "date_2022": "2022-07-10",
+    "date_2025": "2025-07-13",
+    "title_2022": "In a World Where You Can Be Anything…",
+    "title_2025": "The Good Samaritan",
+    "url_2022": "https://wherethewind.com/2022/07/11/in-a-world-where-you-can-be-anything/",
+    "url_2025": "https://wherethewind.com/2025/07/14/the-good-samaritan/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Proper 10C",
+    "label_2025": "Proper 10C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "luke 10:25-37"
+    ],
+    "references_2025": [
+      "luke 10:25-37"
+    ],
+    "exact_shared_references": [
+      "luke 10:25-37"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 8
+  },
+  {
+    "pair_id": "AT-2022-017__AT-2025-016",
+    "record_2022_id": "AT-2022-017",
+    "record_2025_id": "AT-2025-016",
+    "date_2022": "2022-08-21",
+    "date_2025": "2025-08-24",
+    "title_2022": "I Choose You",
+    "title_2025": "Learning to Sing",
+    "url_2022": "https://wherethewind.com/2022/08/22/i-choose-you/",
+    "url_2025": "https://wherethewind.com/2025/08/25/learning-to-sing/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Proper 16C",
+    "label_2025": "Proper 16C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "jeremiah 1:4-10"
+    ],
+    "references_2025": [
+      "jeremiah 1:4-10"
+    ],
+    "exact_shared_references": [
+      "jeremiah 1:4-10"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 9
+  },
+  {
+    "pair_id": "AT-2022-008__AT-2025-008",
+    "record_2022_id": "AT-2022-008",
+    "record_2025_id": "AT-2025-008",
+    "date_2022": "2022-10-23",
+    "date_2025": "2025-10-26",
+    "title_2022": "Intentions, Revisited",
+    "title_2025": "Learning Humility",
+    "url_2022": "https://wherethewind.com/2022/10/24/intentions-revisited/",
+    "url_2025": "https://wherethewind.com/2025/10/27/learning-humility/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Proper 25C",
+    "label_2025": "Proper 25C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "luke 18:9-14"
+    ],
+    "references_2025": [
+      "luke 18:9-14"
+    ],
+    "exact_shared_references": [
+      "luke 18:9-14"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [
+      "revisited"
+    ],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 10
+  },
+  {
+    "pair_id": "AT-2022-043__AT-2025-044",
+    "record_2022_id": "AT-2022-043",
+    "record_2025_id": "AT-2025-044",
+    "date_2022": "2022-01-09",
+    "date_2025": "2025-01-12",
+    "title_2022": "You are Mine, My Love, My Joy",
+    "title_2025": "Forty-Two",
+    "url_2022": "https://wherethewind.com/2022/01/10/you-are-mine-my-love-my-joy/",
+    "url_2025": "https://wherethewind.com/2025/01/13/forty-two/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Epiphany 1C",
+    "label_2025": "Epiphany 1C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "isaiah 43:1-7",
+      "luke 3:15-17,21-22"
+    ],
+    "references_2025": [
+      "luke 3:15-17,21-22"
+    ],
+    "exact_shared_references": [
+      "luke 3:15-17,21-22"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 2,
+    "reference_jaccard_ratio": 0.5,
+    "complete_list_equality": false,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 11
+  },
+  {
+    "pair_id": "AT-2022-032__AT-2025-033",
+    "record_2022_id": "AT-2022-032",
+    "record_2025_id": "AT-2025-033",
+    "date_2022": "2022-03-27",
+    "date_2025": "2025-03-30",
+    "title_2022": "Begin Again",
+    "title_2025": "Racing to Meet Us (updated)",
+    "url_2022": "https://wherethewind.com/2022/03/28/begin-again/",
+    "url_2025": "https://wherethewind.com/2025/03/31/racing-to-meet-us-updated/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Lent 4C",
+    "label_2025": "Lent 4C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "2 corinthians 5:16-21",
+      "luke 15:1-3,11b-32"
+    ],
+    "references_2025": [
+      "luke 15:1-3,11b-32"
+    ],
+    "exact_shared_references": [
+      "luke 15:1-3,11b-32"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 2,
+    "reference_jaccard_ratio": 0.5,
+    "complete_list_equality": false,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [
+      "updated"
+    ],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 12
+  },
+  {
+    "pair_id": "AT-2022-014__AT-2025-014",
+    "record_2022_id": "AT-2022-014",
+    "record_2025_id": "AT-2025-014",
+    "date_2022": "2022-09-11",
+    "date_2025": "2025-09-14",
+    "title_2022": "Gone Astray",
+    "title_2025": "Sin and Salvation",
+    "url_2022": "https://wherethewind.com/2022/09/12/gone-astray/",
+    "url_2025": "https://wherethewind.com/2025/09/15/sin-and-salvation/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Proper 19C",
+    "label_2025": "Proper 19C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "luke 15:1-10"
+    ],
+    "references_2025": [
+      "1 timothy 1:12-17",
+      "luke 15:1-10"
+    ],
+    "exact_shared_references": [
+      "luke 15:1-10"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 2,
+    "reference_jaccard_ratio": 0.5,
+    "complete_list_equality": false,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 13
+  },
+  {
+    "pair_id": "AT-2022-013__AT-2025-013",
+    "record_2022_id": "AT-2022-013",
+    "record_2025_id": "AT-2025-013",
+    "date_2022": "2022-09-18",
+    "date_2025": "2025-09-21",
+    "title_2022": "Your Neighbor’s Cloak",
+    "title_2025": "I am Ashamed to Beg",
+    "url_2022": "https://wherethewind.com/2022/09/19/your-neighbors-cloak/",
+    "url_2025": "https://wherethewind.com/2025/09/22/i-am-ashamed-to-beg/",
+    "cutoff_eligible_2022": true,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Proper 20C",
+    "label_2025": "Proper 20C",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "jeremiah 8:18-9:1",
+      "luke 16:1-13"
+    ],
+    "references_2025": [
+      "luke 16:1-13"
+    ],
+    "exact_shared_references": [
+      "luke 16:1-13"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 2,
+    "reference_jaccard_ratio": 0.5,
+    "complete_list_equality": false,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 14
+  },
+  {
+    "pair_id": "AT-2022-001__AT-2025-001",
+    "record_2022_id": "AT-2022-001",
+    "record_2025_id": "AT-2025-001",
+    "date_2022": "2022-12-24",
+    "date_2025": "2025-12-24",
+    "title_2022": "O Magnum Mysterium",
+    "title_2025": "God’s Creativity",
+    "url_2022": "https://wherethewind.com/2022/12/25/o-magnum-mysterium/",
+    "url_2025": "https://wherethewind.com/2025/12/25/gods-creativity/",
+    "cutoff_eligible_2022": false,
+    "classification": "candidate",
+    "classification_reason": "Exact normalized label and at least one exact normalized reference match.",
+    "label_2022": "Christmas Eve",
+    "label_2025": "Christmas Eve",
+    "normalized_labels_equal": true,
+    "references_2022": [
+      "john 1:1-14"
+    ],
+    "references_2025": [
+      "john 1:1-14"
+    ],
+    "exact_shared_references": [
+      "john 1:1-14"
+    ],
+    "exact_shared_reference_count": 1,
+    "reference_union_count": 1,
+    "reference_jaccard_ratio": 1.0,
+    "complete_list_equality": true,
+    "scripture_parse_status_2022": "complete",
+    "scripture_parse_status_2025": "complete",
+    "version_markers_2022": [],
+    "version_markers_2025": [],
+    "record_data_flags_2022": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "record_data_flags_2025": [
+      "index_date_differs_from_url_path_date"
+    ],
+    "evidence_level": "index_metadata_only",
+    "body_similarity_assessed": false,
+    "candidate_rank": 15
+  }
+]

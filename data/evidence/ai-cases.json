@@ -1,0 +1,174 @@
+{
+  "checked_on": "2026-11-06",
+  "scope": "Four selected public leads, not a representative sample",
+  "cases": [
+    {
+      "id": "ai-bossen-houston-2024",
+      "church": "First Unitarian Universalist Church of Houston",
+      "location": "Houston, Texas, United States",
+      "event_date": "2024-11-17",
+      "publication_date": "2024-11-17",
+      "people": [
+        {
+          "name": "Colin Bossen",
+          "role": "Preacher; senior minister per biography"
+        },
+        {
+          "name": "D. Scott Cooper",
+          "role": "Associate minister; comparison respondent (full name appears in page tag)"
+        },
+        {
+          "name": "Sheryl Abrahams",
+          "role": "Named reader of generated reading"
+        },
+        {
+          "name": "Chelsea",
+          "role": "Reported scorer of generated anthem; surname unverified"
+        }
+      ],
+      "exposure": [
+        "NON_SERMON_SERVICE_GENERATION"
+      ],
+      "ai_component": "GPT-4 response to a belonging question, plus performance directions. A generated choral anthem is also reported. Separate editorial and sermon sections are not labeled AI-written.",
+      "human_intervention": "Bossen supplied an expanded contextual prompt. Reading edits unspecified. Chelsea reportedly intervened to score the anthem.",
+      "delivery_evidence": "Author labels manuscript as preached; not independently checked against recording.",
+      "artifact": "Published prompt, generated reading/directions, human comparison reading, and sermon; no generation log or aligned recording inspected.",
+      "validation_use": "Useful for component segmentation and a disclosed generated-reading positive example. Human comparison shares topic, not identical contextual prompting.",
+      "limit": "Not evidence of AI sermon drafting, independent provenance, representative adoption, or causal effect.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    {
+      "id": "ai-mockingbird-2022",
+      "church": null,
+      "location": "No church or delivery location established",
+      "event_date": null,
+      "publication_date": "2022-12-20",
+      "people": [
+        {
+          "name": "Todd Brewer",
+          "role": "Article author and prompt author; currently listed as Mockingbird managing editor, not a verified event pastor"
+        }
+      ],
+      "exposure": [
+        "GENERATED_SERMON_EXAMPLE_DELIVERY_UNESTABLISHED"
+      ],
+      "ai_component": "ChatGPT Christmas-sermon example based on Luke with requested named-author quotations.",
+      "human_intervention": "Prompt specified subject and quotations; output editing not documented. Author discusses possible quotation inaccuracies.",
+      "delivery_evidence": "No actual preaching occasion, recipient congregation, or delivery established. Hypothetical Sunday-morning criticism does not prove delivery or non-delivery.",
+      "artifact": "Author-published prompt and generated example with commentary, not a generation log or service transcript.",
+      "validation_use": "Useful for disclosed generated-draft classification and prompt/output inspection.",
+      "limit": "Exclude from delivered-sermon exposure counts. No established U.S. worship event; publisher association is not congregation geography. Does not prove never delivered.",
+      "source_ids": [
+        "S2",
+        "S6"
+      ]
+    },
+    {
+      "id": "ai-ucc-patchogue-2024",
+      "church": "Congregational Church of Patchogue",
+      "location": "Patchogue, Long Island, New York, United States",
+      "event_date": "2024-07-14",
+      "publication_date": "2024-07-16",
+      "people": [
+        {
+          "name": "Dwight Lee Wolter",
+          "role": "Pastor, prompter and sermon presenter"
+        },
+        {
+          "name": null,
+          "role": "Unnamed musical director supplied prelude prompt"
+        }
+      ],
+      "exposure": [
+        "DELIVERED_SERMON_GENERATION_REPORTED",
+        "NON_SERMON_SERVICE_GENERATION"
+      ],
+      "ai_component": "ChatGPT-assisted service including sermon, prayers and musical materials. Hymns are also described as suggestions, so do not label every musical item newly composed.",
+      "human_intervention": "Human prompts; replacement prayer prompted after breaking news; Wolter added spoken explanations. Exact sermon revisions unknown.",
+      "delivery_evidence": "UCC retrospective report, pastor quotations and sermon-presentation photo caption support event occurrence; no verbatim verification.",
+      "artifact": "News report only; no sermon manuscript, prompt log, or exact July 14 recording retrieved. Facebook link advertises July 21 follow-up, not an identified July 14 artifact.",
+      "validation_use": "Event-level disclosed-exposure record and service-component taxonomy.",
+      "limit": "Not text-level training/validation truth. Headline does not establish zero human contribution, generated scripture, or fully generated music.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "ai-violet-crown-2023",
+      "church": "Violet Crown City Church",
+      "location": "Austin, Texas, United States",
+      "event_date": "2023-09-17",
+      "publication_date": "2023-11-21",
+      "people": [
+        {
+          "name": "Jay Cooper",
+          "role": "Pastor of United Methodist congregation; service experiment organizer"
+        }
+      ],
+      "exposure": [
+        "DELIVERED_SERMON_GENERATION_REPORTED",
+        "NON_SERMON_SERVICE_GENERATION"
+      ],
+      "ai_component": "UM News reports ChatGPT-generated worship service, including sermon and original song.",
+      "human_intervention": "Human organization established; prompts, model version, revision history and final sermon editing not established by inspected denominational report.",
+      "delivery_evidence": "Retrospective denominational report quoting pastor about completed service and congregational response; no independent recording review.",
+      "artifact": "Report links service video https://www.youtube.com/watch?v=ZxK8ruYZTvo ; ordinary landing-page fetch failed. No media, transcript or sermon text retrieved.",
+      "validation_use": "Event-level disclosure; specifically linked recording is a potential future delivery-validation source, not presently verified text.",
+      "limit": "No measured generated share or text alignment. Pastor descriptions of reception are reports, not controlled effects. Article’s AI interview transcription is journalistic processing, not sermon composition.",
+      "source_ids": [
+        "S4",
+        "S7"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://colinbossen.com/silicon-gods-artificial-intelligence-and-religion/",
+      "kind": "Author-published service manuscript and disclosure",
+      "status": "Inspected"
+    },
+    {
+      "id": "S2",
+      "url": "https://mbird.com/science/technology/i-asked-a-i-to-write-my-christmas-sermon/",
+      "kind": "First-person author experiment and published example",
+      "status": "Inspected"
+    },
+    {
+      "id": "S3",
+      "url": "https://www.ucc.org/artificial-intelligence-in-the-pulpit-a-church-service-written-entirely-by-ai/",
+      "kind": "Denominational report by Renee DeLuca",
+      "status": "Inspected"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.umnews.org/en/news/artificial-intelligence-and-church",
+      "kind": "Denominational report by Jim Patterson",
+      "status": "Inspected"
+    },
+    {
+      "id": "S5",
+      "url": "https://colinbossen.com/biography/",
+      "kind": "Self-published biography",
+      "status": "Inspected; role corroboration is current-page evidence"
+    },
+    {
+      "id": "S6",
+      "url": "https://mbird.com/staff/",
+      "kind": "Publisher staff listing",
+      "status": "Inspected; current role not contemporaneous event evidence"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.youtube.com/watch?v=ZxK8ruYZTvo",
+      "kind": "Service recording link from S4",
+      "status": "Fetch failed; not retried; recording not reviewed"
+    }
+  ],
+  "collection": "Only metadata and original summaries retained; no full sermons, media or transcripts retained",
+  "rights": "No new reuse license established; public availability does not authorize bulk collection or republication",
+  "verification": "No AI detector or stylistic inference used; disclosures and reports remain attributed claims"
+}

@@ -1,0 +1,151 @@
+{
+  "scope": "Earlier page-specific date, source and readability observations. These do not alter the annual index dates, classifications or ranking. Null means unknown.",
+  "date_role_followup": "For the two 2022 pages present in date-metadata.json, that separate later markup observation clarifies the second-date role; other prior date roles remain unverified.",
+  "records": [
+    {
+      "record_id": "AT-2022-004",
+      "source_url": "https://wherethewind.com/2022/11/21/nimby-and-the-reign-of-christ/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2022/11/21/nimby-and-the-reign-of-christ/",
+          "detail_read_status": "readable",
+          "readable_prose_exists": true,
+          "sermon_for_date_in_detail": "2022-11-20",
+          "publication_date": "2022-11-21",
+          "additional_displayed_date": "2022-12-19",
+          "additional_date_role": "The second displayed date was unlabeled in the prior text observation; its role was not established by that observation.",
+          "detail_header_agrees_with_index": true,
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2022-005",
+      "source_url": "https://wherethewind.com/2022/11/14/pretenders/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2022/11/14/pretenders/",
+          "detail_read_status": "http_429_throttled_no_retry",
+          "readable_prose_exists": null,
+          "sermon_for_date_in_detail": null,
+          "publication_date": null,
+          "additional_displayed_date": null,
+          "additional_date_role": null,
+          "detail_header_agrees_with_index": null,
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2022-006",
+      "source_url": "https://wherethewind.com/2022/11/07/the-uncommon-lives-of-saints/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2022/11/07/the-uncommon-lives-of-saints/",
+          "detail_read_status": "readable",
+          "readable_prose_exists": true,
+          "sermon_for_date_in_detail": "2022-11-06",
+          "publication_date": "2022-11-07",
+          "additional_displayed_date": "2022-12-19",
+          "additional_date_role": "The second displayed date was unlabeled in the prior text observation; its role was not established by that observation.",
+          "detail_header_agrees_with_index": true,
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2022-027",
+      "source_url": "https://wherethewind.com/2022/05/09/listen-to-my-voice/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2022/05/09/listen-to-my-voice/",
+          "source_index_url": "https://wherethewind.com/sermons/",
+          "checked_on": "2026-11-06",
+          "index_date": "2022-05-09",
+          "index_date_label": "Sunday, May 9, 2022",
+          "prior_detail_header_date": "2022-05-08",
+          "date_discrepancy": "The index labels Sunday May 9, 2022, but May 9 was a Monday. The prior detail-header observation says Sunday May 8, 2022. The annual index map retains May 9 unchanged.",
+          "prior_audit_date": "2022-05-08",
+          "prior_audit_date_basis": "The earlier audit used the detail-header date rather than the conflicting index label; that decision is not applied to the fixed annual index map."
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2025-004",
+      "source_url": "https://wherethewind.com/2025/12/01/tolle-lege/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2025/12/01/tolle-lege/",
+          "detail_read_status": "readable",
+          "readable_prose_exists": true,
+          "sermon_for_date_in_detail": "2025-11-30",
+          "publication_date": "2025-12-01",
+          "additional_displayed_date": "2025-12-25",
+          "additional_date_role": "The second displayed date was unlabeled in the prior text observation; its role was not established by that observation.",
+          "detail_header_agrees_with_index": true,
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2025-005",
+      "source_url": "https://wherethewind.com/2025/11/17/doing-what-is-right/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2025/11/17/doing-what-is-right/",
+          "detail_read_status": "readable",
+          "readable_prose_exists": true,
+          "sermon_for_date_in_detail": "2025-11-16",
+          "publication_date": "2025-11-17",
+          "additional_displayed_date": "2025-12-15",
+          "additional_date_role": "The second displayed date was unlabeled in the prior text observation; its role was not established by that observation.",
+          "detail_header_agrees_with_index": true,
+          "checked_on": "2026-11-06",
+          "metadata_discrepancy": "Tag says 2 Thessalonians 2; explicit header says 2 Thessalonians 3:6-13. The earlier November comparison used the explicit header and retained the discrepancy; the annual index map is unchanged."
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2025-006",
+      "source_url": "https://wherethewind.com/2025/11/10/gods-point-of-view-updated/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2025/11/10/gods-point-of-view-updated/",
+          "detail_read_status": "readable",
+          "readable_prose_exists": true,
+          "sermon_for_date_in_detail": "2025-11-09",
+          "publication_date": "2025-11-10",
+          "additional_displayed_date": "2025-12-08",
+          "additional_date_role": "The second displayed date was unlabeled in the prior text observation; its role was not established by that observation.",
+          "detail_header_agrees_with_index": true,
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "record_id": "AT-2025-007",
+      "source_url": "https://wherethewind.com/2025/11/03/this-is-the-way/",
+      "evidence_scope": "Prior evidence not revalidated in the annual index pass; no new source check is claimed.",
+      "observations": [
+        {
+          "source_url": "https://wherethewind.com/2025/11/03/this-is-the-way/",
+          "detail_read_status": "readable",
+          "readable_prose_exists": true,
+          "sermon_for_date_in_detail": "2025-11-02",
+          "publication_date": "2025-11-03",
+          "additional_displayed_date": "2025-12-02",
+          "additional_date_role": "The second displayed date was unlabeled in the prior text observation; its role was not established by that observation.",
+          "detail_header_agrees_with_index": true,
+          "checked_on": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

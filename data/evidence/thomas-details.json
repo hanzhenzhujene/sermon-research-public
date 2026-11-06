@@ -1,0 +1,1260 @@
+{
+  "status": {
+    "checked_on": "2026-11-06",
+    "scope": "All ten cutoff-eligible candidates with complete displayed-reference-list equality in the fixed annual metadata map have separate detail observations. This does not expand the candidate rule or church population.",
+    "counts": {
+      "annual_index_items": 88,
+      "all_annual_pairs": 1935,
+      "cutoff_pairs": 1800,
+      "cutoff_candidate_pairs": 14,
+      "cutoff_complete_reference_list_candidates": 10,
+      "detail_checked_pairs": 10,
+      "distinct_detail_pages": 20,
+      "new_addendum_pairs": 7,
+      "new_addendum_pages": 14,
+      "new_page_specific_license_notice_observed": 5,
+      "new_page_license_not_observed_unknown": 9,
+      "raw_detail_label_equal_pairs": 9,
+      "equivalent_occasion_with_label_wording_difference_pairs": 1
+    },
+    "remaining_four_partial_reference_candidates": "Not upgraded by this detail pass; they remain separate index candidates.",
+    "one_label_difference": "Rank 5: 2022 page says Palm/Passion Sunday C; 2025 page says Palm/Passion C. Both exact strings are retained, with equivalent occasion distinguished from literal equality.",
+    "meaning": "Same speaker, listed reference and occasion support descriptive comparison, not full-text reuse, AI use, historical delivery, unchanged historical wording or causal effects.",
+    "pairs": [
+      {
+        "candidate_rank": 1,
+        "pair_id": "AT-2022-042__AT-2025-043",
+        "record_ids": [
+          "AT-2022-042",
+          "AT-2025-043"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/01/17/for-the-common-good-with-a-lot-of-help-from-dr-king/",
+          "https://wherethewind.com/2025/01/20/common-cause/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "initial_three_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 2,
+        "pair_id": "AT-2022-035__AT-2025-036",
+        "record_ids": [
+          "AT-2022-035",
+          "AT-2025-036"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/03/07/the-discipline-of-gentleness/",
+          "https://wherethewind.com/2025/03/10/for-it-is-written/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "initial_three_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 3,
+        "pair_id": "AT-2022-034__AT-2025-035",
+        "record_ids": [
+          "AT-2022-034",
+          "AT-2025-035"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/03/14/the-shadow-of-your-wings/",
+          "https://wherethewind.com/2025/03/17/with-my-arms-spread-wide-updated/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "initial_three_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 4,
+        "pair_id": "AT-2022-031__AT-2025-032",
+        "record_ids": [
+          "AT-2022-031",
+          "AT-2025-032"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/04/04/unlearn-what-you-have-learned/",
+          "https://wherethewind.com/2025/04/07/the-capacity-to-act/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 5,
+        "pair_id": "AT-2022-030__AT-2025-031",
+        "record_ids": [
+          "AT-2022-030",
+          "AT-2025-031"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/04/11/the-com-passion-gospel/",
+          "https://wherethewind.com/2025/04/14/three-definitions-of-passion/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": false,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 6,
+        "pair_id": "AT-2022-028__AT-2025-027",
+        "record_ids": [
+          "AT-2022-028",
+          "AT-2025-027"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/05/02/peter-and-jesus/",
+          "https://wherethewind.com/2025/05/05/the-other-side-of-the-boat/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 7,
+        "pair_id": "AT-2022-021__AT-2025-020",
+        "record_ids": [
+          "AT-2022-021",
+          "AT-2025-020"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/06/27/called-to-freedom/",
+          "https://wherethewind.com/2025/06/30/the-flow-of-gods-love/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 8,
+        "pair_id": "AT-2022-019__AT-2025-018",
+        "record_ids": [
+          "AT-2022-019",
+          "AT-2025-018"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/07/11/in-a-world-where-you-can-be-anything/",
+          "https://wherethewind.com/2025/07/14/the-good-samaritan/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 9,
+        "pair_id": "AT-2022-017__AT-2025-016",
+        "record_ids": [
+          "AT-2022-017",
+          "AT-2025-016"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/08/22/i-choose-you/",
+          "https://wherethewind.com/2025/08/25/learning-to-sing/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      },
+      {
+        "candidate_rank": 10,
+        "pair_id": "AT-2022-008__AT-2025-008",
+        "record_ids": [
+          "AT-2022-008",
+          "AT-2025-008"
+        ],
+        "source_urls": [
+          "https://wherethewind.com/2022/10/24/intentions-revisited/",
+          "https://wherethewind.com/2025/10/27/learning-humility/"
+        ],
+        "source_listed_dates_confirmed": true,
+        "byline_confirmed": "Adam Thomas",
+        "displayed_scripture_references_match_after_spacing_and_dash_normalization": true,
+        "equivalent_liturgical_occasion_confirmed": true,
+        "raw_detail_liturgical_labels_identical": true,
+        "detail_evidence_group": "additional_seven_pairs",
+        "historical_delivery_independently_verified": false,
+        "historical_wording_frozen": false,
+        "numerical_body_similarity_computed": false
+      }
+    ]
+  },
+  "pages": [
+    {
+      "record_id": "AT-2022-042",
+      "pair_id": "AT-2022-042__AT-2025-043",
+      "candidate_rank": 1,
+      "source_url": "https://wherethewind.com/2022/01/17/for-the-common-good-with-a-lot-of-help-from-dr-king/",
+      "title": "For the Common Good (with a lot of help from Dr. King)",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-01-16",
+      "liturgical_label_exact": "Epiphany 2C",
+      "scripture_header_exact": [
+        "1 Corinthians 12:1-11"
+      ],
+      "publication_date_first_displayed": "2022-01-17",
+      "additional_displayed_date": "2022-02-07",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "CC BY-NC-ND 3.0 Unported; separate NRSV/CEB notices",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Distinguishes dignity from arrogance through U2 and Martin Luther King Jr., then connects spiritual gifts to the common good. The previous week is mentioned; no formal series is named.",
+      "genre": "Scriptural exposition with cultural and historical examples.",
+      "version_note": "No identified earlier manuscript version.",
+      "third_party_note": "Scripture, U2 lyrics and King quotations have separate rights; none are reproduced.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": null,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-01-17",
+        "2022-02-07"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-043",
+      "pair_id": "AT-2022-042__AT-2025-043",
+      "candidate_rank": 1,
+      "source_url": "https://wherethewind.com/2025/01/20/common-cause/",
+      "title": "Common Cause",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-01-19",
+      "liturgical_label_exact": "Epiphany 2C",
+      "scripture_header_exact": [
+        "1 Corinthians 12:1-11"
+      ],
+      "publication_date_first_displayed": "2025-01-20",
+      "additional_displayed_date": "2025-02-10",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "CC BY-NC-ND 3.0 Unported; separate NRSV/CEB notices",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Uses the double meaning of common in common prayer to discuss shared life, social division and early Christian mutual support, then connects these to spiritual gifts.",
+      "genre": "Public-life reflection and scriptural exposition.",
+      "version_note": "No identified earlier manuscript version.",
+      "third_party_note": "Scripture and prayer-book material have separate rights; historical and political assertions were not independently checked.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": null,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-01-20",
+        "2025-02-10"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-035",
+      "pair_id": "AT-2022-035__AT-2025-036",
+      "candidate_rank": 2,
+      "source_url": "https://wherethewind.com/2022/03/07/the-discipline-of-gentleness/",
+      "title": "The Discipline of Gentleness",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-03-06",
+      "liturgical_label_exact": "Lent 1C",
+      "scripture_header_exact": [
+        "Luke 4:1-13"
+      ],
+      "publication_date_first_displayed": "2022-03-07",
+      "additional_displayed_date": "2022-04-04",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Moves from the wilderness and the Spirit to gentleness, responding to pandemic fatigue and war through films and a blessing poem.",
+      "genre": "Lenten pastoral invitation.",
+      "version_note": "No identified earlier manuscript version.",
+      "third_party_note": "Film dialogue, a John O’Donohue poem and scripture are separately protected material; none are reproduced.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": null,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-03-07",
+        "2022-04-04"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-036",
+      "pair_id": "AT-2022-035__AT-2025-036",
+      "candidate_rank": 2,
+      "source_url": "https://wherethewind.com/2025/03/10/for-it-is-written/",
+      "title": "For it is Written",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-03-09",
+      "liturgical_label_exact": "Lent 1C",
+      "scripture_header_exact": [
+        "Luke 4:1-13"
+      ],
+      "publication_date_first_displayed": "2025-03-10",
+      "additional_displayed_date": "2025-04-07",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Examines the ethics of quoting scripture through the temptation narrative, a film antagonist and public issues, warning against decontextualized moral language.",
+      "genre": "Scriptural interpretation and public ethics.",
+      "version_note": "No identified earlier manuscript version.",
+      "third_party_note": "Scripture and film dialogue are separate third-party material; rhetorical examples were not independently verified.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": null,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-03-10",
+        "2025-04-07"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-034",
+      "pair_id": "AT-2022-034__AT-2025-035",
+      "candidate_rank": 3,
+      "source_url": "https://wherethewind.com/2022/03/14/the-shadow-of-your-wings/",
+      "title": "The Shadow of Your Wings",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-03-13",
+      "liturgical_label_exact": "Lent 2C",
+      "scripture_header_exact": [
+        "Luke 13:31-35"
+      ],
+      "publication_date_first_displayed": "2022-03-14",
+      "additional_displayed_date": "2022-04-04",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Begins with local foxes and chickens, develops the protective hen image through psalms and prayer, and calls for active welcome of vulnerable people.",
+      "genre": "Scriptural and prayer-text exposition.",
+      "version_note": "No identified earlier manuscript version.",
+      "third_party_note": "Scripture and prayer language have separate rights.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": null,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-03-14",
+        "2022-04-04"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-035",
+      "pair_id": "AT-2022-034__AT-2025-035",
+      "candidate_rank": 3,
+      "source_url": "https://wherethewind.com/2025/03/17/with-my-arms-spread-wide-updated/",
+      "title": "With My Arms Spread Wide (updated)",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-03-16",
+      "liturgical_label_exact": "Lent 2C",
+      "scripture_header_exact": [
+        "Luke 13:31-35"
+      ],
+      "publication_date_first_displayed": "2025-03-17",
+      "additional_displayed_date": "2025-04-07",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Uses an explicitly fictional letter from Simon to Judith to explore protection and courage. The author describes choosing a story after several weightier sermons.",
+      "genre": "Fictional story sermon; page category includes Midrash.",
+      "version_note": "The title says updated, but no original version, update date or connection to the selected 2022 text is established.",
+      "third_party_note": "The story is not historical eyewitness evidence. Scripture and credited imagery have separate rights.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": null,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": null,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-03-17",
+        "2025-04-07"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-031",
+      "pair_id": "AT-2022-031__AT-2025-032",
+      "candidate_rank": 4,
+      "source_url": "https://wherethewind.com/2022/04/04/unlearn-what-you-have-learned/",
+      "title": "Unlearn What You Have Learned",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-04-03",
+      "liturgical_label_exact": "Lent 5C",
+      "scripture_header_exact": [
+        "Philippians 3:4b-14"
+      ],
+      "publication_date_first_displayed": "2022-04-04",
+      "additional_displayed_date": "2022-05-02",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Reads Paul’s relinquishing of status as an invitation to unlearn assumptions and practice justice from an already-given relationship rather than earn acceptance.",
+      "genre": "Popular-culture opening, exposition and social ethics.",
+      "version_note": "References the previous week and earlier discussion of privilege; this is thematic continuity, not an identified republication.",
+      "third_party_note": "Scripture and Star Wars scenes or dialogue have separate rights; embedded media were not read.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-04-04",
+        "2022-05-02"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-032",
+      "pair_id": "AT-2022-031__AT-2025-032",
+      "candidate_rank": 4,
+      "source_url": "https://wherethewind.com/2025/04/07/the-capacity-to-act/",
+      "title": "The Capacity to Act",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-04-06",
+      "liturgical_label_exact": "Lent 5C",
+      "scripture_header_exact": [
+        "Philippians 3:4b-14"
+      ],
+      "publication_date_first_displayed": "2025-04-07",
+      "additional_displayed_date": "2025-04-28",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Distinguishes domination, empowerment and cooperative action, then connects Paul’s relinquishing of status to community organizing.",
+      "genre": "Three-part conceptual argument followed by exposition and practical application.",
+      "version_note": "Mentions earlier discussion of organizing; no explicit rewrite of the selected 2022 text.",
+      "third_party_note": "Scripture, film examples and attributed definitions have separate rights; NRSV/CEB notices were observed.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-04-07",
+        "2025-04-28"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-030",
+      "pair_id": "AT-2022-030__AT-2025-031",
+      "candidate_rank": 5,
+      "source_url": "https://wherethewind.com/2022/04/11/the-com-passion-gospel/",
+      "title": "The Com-passion Gospel",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-04-10",
+      "liturgical_label_exact": "Palm/Passion Sunday C",
+      "scripture_header_exact": [
+        "Luke 22:39 – 23:49"
+      ],
+      "publication_date_first_displayed": "2022-04-11",
+      "additional_displayed_date": "2022-05-02",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Interprets the Passion as love that remains with oppressed people rather than a divine demand for punishment, asking listeners to face grief before Easter.",
+      "genre": "Liturgical preparation and pastoral response to current events.",
+      "version_note": "Return to in-person Holy Week is liturgical context, not a statement that this text was reused.",
+      "third_party_note": "Scripture and credited imagery have separate rights; translation notices were observed.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-04-11",
+        "2022-05-02"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-031",
+      "pair_id": "AT-2022-030__AT-2025-031",
+      "candidate_rank": 5,
+      "source_url": "https://wherethewind.com/2025/04/14/three-definitions-of-passion/",
+      "title": "Three Definitions of Passion",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-04-13",
+      "liturgical_label_exact": "Palm/Passion C",
+      "scripture_header_exact": [
+        "Luke 22:39–23:49"
+      ],
+      "publication_date_first_displayed": "2025-04-14",
+      "additional_displayed_date": "2025-05-05",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Explores suffering, commitment and connection as three meanings of passion, inviting listeners to carry one moment of the narrative into Holy Week reflection.",
+      "genre": "Three-part liturgical meditation.",
+      "version_note": "No explicit earlier manuscript or rewrite relationship observed.",
+      "third_party_note": "Scripture and credited imagery have separate rights; media were not opened.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-04-14",
+        "2025-05-05"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-028",
+      "pair_id": "AT-2022-028__AT-2025-027",
+      "candidate_rank": 6,
+      "source_url": "https://wherethewind.com/2022/05/02/peter-and-jesus/",
+      "title": "Peter and Jesus",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-05-01",
+      "liturgical_label_exact": "Easter 3C",
+      "scripture_header_exact": [
+        "John 21:1-19"
+      ],
+      "publication_date_first_displayed": "2022-05-02",
+      "additional_displayed_date": "2022-05-30",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Follows Peter through shame, reconciliation and commissioning, presenting resurrection love as both healing and a call to service.",
+      "genre": "Imaginative retelling of scripture followed by application.",
+      "version_note": "No explicit earlier manuscript, update or republication observed.",
+      "third_party_note": "Scriptural dialogue and credited imagery have separate rights; video was not read.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-05-02",
+        "2022-05-30"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-027",
+      "pair_id": "AT-2022-028__AT-2025-027",
+      "candidate_rank": 6,
+      "source_url": "https://wherethewind.com/2025/05/05/the-other-side-of-the-boat/",
+      "title": "The Other Side of the Boat",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-05-04",
+      "liturgical_label_exact": "Easter 3C",
+      "scripture_header_exact": [
+        "John 21:1-19"
+      ],
+      "publication_date_first_displayed": "2025-05-05",
+      "additional_displayed_date": "2025-05-26",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Uses fishing on the other side of the boat to challenge habit and encourage listening to Christ through another person’s counsel.",
+      "genre": "Extended autobiographical pastoral recollection followed by exposition.",
+      "version_note": "Repeated reflection on a memory does not establish prior publication of this manuscript or dependence on the selected 2022 text.",
+      "third_party_note": "Scripture and reported speech have separate rights; external links and media were not opened.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-05-05",
+        "2025-05-26"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-021",
+      "pair_id": "AT-2022-021__AT-2025-020",
+      "candidate_rank": 7,
+      "source_url": "https://wherethewind.com/2022/06/27/called-to-freedom/",
+      "title": "Called to Freedom",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-06-26",
+      "liturgical_label_exact": "Proper 8C",
+      "scripture_header_exact": [
+        "Galatians 5:1, 13-25"
+      ],
+      "publication_date_first_displayed": "2022-06-27",
+      "additional_displayed_date": "2022-08-16",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Challenges an individualistic account of freedom and proposes mutual care and service, using the fruits of the Spirit to develop this ethic.",
+      "genre": "Political-concept comparison and scriptural public ethics.",
+      "version_note": "No earlier manuscript or republication statement observed.",
+      "third_party_note": "Scripture, political summaries, linked statements and credited imagery have separate evidentiary and rights limits.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-06-27",
+        "2022-08-16"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-020",
+      "pair_id": "AT-2022-021__AT-2025-020",
+      "candidate_rank": 7,
+      "source_url": "https://wherethewind.com/2025/06/30/the-flow-of-gods-love/",
+      "title": "The Flow of God’s Love",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-06-29",
+      "liturgical_label_exact": "Proper 8C",
+      "scripture_header_exact": [
+        "Galatians 5:1,13-25"
+      ],
+      "publication_date_first_displayed": "2025-06-30",
+      "additional_displayed_date": "2025-08-18",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Connects self-love, love of neighbors and love of enemies through the image of flowing love, while distinguishing compassion from tolerating harm.",
+      "genre": "Local anecdote, metaphor and spiritual practice.",
+      "version_note": "Anticipates the Good Samaritan reading two weeks later; this supports same-year continuity, not a 2022 manuscript relationship.",
+      "third_party_note": "Scripture and credited imagery have separate rights; media were not opened.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-06-30",
+        "2025-08-18"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-019",
+      "pair_id": "AT-2022-019__AT-2025-018",
+      "candidate_rank": 8,
+      "source_url": "https://wherethewind.com/2022/07/11/in-a-world-where-you-can-be-anything/",
+      "title": "In a World Where You Can Be Anything…",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-07-10",
+      "liturgical_label_exact": "Proper 10C",
+      "scripture_header_exact": [
+        "Luke 10:25-37"
+      ],
+      "publication_date_first_displayed": "2022-07-11",
+      "additional_displayed_date": "2022-08-29",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Counters helplessness in the face of large disasters by recalling received kindness and encouraging concrete action rather than cynicism.",
+      "genre": "Everyday slogan, ethical exhortation and personal testimony.",
+      "version_note": "Continues the previous week’s theme; no explicit reuse of an older manuscript.",
+      "third_party_note": "Scripture, attributed sayings, clothing text and credited imagery have separate rights.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-07-11",
+        "2022-08-29"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-018",
+      "pair_id": "AT-2022-019__AT-2025-018",
+      "candidate_rank": 8,
+      "source_url": "https://wherethewind.com/2025/07/14/the-good-samaritan/",
+      "title": "The Good Samaritan",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-07-13",
+      "liturgical_label_exact": "Proper 10C",
+      "scripture_header_exact": [
+        "Luke 10:25-37"
+      ],
+      "publication_date_first_displayed": "2025-07-14",
+      "additional_displayed_date": "2025-09-01",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Uses the Samaritan’s reversal of expectations to extend mercy across personal and group boundaries and reject exclusion of others.",
+      "genre": "Close parable exposition and public ethics.",
+      "version_note": "Refers back to the June 29, 2025 sermon; this supports same-year thematic continuity, not cross-year verbatim reuse.",
+      "third_party_note": "Scripture, Martin Luther King Jr. quotations and credited artwork have separate rights; none are reproduced.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-07-14",
+        "2025-09-01"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-017",
+      "pair_id": "AT-2022-017__AT-2025-016",
+      "candidate_rank": 9,
+      "source_url": "https://wherethewind.com/2022/08/22/i-choose-you/",
+      "title": "I Choose You",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-08-21",
+      "liturgical_label_exact": "Proper 16C",
+      "scripture_header_exact": [
+        "Jeremiah 1:4-10"
+      ],
+      "publication_date_first_displayed": "2022-08-22",
+      "additional_displayed_date": "2022-09-12",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Uses an early vocational-discernment experience to argue that present inadequacy need not prevent service and that people grow through responding to a call.",
+      "genre": "Autobiographical vocational testimony and scripture.",
+      "version_note": "The author explicitly describes recurring versions of this theme, roughly annually; no specific earlier draft or extent of verbatim reuse is identified.",
+      "third_party_note": "Scripture has separate rights; embedded video was not read.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-08-22",
+        "2022-09-12"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-016",
+      "pair_id": "AT-2022-017__AT-2025-016",
+      "candidate_rank": 9,
+      "source_url": "https://wherethewind.com/2025/08/25/learning-to-sing/",
+      "title": "Learning to Sing",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-08-24",
+      "liturgical_label_exact": "Proper 16C",
+      "scripture_header_exact": [
+        "Jeremiah 1:4-10"
+      ],
+      "publication_date_first_displayed": "2025-08-25",
+      "additional_displayed_date": "2025-09-15",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "notice_observed_on_this_page",
+        "notice": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported",
+        "interpretation": "Observed on this page only; this does not grant new rights or clear third-party material."
+      },
+      "summary": "Treats inadequacy as space for grace and growth, using learning to sing and Jeremiah’s call to encourage previously avoided action.",
+      "genre": "Autobiographical growth story and biblical examples.",
+      "version_note": "Shares a central theme with 2022 but does not identify that text as its source or republication.",
+      "third_party_note": "Scripture, biblical summaries and credited imagery have separate rights; images were not acquired.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-08-25",
+        "2025-09-15"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2022-008",
+      "pair_id": "AT-2022-008__AT-2025-008",
+      "candidate_rank": 10,
+      "source_url": "https://wherethewind.com/2022/10/24/intentions-revisited/",
+      "title": "Intentions, Revisited",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2022-10-23",
+      "liturgical_label_exact": "Proper 25C",
+      "scripture_header_exact": [
+        "Luke 18:9-14"
+      ],
+      "publication_date_first_displayed": "2022-10-24",
+      "additional_displayed_date": "2022-11-14",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Reconsiders a morning prayer by shifting from self-declaration to asking for help, presenting humility as dependence within relationships.",
+      "genre": "Prayer-practice reflection and exposition.",
+      "version_note": "Revisited refers explicitly to a personal prayer practice, not proven republication of an entire sermon.",
+      "third_party_note": "Scripture, personal prayer and credited imagery have separate rights; video was not read.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2022-10-24",
+        "2022-11-14"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    },
+    {
+      "record_id": "AT-2025-008",
+      "pair_id": "AT-2022-008__AT-2025-008",
+      "candidate_rank": 10,
+      "source_url": "https://wherethewind.com/2025/10/27/learning-humility/",
+      "title": "Learning Humility",
+      "byline": "Adam Thomas",
+      "sermon_for_date": "2025-10-26",
+      "liturgical_label_exact": "Proper 25C",
+      "scripture_header_exact": [
+        "Luke 18:9-14"
+      ],
+      "publication_date_first_displayed": "2025-10-27",
+      "additional_displayed_date": "2025-11-17",
+      "additional_displayed_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "license_observation": {
+        "status": "unknown_in_this_observation",
+        "notice": null,
+        "interpretation": "No notice appeared in this inspected representation; this is not proof that the work has no license."
+      },
+      "summary": "Uses the author’s public account of asking for help to explain humility and mutual support.",
+      "genre": "Autobiographical testimony linked to a parable.",
+      "version_note": "No claim of rewriting the selected 2022 text. Personal history is retained as the author’s account, not independently verified.",
+      "third_party_note": "Scripture and credited imagery have separate rights; comments and media are outside the comparison.",
+      "readable_prose": {
+        "observed_on": "2026-11-06",
+        "representation_may_be_cached": true,
+        "opening_visible": true,
+        "ending_visible": true,
+        "internal_truncation_observed": false,
+        "scope": "Only the current inspected representation; not complete underlying HTML/media, historical wording, independent delivery or verified live-origin completeness."
+      },
+      "venue_limit": "Church association does not establish this event’s venue or independent delivery.",
+      "explicit_prior_version_url_observed": null,
+      "published_dates": [
+        "2025-10-27",
+        "2025-11-17"
+      ],
+      "additional_date_scope": "Second displayed date retained without assigning its meaning; the explicit Sermon for date is separate.",
+      "venue_status": "Church association does not establish this event’s venue or independent delivery."
+    }
+  ],
+  "comparisons": [
+    {
+      "pair_id": "AT-2022-042__AT-2025-043",
+      "candidate_rank": 1,
+      "title": "Common good through different examples",
+      "summary": "Both connect spiritual gifts with the common good. The 2022 page develops dignity and arrogance through King and U2; the 2025 page starts from common prayer and divided public life.",
+      "genre": "Shared passage and theme, different observed examples and argument organization.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "No quantified reuse or manuscript lineage established.",
+      "source_urls": [
+        "https://wherethewind.com/2022/01/17/for-the-common-good-with-a-lot-of-help-from-dr-king/",
+        "https://wherethewind.com/2025/01/20/common-cause/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Shared passage and theme, different observed examples and argument organization.",
+      "reuse_limit": "No quantified reuse or manuscript lineage established."
+    },
+    {
+      "pair_id": "AT-2022-035__AT-2025-036",
+      "candidate_rank": 2,
+      "title": "Gentleness and interpretive ethics",
+      "summary": "Both begin with Luke’s wilderness temptation. The 2022 page develops gentleness and rest amid pandemic fatigue; the 2025 page turns toward misuse of scripture and moral language.",
+      "genre": "Different film examples and ethical emphases.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "A common starting point does not prove an updated version of the same sermon.",
+      "source_urls": [
+        "https://wherethewind.com/2022/03/07/the-discipline-of-gentleness/",
+        "https://wherethewind.com/2025/03/10/for-it-is-written/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Different film examples and ethical emphases.",
+      "reuse_limit": "A common starting point does not prove an updated version of the same sermon."
+    },
+    {
+      "pair_id": "AT-2022-034__AT-2025-035",
+      "candidate_rank": 3,
+      "title": "Protective imagery in exposition and fiction",
+      "summary": "Both use the hen and outstretched arms as protective images. The 2022 page explains scripture and prayer; the 2025 page is an explicitly fictional letter-story.",
+      "genre": "A shift from exposition to fictional narrative.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "The updated title identifies no original version; the selected 2022 page cannot be assigned as its source.",
+      "source_urls": [
+        "https://wherethewind.com/2022/03/14/the-shadow-of-your-wings/",
+        "https://wherethewind.com/2025/03/17/with-my-arms-spread-wide-updated/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "A shift from exposition to fictional narrative.",
+      "reuse_limit": "The updated title identifies no original version; the selected 2022 page cannot be assigned as its source."
+    },
+    {
+      "pair_id": "AT-2022-031__AT-2025-032",
+      "candidate_rank": 4,
+      "title": "Unlearning assumptions and cooperative power",
+      "summary": "Both use Paul’s relinquishing of status to discuss justice. The 2022 page starts with Yoda and unlearning; the 2025 page develops three forms of power and community organizing.",
+      "genre": "Shared exposition and social ethics, different argument structure and scale of action.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "No explicit cross-year rewrite or verbatim reuse established.",
+      "source_urls": [
+        "https://wherethewind.com/2022/04/04/unlearn-what-you-have-learned/",
+        "https://wherethewind.com/2025/04/07/the-capacity-to-act/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Shared exposition and social ethics, different argument structure and scale of action.",
+      "reuse_limit": "No explicit cross-year rewrite or verbatim reuse established."
+    },
+    {
+      "pair_id": "AT-2022-030__AT-2025-031",
+      "candidate_rank": 5,
+      "title": "Shared grief and three meanings of passion",
+      "summary": "Both describe love that does not abandon people and reject punishment as the point of suffering. The 2022 page emphasizes pandemic, war and liturgical waiting; 2025 develops suffering, commitment and connection.",
+      "genre": "Shared Passion framing with different liturgical emphasis.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "Theological continuity does not establish manuscript dependence or complete-text repetition.",
+      "source_urls": [
+        "https://wherethewind.com/2022/04/11/the-com-passion-gospel/",
+        "https://wherethewind.com/2025/04/14/three-definitions-of-passion/"
+      ],
+      "raw_labels_identical": false,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Shared Passion framing with different liturgical emphasis.",
+      "reuse_limit": "Theological continuity does not establish manuscript dependence or complete-text repetition."
+    },
+    {
+      "pair_id": "AT-2022-028__AT-2025-027",
+      "candidate_rank": 6,
+      "title": "Peter’s reconciliation and pastoral memory",
+      "summary": "The 2022 page centers on Peter’s three denials and three affirmations. The 2025 page centers on changing sides of the boat through the author’s account of a pastoral visit.",
+      "genre": "Imaginative scriptural narrative shifts to extended personal recollection and application.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "A common passage and discipleship theme do not establish manuscript dependence.",
+      "source_urls": [
+        "https://wherethewind.com/2022/05/02/peter-and-jesus/",
+        "https://wherethewind.com/2025/05/05/the-other-side-of-the-boat/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Imaginative scriptural narrative shifts to extended personal recollection and application.",
+      "reuse_limit": "A common passage and discipleship theme do not establish manuscript dependence."
+    },
+    {
+      "pair_id": "AT-2022-021__AT-2025-020",
+      "candidate_rank": 7,
+      "title": "Communal freedom and flowing love",
+      "summary": "The 2022 page compares ideas of freedom and mutual service; 2025 uses a local act of help to discuss self, neighbor and enemy. Both extend love beyond personal interest.",
+      "genre": "Political-concept comparison shifts toward everyday story, river metaphor and prayer; this is not complete depoliticization.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "The observed difference does not establish a general change in the author or period.",
+      "source_urls": [
+        "https://wherethewind.com/2022/06/27/called-to-freedom/",
+        "https://wherethewind.com/2025/06/30/the-flow-of-gods-love/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Political-concept comparison shifts toward everyday story, river metaphor and prayer; this is not complete depoliticization.",
+      "reuse_limit": "The observed difference does not establish a general change in the author or period."
+    },
+    {
+      "pair_id": "AT-2022-019__AT-2025-018",
+      "candidate_rank": 8,
+      "title": "Small acts and crossing group boundaries",
+      "summary": "The 2022 page uses a kindness slogan and memories of help to resist cynicism. The 2025 page develops the parable’s reversal, cites King and extends mercy across group boundaries.",
+      "genre": "Personal ethical exhortation shifts toward concentrated exposition and public ethics; both engage social questions.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "The 2025 page’s same-year link to June 29 does not prove reuse of the selected 2022 text.",
+      "source_urls": [
+        "https://wherethewind.com/2022/07/11/in-a-world-where-you-can-be-anything/",
+        "https://wherethewind.com/2025/07/14/the-good-samaritan/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Personal ethical exhortation shifts toward concentrated exposition and public ethics; both engage social questions.",
+      "reuse_limit": "The 2025 page’s same-year link to June 29 does not prove reuse of the selected 2022 text."
+    },
+    {
+      "pair_id": "AT-2022-017__AT-2025-016",
+      "candidate_rank": 9,
+      "title": "A recurring theme with different life stories",
+      "summary": "Both treat inadequacy as part of vocation and use autobiography. The 2022 page concerns an early ordination interview; 2025 concerns learning to sing and accepting grace.",
+      "genre": "Genre continuity with different examples. The 2022 author explicitly describes returning to this theme.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "Recurring themes and version awareness are not proof of full-manuscript reuse or a text-similarity result.",
+      "source_urls": [
+        "https://wherethewind.com/2022/08/22/i-choose-you/",
+        "https://wherethewind.com/2025/08/25/learning-to-sing/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Genre continuity with different examples. The 2022 author explicitly describes returning to this theme.",
+      "reuse_limit": "Recurring themes and version awareness are not proof of full-manuscript reuse or a text-similarity result."
+    },
+    {
+      "pair_id": "AT-2022-008__AT-2025-008",
+      "candidate_rank": 10,
+      "title": "Prayer and asking for help",
+      "summary": "The 2022 page revisits a morning prayer to examine self-centeredness. The 2025 page uses a public account of asking for help. Both respond to the parable through acknowledged dependence.",
+      "genre": "Both are autobiographical, centered respectively on prayer practice and help-seeking.",
+      "decision": "Retain as a descriptive comparison candidate, not an AI-use or full-text-reuse label.",
+      "limit": "This pair was already known. Revisited describes the prayer practice, not proven whole-sermon republication.",
+      "source_urls": [
+        "https://wherethewind.com/2022/10/24/intentions-revisited/",
+        "https://wherethewind.com/2025/10/27/learning-humility/"
+      ],
+      "raw_labels_identical": true,
+      "equivalent_occasion": true,
+      "complete_displayed_references_match": true,
+      "historical_delivery_independently_verified": false,
+      "numerical_body_similarity_computed": false,
+      "genre_comparison": "Both are autobiographical, centered respectively on prayer practice and help-seeking.",
+      "reuse_limit": "This pair was already known. Revisited describes the prayer practice, not proven whole-sermon republication."
+    }
+  ]
+}

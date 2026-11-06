@@ -6,13 +6,33 @@ Start with **[Choose a source](https://sermon-research-jenny.landenini.chatgpt.s
 
 ## Choose the next source
 
-Six written sources meet one limited threshold: at least one readable named manuscript currently observed with a recorded **2022 date before November 30**, and one dated in **2025**, plus institution or author-affiliation evidence. The page separates:
+Seven church-associated written routes meet a limited threshold: at least one currently readable named manuscript associated with a date **on or before November 30, 2022**, and one in **2025**, with institution or author-affiliation evidence.
 
 - **Two primary choices:** Fourth Presbyterian, Chicago; Adam Thomas’s archive associated with St Mark’s, Mystic.
-- **One archive gap to resolve:** St James Cathedral, Seattle — establish the 2022 annual written inventory.
-- **Three supplements:** Memorial Congregational / Allen Vander Meulen, Sudbury; St Thomas More / Tony Patronite, Irvine; Ave Maria / David Mariano Vidal, Florida.
+- **Two priority gaps:** St James Cathedral, Seattle, needs its 2022 written inventory; Christ Covenant, Matthews, North Carolina, needs annual coverage beyond the two inspected series.
+- **Three historical supplements:** Memorial Congregational / Allen Vander Meulen, Sudbury; St Thomas More / Tony Patronite, Irvine; Ave Maria / David Mariano Vidal, Florida.
 
-Holy Trinity’s Orthodox recording route is separate. Six sources do not mean six complete, licensed, independent or representative panels. Current surviving text, recorded event date and historical version are different evidence. Each source card links dated examples, author evidence, reuse limits and a concrete next step.
+Holy Trinity’s Orthodox recording route is separate. These are purposefully selected routes, not seven complete, licensed or independent panels. Thomas’s official church association does not independently establish where each archive item was delivered. Current surviving text, source-listed event date and historical version are different evidence.
+
+### Thomas: ten detail-checked comparisons
+
+[Inspect Thomas’s comparisons](https://sermon-research-jenny.landenini.chatgpt.site/#view=thomas). The fixed annual inventory has **88 items**, yielding **1,935** cross-year combinations. The inclusive older-date cutoff retains **1,800** combinations and **14** candidates under an exact liturgical-label/whole-reference rule. Ten candidates have equal complete displayed reference lists and now have observations at **20 distinct detail pages**. Nine pairs have identical raw detail labels; rank 5 retains “Palm/Passion Sunday C” versus “Palm/Passion C”. The other four remain index-level candidates. The fifteenth annual candidate lies after the cutoff.
+
+The 2022 index contains 41 Sunday-labeled rows but 40 calendar Sunday dates; 2025 has 42. May 9’s date/weekday conflict is preserved. The 86 URL-date differences are not established publication dates. Good Friday’s incomplete reference keeps null complete-list comparisons. Reference-set Jaccard describes metadata overlap, not prose similarity or AI use. Page-specific license unknowns, earlier observations, and cache/version limits remain visible.
+
+The [complete annual map](data/evidence/thomas/pair-classifications.json), [CSV](data/evidence/thomas/pair-classifications.csv), [inventory](data/evidence/thomas/inventory.json), [candidate queue](data/evidence/thomas/candidate-queue.json) and [portable verifier](data/evidence/thomas/verify_pair_map.py) are separate downloads; the large pair map is not loaded on page entry.
+
+### Christ Covenant: two specified series
+
+[Inspect the series items](https://sermon-research-jenny.landenini.chatgpt.site/#view=covenant). This is **Matthews, North Carolina, PCA**, distinct from the Indiana OPC congregation. All **14 listed items** have substantial written-body evidence: 11 newer page observations and three retained earlier observations. The 2022 series has six Kevin DeYoung entries and one Derek Wells entry; only three DeYoung entries fall on or before the cutoff. The 2025 series has seven DeYoung entries.
+
+Seven newer ending/boundary observations and two earlier concluding-prayer observations remain distinct; five endings are unchecked. “Facts Still Matter” retains April 28, 2025 (Monday) with its Sunday Morning label. The named DeYoung archive is a series category, and the “2025” keyword search is not a clean year filter. Annual completeness, initial public availability, historical wording and reuse permission remain unknown.
+
+### Fourth: optional matching diagnostic
+
+[Inspect all 53 same-speaker combinations](https://sermon-research-jenny.landenini.chatgpt.site/#view=fourth-matching), formed from 15 older and 13 later selected items. Three combinations share a calendar month and use only two distinct later items. This is a descriptive check, not a rule excluding the other comparisons. Shared Psalm 30 does not mean equal whole reading lists. The prior bulletin evidence and date/service conflicts remain intact.
+
+[Rights by operation](https://sermon-research-jenny.landenini.chatgpt.site/#view=rights) distinguishes readability, version-specific license terms, intended use and analytical provenance. [Four public AI-use examples](https://sermon-research-jenny.landenini.chatgpt.site/#view=ai-cases) retain component-specific attribution: Bossen’s generated reading is separate from his sermon, and Brewer’s generated example has no established delivery. These are neither a prevalence sample nor AI-use labels for this catalogue’s churches.
 
 ### Seattle: event labels and written coverage
 
@@ -95,7 +115,8 @@ The website distinguishes operations rather than assigning one blanket permissio
 - [data/catalogue.json](data/catalogue.json): existing church, item and source records with stable IDs.
 - [data/feasibility.json](data/feasibility.json): the original collection screens, supplemental leads, nested observations and operation-specific rights. Holy Trinity’s annual extension is displayed from the separate file below.
 - [data/extensions.json](data/extensions.json): historical study roster, Holy Trinity annual metadata, source-access notes and overlap limits.
-- [data/comparison.json](data/comparison.json): source decisions, Seattle annual/item metadata and Fourth bulletin evidence. [Decision CSV](data/comparison-sources.csv), [Seattle events](data/seattle-events.csv), [written candidates](data/seattle-written.csv), [Sunday calendar](data/seattle-sundays.csv), and [Fourth summary](data/fourth-event-evidence.csv) accompany the fuller JSON.
+- [data/evidence.json](data/evidence.json): current seven-source decisions, Thomas detail comparisons, Covenant series evidence, Fourth matching, rights notes and attributed AI examples. [Download manifest](data/evidence/manifest.json) records the current public metadata files.
+- [data/comparison.json](data/comparison.json): preserved v24 six-source decision snapshot, Seattle annual/item metadata and Fourth bulletin evidence. [Decision CSV](data/comparison-sources.csv), [Seattle events](data/seattle-events.csv), [written candidates](data/seattle-written.csv), [Sunday calendar](data/seattle-sundays.csv), and [Fourth summary](data/fourth-event-evidence.csv) accompany the fuller JSON.
 - [data/catholic.json](data/catholic.json): the eight current roster checks and two written-homily supplements; [roster-check CSV](data/catholic-roster-screens.csv) and [49-item metadata CSV](data/catholic-written-items.csv).
 - [Historical-entity CSV](data/published-study-churches.csv), [source-date CSV](data/published-study-events.csv), [Holy Trinity archive CSV](data/holy-trinity-archive.csv). These contain metadata, not sermon texts.
 - [Collection-route CSV](data/collection-feasibility.csv), [supplemental-lead CSV](data/supplemental-leads.csv), [church CSV](data/churches.csv), [item CSV](data/items.csv), [source CSV](data/sources.csv). Detail-page exports preserve inspected exceptions and unknowns.
@@ -109,9 +130,11 @@ python3 scripts/validate.py
 python3 scripts/validate_extensions.py
 python3 scripts/validate_catholic.py
 python3 scripts/validate_comparison.py
+python3 scripts/validate_evidence.py
+python3 data/evidence/thomas/verify_pair_map.py
 node tests/public.test.cjs
 ```
 
-The build uses five public JSON files. `scripts/project_comparison.py INPUT_DIRECTORY` verifies both package manifests, selects public fields, maps exact URLs/IDs, and emits the comparison JSON and five CSVs. Documented spacing corrections make inherited joined words readable without changing source IDs, URLs or factual values. Raw input and reviewer notes are not public output. `scripts/project_catholic.py INPUT_DIRECTORY` reproduces the Catholic projection and two metadata CSVs from its reviewed input package. `scripts/project_extensions.py INPUT_DIRECTORY` reproduces the selected extension fields and three metadata CSVs from its separately supplied reviewed package. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
+The build uses six public JSON files. `scripts/project_evidence.py INPUT_DIRECTORY` creates the latest English public projection and its separate metadata downloads; the original transfer package and internal review files remain private. `data/evidence/thomas/verify_pair_map.py` reproduces the annual map offline from the adjacent inventory and queue. To use all static downloads locally, retain the repository’s `data/` folder beside `index.html`. `scripts/project_comparison.py INPUT_DIRECTORY` verifies both package manifests, selects public fields, maps exact URLs/IDs, and emits the comparison JSON and five CSVs. Documented spacing corrections make inherited joined words readable without changing source IDs, URLs or factual values. Raw input and reviewer notes are not public output. `scripts/project_catholic.py INPUT_DIRECTORY` reproduces the Catholic projection and two metadata CSVs from its reviewed input package. `scripts/project_extensions.py INPUT_DIRECTORY` reproduces the selected extension fields and three metadata CSVs from its separately supplied reviewed package. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
 
 Evidence retains its individual review dates; this edition is dated **6 November 2026**. Keep unknowns, source links and separate counting units when updating. The original research repository and its restricted text history remain private.

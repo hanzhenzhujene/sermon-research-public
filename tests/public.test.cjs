@@ -8,10 +8,11 @@ const feasibility=JSON.parse(fs.readFileSync(path.join(root,'data/feasibility.js
 const extensions=JSON.parse(fs.readFileSync(path.join(root,'data/extensions.json'),'utf8'));
 const comparison=JSON.parse(fs.readFileSync(path.join(root,'data/comparison.json'),'utf8'));
 const catholic=JSON.parse(fs.readFileSync(path.join(root,'data/catholic.json'),'utf8'));
+const evidence=JSON.parse(fs.readFileSync(path.join(root,'data/evidence.json'),'utf8'));
 const main={innerHTML:''};
-const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:id==='extensions-data'?extensions:id==='catholic-data'?catholic:comparison)}}};
+const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:id==='extensions-data'?extensions:id==='catholic-data'?catholic:id==='evidence-data'?evidence:comparison)}}};
 vm.createContext(context);
-vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/catholic.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/comparison.js'),'utf8'),context);
+vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/catholic.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/comparison.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/evidence.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/thomas-evidence.js'),'utf8'),context);
 const run=source=>vm.runInContext(source,context);
 const test=(name,fn)=>{fn();console.log('PASS '+name)};
 test('selected and supplemental populations stay separate',()=>{
@@ -143,12 +144,12 @@ test('Catholic non-sermon context retains its original links',()=>{
   assert.ok(main.innerHTML.includes('Clergy introduction, not sermon'));
 });
 test('source decisions have exclusive action groups and separate recording evidence',()=>{
-  assert.equal(run('decisionRows().length'),6);
+  assert.equal(run('decisionRows().length'),7);
   assert.equal(run("decisionRows({group:'primary_written_comparison'}).length"),2);
-  assert.equal(run("decisionRows({group:'priority_gap_resolution'}).length"),1);
+  assert.equal(run("decisionRows({group:'priority_gap_resolution'}).length"),2);
   assert.equal(run("decisionRows({group:'supplementary_written_source'}).length"),3);
-  assert.equal(run("decisionRows({q:'Seattle'})[0].detail_id"),'supplemental-stjames-seattle');
-  assert.equal(run("decisionRows({q:'Adam Thomas'})[0].detail_id"),'stmark-mystic-ct');
+  assert.equal(run("decisionRows({q:'Seattle'})[0].detail_view"),'seattle');
+  assert.equal(run("decisionRows({q:'Adam Thomas'})[0].detail_view"),'thomas');
   assert.ok(run("decisionCard(X.decisions.items.find(r=>r.id==='catholic-irvine-tony'))").includes('2025-02-17') || run("decisionCard(X.decisions.items.find(r=>r.id==='catholic-irvine-tony'))").includes('February 17'));
 });
 test('Seattle raw and quarantined candidate units remain distinct',()=>{
@@ -203,4 +204,57 @@ test('Fourth earlier time uncertainty is scoped beside later bulletin evidence',
   assert.ok(!text.includes('All 2025 target service times remain unconfirmed.'));
   assert.ok(run("F.fourth.limits.join(' ')").includes('All 2025 target service times remain unconfirmed.'));
 });
-console.log('27 public interaction and safety test groups passed.');
+
+
+test('new routes retain inherited counts and source association limits',()=>{
+ assert.equal(run('Y.decisions.items.length'),7); assert.equal(run('D.churches.length'),86);
+ assert.equal(run('E.roster.records.length'),150); assert.equal(run('F.screens.length'),12);
+ assert.equal(run('D.items.length'),47); assert.equal(run('X.seattle.events.length'),130);
+ assert.equal(run('Y.covenant.records.length'),14);
+ assert.equal(run('Y.ai.cases.length'),4);
+});
+test('Covenant filtering respects the date conflict and ending evidence',()=>{
+ assert.equal(run('covenantRows().length'),14);
+ assert.equal(run("covenantRows({year:'2022'}).length"),7);
+ assert.equal(run("covenantRows({cutoff:'eligible'}).length"),3);
+ assert.equal(run("covenantRows({cutoff:'unknown'})[0].title"),'Facts Still Matter');
+ assert.equal(run("covenantRows({cutoff:'unknown'})[0].sermon_header_date"),'2025-04-28');
+ assert.equal(run("covenantRows({ending:'checked'}).length"),7);
+ assert.equal(run("covenantRows({ending:'prior'}).length"),2);
+ assert.equal(run("covenantRows({ending:'unknown'}).length"),5);
+});
+test('Fourth matching retains optional 53 to 3 to 2 relationship',()=>{
+ assert.equal(run('fourthMatchRows().length'),53);
+ assert.equal(run("fourthMatchRows({month:'same'}).length"),3);
+ assert.equal(run("new Set(fourthMatchRows({month:'same'}).map(r=>r.post_url)).size"),2);
+ assert.equal(run("Y.fourth.diagnostic.other_indexed_same_name_author_without_observed_text_links.every(r=>r.text_link_observed===false)"),true);
+});
+test('Covenant detail exposes unknown version and does not correct Monday',()=>{
+ run("state={};covenantDetail(Y.covenant.records.find(r=>r.title==='Facts Still Matter'))");
+ assert.ok(main.innerHTML.includes('2025-04-28')&&main.innerHTML.includes('Sunday Morning'));
+ assert.ok(main.innerHTML.includes('Monday'));
+ assert.ok(main.innerHTML.includes('First public availability')&&main.innerHTML.includes('unknown'));
+});
+test('AI cases remain component-specific with delivery uncertainty',()=>{
+ run("state={};aiCaseDetail(Y.ai.cases.find(r=>r.id==='ai-bossen-houston-2024'))");
+ assert.ok(main.innerHTML.includes('not labeled AI-written'));
+ run("aiCaseDetail(Y.ai.cases.find(r=>r.id==='ai-mockingbird-2022'))");
+ assert.ok(main.innerHTML.includes('Exclude from delivered-sermon exposure counts'));
+});
+test('Thomas scopes separate fourteen cutoff candidates, ten checks and annual fifteenth',()=>{
+ assert.equal(run('thomasPairs().length'),14);assert.equal(run("thomasPairs({scope:'all'}).length"),15);
+ assert.equal(run("thomasPairs({scope:'after'}).length"),1);assert.equal(run("thomasPairs({evidence:'detail'}).length"),10);
+ assert.equal(run("thomasPairs({evidence:'index'}).length"),4);assert.equal(run("thomasAnnualRows({year:'2022'}).length"),43);
+ assert.equal(run("thomasAnnualRows({year:'2025'}).length"),45);
+});
+test('Thomas detail preserves rank-five label difference and author association limits',()=>{
+ run("state={};thomasPairDetail(thomasPairRecords().find(r=>r.candidate_rank===5))");
+ assert.ok(main.innerHTML.includes('Palm/Passion Sunday C')&&main.innerHTML.includes('Palm/Passion C'));
+ assert.ok(main.innerHTML.includes('not independent confirmation of either event'));
+ assert.ok(main.innerHTML.includes('metadata only, not prose similarity'));
+ assert.ok(!main.innerHTML.includes('[object Object]'));
+});
+test('All fifteen pair details render without object noise or untranslated text',()=>{
+ for(const r of evidence.thomas.candidates){run('state={};thomasPairDetail(thomasPairRecords().find(r=>r.pair_id==='+JSON.stringify(r.pair_id)+'))');assert.ok(!/\[object Object\]|[\u3400-\u9fff]/.test(main.innerHTML));}
+});
+console.log('35 public interaction and safety test groups passed.');

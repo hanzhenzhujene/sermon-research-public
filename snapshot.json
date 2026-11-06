@@ -2,7 +2,7 @@
   "source": "Public catalogue with reviewed collection-feasibility metadata",
   "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
   "snapshot_date": "2026-11-06",
-  "index_sha256": "729158dac8e2519c1b0f894791a42d66fb18578337705b58bb36e5fa1055b0e6",
+  "index_sha256": "9f4f83d6ee5fd392fb9a93b28baa6c73c81bc3e24b1e60f31712faf80c4cae5c",
   "counts": {
     "churches": 86,
     "original_churches": 48,
@@ -18,7 +18,7 @@
     "eligible_formal_sermons": 0
   },
   "full_texts_included": false,
-  "data_origin": "Five metadata datasets are embedded separately. Source decisions and new Seattle/Fourth observations extend existing sources without adding church or corpus totals. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.",
+  "data_origin": "Six metadata datasets are embedded separately. Source decisions and new Seattle/Fourth observations extend existing sources without adding church or corpus totals. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.",
   "feasibility_counts": {
     "screens": 12,
     "screen_states": 12,
@@ -82,6 +82,23 @@
     "seattle_body_target_observations": 12,
     "fourth_joined_targets": 17,
     "new_churches": 0,
+    "full_texts_hosted": 0
+  },
+  "evidence_counts": {
+    "written_routes": 7,
+    "primary_routes": 2,
+    "priority_gaps": 2,
+    "supplements": 3,
+    "separate_recording_routes": 1,
+    "thomas_index_items": 88,
+    "thomas_all_pairs": 1935,
+    "thomas_cutoff_pairs": 1800,
+    "thomas_cutoff_candidates": 14,
+    "thomas_detail_pairs": 10,
+    "thomas_detail_pages": 20,
+    "covenant_items": 14,
+    "fourth_same_speaker_edges": 53,
+    "ai_cases": 4,
     "full_texts_hosted": 0
   }
 }

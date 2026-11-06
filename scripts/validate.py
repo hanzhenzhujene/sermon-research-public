@@ -133,3 +133,10 @@ assert comparison_embedded==comparison, 'Comparison metadata differs from websit
 assert snapshot['comparison_counts']==comparison['counts'], 'Comparison counts differ from snapshot'
 inspect(comparison)
 print('PASS: comparison metadata, embedded website and snapshot counters agree.')
+
+evidence=json.loads((ROOT/'data/evidence.json').read_text())
+evidence_embedded=json.loads(re.search(r'<script id="evidence-data" type="application/json">(.*?)</script>',html.decode(),re.S)[1])
+assert evidence_embedded==evidence, 'Latest evidence differs from website'
+assert snapshot['evidence_counts']==evidence['counts']
+inspect(evidence)
+print('PASS: latest evidence, embedded metadata and snapshot counts agree.')
