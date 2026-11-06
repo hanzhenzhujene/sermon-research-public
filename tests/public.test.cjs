@@ -6,10 +6,11 @@ const root=path.resolve(__dirname,'..');
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'data/catalogue.json'),'utf8'));
 const feasibility=JSON.parse(fs.readFileSync(path.join(root,'data/feasibility.json'),'utf8'));
 const extensions=JSON.parse(fs.readFileSync(path.join(root,'data/extensions.json'),'utf8'));
+const catholic=JSON.parse(fs.readFileSync(path.join(root,'data/catholic.json'),'utf8'));
 const main={innerHTML:''};
-const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:extensions)}}};
+const context={URL,URLSearchParams,console,setTimeout,clearTimeout,document:{getElementById:id=>id==='main'?main:{textContent:JSON.stringify(id==='public-data'?catalogue:id==='feasibility-data'?feasibility:id==='extensions-data'?extensions:catholic)}}};
 vm.createContext(context);
-vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8'),context);
+vm.runInContext(fs.readFileSync(path.join(root,'src/app.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/feasibility.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/extensions.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/catholic.js'),'utf8'),context);
 const run=source=>vm.runInContext(source,context);
 const test=(name,fn)=>{fn();console.log('PASS '+name)};
 test('selected and supplemental populations stay separate',()=>{
@@ -99,4 +100,45 @@ test('unnamed speakers are filterable and additional attribution retains its rol
   assert.ok(!html.includes('[object Object]'));
   assert.equal(run("orthodoxExportRows([E.orthodox.records.find(r=>r.id==='holy_trinity_sf_2022-09-11_063')])[0][10]"),'Father Nicholas — reminders');
 });
-console.log('13 public interaction and safety test groups passed.');
+test('Catholic current-match and route filters preserve the eight-record subset',()=>{
+  assert.equal(run('catholicScreenRows().length'),8);
+  assert.equal(run("catholicScreenRows({identity:'strong_current_name_locality'}).length"),6);
+  assert.equal(run("catholicScreenRows({identity:'probable_unconfirmed'}).length"),2);
+  assert.equal(run("catholicScreenRows({route:'homily_specific_route'}).length"),2);
+  assert.equal(run("catholicScreenRows({route:'mass_stream_route'}).length"),4);
+  assert.equal(run("catholicScreenRows({route:'unresolved'}).length"),2);
+  assert.equal(run('D.churches.length'),86);assert.equal(run('E.roster.records.length'),150);
+});
+test('Catholic date cutoffs retain post-cutoff 2022 material',()=>{
+  assert.equal(run("catholicItemRows('catholic-irvine-tony',{year:'2022'}).length"),7);
+  assert.equal(run("catholicItemRows('catholic-irvine-tony',{year:'2022',cutoff:'on_or_after'}).length"),1);
+  assert.equal(run("catholicItemRows('catholic-irvine-tony',{year:'2022',cutoff:'on_or_after'})[0].date"),'2022-12-11');
+  assert.equal(run("catholicItemRows('catholic-ave-maria-florida-vidal',{year:'2022'}).length"),38);
+  assert.equal(run("catholicItemRows('catholic-ave-maria-florida-vidal',{year:'2025',inspected:'yes'}).length"),2);
+});
+test('Catholic source and clergy conflicts remain separate',()=>{
+  run("state={};catholicReviewDetail(C.roster_reviews.find(r=>r.id==='YALE2022-131'))");
+  assert.ok(main.innerHTML.includes('Kyle Ingels')&&main.innerHTML.includes('Robert E. Jaeger'));
+  assert.ok(main.innerHTML.includes('conflict')&&main.innerHTML.includes('2022: unknown'));
+  run("catholicReviewDetail(C.roster_reviews.find(r=>r.id==='YALE2022-137'))");
+  assert.ok(main.innerHTML.includes('St. Pioux')&&main.innerHTML.includes('St. Pius'));
+});
+test('Catholic downloads retain rite and occasion without a delivery claim',()=>{
+  const values=run("catholicItemExportRows(catholicItemRows('catholic-ave-maria-florida-vidal',{inspected:'yes'}))");
+  assert.equal(values.length,4);
+  assert.ok(values.some(r=>r[6].includes('Extraordinary Form')));
+  assert.ok(values.some(r=>r[6].includes('Baccalaureate')));
+  assert.equal(run('C.items.filter(r=>r.delivery_date===null).length'),49);
+});
+test('historical roster deep links expose new checks without changing source names',()=>{
+  run("state={};historicalDetail(E.roster.records.find(r=>r.id==='YALE2022-101'))");
+  assert.ok(main.innerHTML.includes('Santa Maria Navidad'));
+  assert.ok(main.innerHTML.includes('view=catholic')&&main.innerHTML.includes('YALE2022-101'));
+  assert.ok(main.innerHTML.includes('historical events not linked'));
+});
+test('Catholic non-sermon context retains its original links',()=>{
+  run("state={};catholicReviewDetail(C.roster_reviews.find(r=>r.id==='YALE2022-109'))");
+  assert.ok(main.innerHTML.includes('href="https://seas-aloha.org/fathers-notes-2022"'));
+  assert.ok(main.innerHTML.includes('Clergy introduction, not sermon'));
+});
+console.log('19 public interaction and safety test groups passed.');

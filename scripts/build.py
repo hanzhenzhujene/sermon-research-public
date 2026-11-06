@@ -26,12 +26,12 @@ def write_csv(name, headers, rows):
     (ROOT / 'data' / name).write_text(out.getvalue(), encoding='utf-8')
 
 def main():
-    data, f, e = read('data/catalogue.json'), read('data/feasibility.json'), read('data/extensions.json')
+    data, f, e, c = read('data/catalogue.json'), read('data/feasibility.json'), read('data/extensions.json'), read('data/catholic.json')
     data['counts']['affiliation_not_established'] = sum(r['affiliation'] == 'Not established' for r in data['churches'])
     (ROOT / 'data/catalogue.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    app = '\n'.join((ROOT / 'src' / n).read_text() for n in ('app.js', 'feasibility.js', 'extensions.js', 'startup.js'))
+    app = '\n'.join((ROOT / 'src' / n).read_text() for n in ('app.js', 'feasibility.js', 'extensions.js', 'catholic.js', 'startup.js'))
     html = (ROOT / 'src/template.html').read_text()
-    for marker, value in [('@@CSS@@', (ROOT / 'src/styles.css').read_text() + '\n' + (ROOT / 'src/feasibility.css').read_text()), ('@@CATALOGUE@@', json_script(data)), ('@@FEASIBILITY@@', json_script(f)), ('@@EXTENSIONS@@', json_script(e)), ('@@APP@@', app)]:
+    for marker, value in [('@@CSS@@', (ROOT / 'src/styles.css').read_text() + '\n' + (ROOT / 'src/feasibility.css').read_text()), ('@@CATALOGUE@@', json_script(data)), ('@@FEASIBILITY@@', json_script(f)), ('@@EXTENSIONS@@', json_script(e)), ('@@CATHOLIC@@', json_script(c)), ('@@APP@@', app)]:
         assert html.count(marker) == 1, marker
         html = html.replace(marker, value)
     (ROOT / 'index.html').write_text(html)
@@ -43,9 +43,10 @@ def main():
     snapshot = read('snapshot.json')
     snapshot.update(source='Public catalogue with reviewed collection-feasibility metadata', snapshot_date='2026-11-06', index_sha256=hashlib.sha256(html.encode()).hexdigest(), counts=data['counts'], feasibility_counts=f['counts'])
     snapshot['extension_counts'] = e['counts']
-    snapshot['data_origin'] = 'catalogue.json, feasibility.json and extensions.json are embedded separately. Historical study entities, source screens and church identities are distinct populations; CSV files contain public metadata only.'
+    snapshot['catholic_counts'] = c['counts']
+    snapshot['data_origin'] = 'Four metadata datasets are embedded separately. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.'
     (ROOT / 'snapshot.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + '\n')
-    print('Built standalone HTML and CSVs from three separate public metadata datasets.')
+    print('Built standalone HTML and CSVs from four separate public metadata datasets.')
 
 if __name__ == '__main__':
     main()

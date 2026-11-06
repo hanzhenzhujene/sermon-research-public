@@ -2,3 +2,7 @@
 @media(max-width:700px){.metric-grid{gap:7px}.metric-grid>a,.metric-grid>div{padding:12px 10px}.metric-grid strong{font-size:29px}.metric-grid span{font-size:11px;overflow-wrap:anywhere}nav.main a:last-child{grid-column:1/-1}.view-switch a{font-size:13px}.study-controls{display:grid;grid-template-columns:1fr}.study-controls select{width:100%}.toolbar{flex-wrap:wrap}.category-key{gap:6px}.category-key .tag{font-size:11px}.study-table{max-height:520px}.feasibility-table td{font-size:13px}}
 
 .study-cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0}.study-cards article{padding:20px;border:1px solid var(--line);border-top:3px solid var(--plum)}.study-cards h2{font-size:23px;margin:0 0 14px}.study-cards p{font-size:14px;margin-top:14px}.study-cards .tag{margin-bottom:6px}@media(max-width:700px){.study-cards{grid-template-columns:1fr}}
+
+.catholic-screen-list .study-table{max-height:none}.catholic-screen-list th{position:static}
+
+main a{display:inline-block;max-width:100%}

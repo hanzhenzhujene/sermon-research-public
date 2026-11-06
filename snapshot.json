@@ -2,7 +2,7 @@
   "source": "Public catalogue with reviewed collection-feasibility metadata",
   "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
   "snapshot_date": "2026-11-06",
-  "index_sha256": "778b4fd78f84efca3907522ab0b23f4cbb162f8e5369e4e17fe7b5797e28f015",
+  "index_sha256": "2523225d3c72e07eaa640f56f2fc28abccce3881fb06b930daf26cc340a43ff2",
   "counts": {
     "churches": 86,
     "original_churches": 48,
@@ -18,7 +18,7 @@
     "eligible_formal_sermons": 0
   },
   "full_texts_included": false,
-  "data_origin": "catalogue.json, feasibility.json and extensions.json are embedded separately. Historical study entities, source screens and church identities are distinct populations; CSV files contain public metadata only.",
+  "data_origin": "Four metadata datasets are embedded separately. Catholic follow-up checks are linked to eight historical IDs; two written-homily supplements are counted separately. Historical entities, source screens, item records and accepted identities are not added together.",
   "feasibility_counts": {
     "screens": 12,
     "screen_states": 12,
@@ -43,5 +43,24 @@
     "orthodox_nested_october_items": 8,
     "study_notes": 6,
     "full_texts_hosted": 0
+  },
+  "catholic_counts": {
+    "roster_reviews": 8,
+    "supported_current_matches": 6,
+    "probable_matches": 2,
+    "homily_routes": 2,
+    "mass_stream_routes": 4,
+    "unresolved_routes": 2,
+    "unknown_year_cells": 16,
+    "roster_date_rows": 24,
+    "roster_dates_before_cutoff": 23,
+    "roster_dates_on_or_after_cutoff": 1,
+    "freshly_matched_target_sermons": 0,
+    "supplemental_written_sources": 2,
+    "written_item_links": 49,
+    "selected_body_observations": 8,
+    "full_texts_hosted": 0,
+    "clergy_conflicts": 2,
+    "documented_clergy_changes": 2
   }
 }

@@ -37,6 +37,14 @@ The **[Holy Trinity archive detail](https://sermon-research-jenny.landenini.chat
 
 **[Six published-study access notes](https://sermon-research-jenny.landenini.chatgpt.site/#view=studies)** distinguish reported scale from accessible material and our holdings. Kaurov’s underlying data require an author request; Pew’s inspected methodology does not establish a public corpus download; Boussalis, Coan and Holman’s documented token sample is not a verified church/date/speaker panel. The Harvard thesis remains an unverified lead. No third-party study corpus is republished here.
 
+## Catholic source follow-up
+
+The **[Catholic source section](https://sermon-research-jenny.landenini.chatgpt.site/#view=catholic)** follows eight Western entries already in the historical roster. Six have strong current name/locality matches; two remain probable. Two routes specifically concern homilies, four concern whole Masses, and two have no identified sermon route. All sixteen church/year coverage assessments remain unknown. The original twenty-four dates are historical source records, not newly matched sermons. Details preserve current clergy lists, conflicting roles, documented changes and excluded non-sermon items.
+
+**[Two separately discovered written-homily sources](https://sermon-research-jenny.landenini.chatgpt.site/#view=catholic&group=written)** contain 49 observed archive PDF links, with eight selected documents inspected. St. Thomas More in Irvine has seven entries in 2022 and two in 2025, attributed to historical deacon Tony Patronite, who died in February 2025. Ave Maria in Florida has 38 entries on 35 distinct dates in 2022 and two in 2025, 79 days apart, associated with historical pastor David Mariano Vidal. This is a different parish from Ave Maria in Parker, Colorado.
+
+Neither archive establishes a regular full-year panel. Date/filename conflicts, rites, occasions and speaker chronology remain visible beside each item. Every date has a November 30, 2022 cutoff label; December 2022 material is not labeled pre-release. No PDF bodies are hosted, and public availability does not establish reuse permission. These separate observations do not increase the 86 identities, 150 historical entities, 12 source screens or 47 earlier item records.
+
 ## Other catalogue sections
 
 | Section | Contents and counting unit |
@@ -63,6 +71,7 @@ The website distinguishes operations rather than assigning one blanket permissio
 - [data/catalogue.json](data/catalogue.json): existing church, item and source records with stable IDs.
 - [data/feasibility.json](data/feasibility.json): the original collection screens, supplemental leads, nested observations and operation-specific rights. Holy Trinity’s annual extension is displayed from the separate file below.
 - [data/extensions.json](data/extensions.json): historical study roster, Holy Trinity annual metadata, source-access notes and overlap limits.
+- [data/catholic.json](data/catholic.json): the eight current roster checks and two written-homily supplements; [roster-check CSV](data/catholic-roster-screens.csv) and [49-item metadata CSV](data/catholic-written-items.csv).
 - [Historical-entity CSV](data/published-study-churches.csv), [source-date CSV](data/published-study-events.csv), [Holy Trinity archive CSV](data/holy-trinity-archive.csv). These contain metadata, not sermon texts.
 - [Collection-route CSV](data/collection-feasibility.csv), [supplemental-lead CSV](data/supplemental-leads.csv), [church CSV](data/churches.csv), [item CSV](data/items.csv), [source CSV](data/sources.csv). Detail-page exports preserve inspected exceptions and unknowns.
 - [src/](src/): readable website code and styles; [snapshot.json](snapshot.json): counts and HTML checksum; [notices/](notices/): required data and map license notices.
@@ -73,9 +82,10 @@ Run these offline checks with Python 3 and Node.js:
 python3 scripts/build.py
 python3 scripts/validate.py
 python3 scripts/validate_extensions.py
+python3 scripts/validate_catholic.py
 node tests/public.test.cjs
 ```
 
-The build uses the three public JSON files. `scripts/project_extensions.py INPUT_DIRECTORY` reproduces the selected extension fields and three metadata CSVs from its separately supplied reviewed package. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
+The build uses four public JSON files. `scripts/project_catholic.py INPUT_DIRECTORY` reproduces the Catholic projection and two metadata CSVs from its reviewed input package. `scripts/project_extensions.py INPUT_DIRECTORY` reproduces the selected extension fields and three metadata CSVs from its separately supplied reviewed package. `scripts/project_feasibility.py INPUT_DIRECTORY` reproduces the feasibility projection from the separately supplied reviewed metadata package, selecting public fields explicitly. That input package, raw pages, correspondence and retained text bodies are not published here.
 
 Evidence retains its individual review dates; this edition is dated **6 November 2026**. Keep unknowns, source links and separate counting units when updating. The original research repository and its restricted text history remain private.

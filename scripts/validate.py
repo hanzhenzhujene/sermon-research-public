@@ -119,3 +119,10 @@ assert extensions_embedded==extensions, 'Extension JSON differs from website'
 assert snapshot['extension_counts']==extensions['counts'], 'Extension snapshot counts differ'
 inspect(extensions)
 print('PASS: extension data, embedded website data and snapshot counters agree.')
+
+catholic=json.loads((ROOT/'data/catholic.json').read_text())
+catholic_embedded=json.loads(re.search(r'<script id="catholic-data" type="application/json">(.*?)</script>',html.decode(),re.S)[1])
+assert catholic_embedded==catholic, 'Catholic data differs from website'
+assert snapshot['catholic_counts']==catholic['counts'], 'Catholic snapshot counts differ'
+inspect(catholic)
+print('PASS: Catholic data, embedded website data and snapshot counters agree.')

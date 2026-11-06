@@ -1,0 +1,1860 @@
+{
+  "checked_on": "2026-11-06",
+  "cutoff": "2022-11-30",
+  "counts": {
+    "roster_reviews": 8,
+    "supported_current_matches": 6,
+    "probable_matches": 2,
+    "homily_routes": 2,
+    "mass_stream_routes": 4,
+    "unresolved_routes": 2,
+    "unknown_year_cells": 16,
+    "roster_date_rows": 24,
+    "roster_dates_before_cutoff": 23,
+    "roster_dates_on_or_after_cutoff": 1,
+    "freshly_matched_target_sermons": 0,
+    "supplemental_written_sources": 2,
+    "written_item_links": 49,
+    "selected_body_observations": 8,
+    "full_texts_hosted": 0,
+    "clergy_conflicts": 2,
+    "documented_clergy_changes": 2
+  },
+  "scope": "Eight Catholic groups in the historical Yale roster located in Western states. These reviews are a subset of the 150 historical entities, not additional churches or a census of western Catholic parishes.",
+  "roster_reviews": [
+    {
+      "id": "YALE2022-003",
+      "name": "Ave Maria Catholic Parish",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "dates": [
+        "2022-06-26",
+        "2022-08-21",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "strong_current_name_locality",
+      "identity_label": "Current official name and locality supported",
+      "route_tier": "unresolved",
+      "route_label": "Sermon route not identified",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "Ave Maria Catholic Parish",
+        "spanish_name": null,
+        "locality": "Parker, Colorado",
+        "status": "Strong name/locality and official parish/diocese match. Historical original sermon IDs remain unlinked.",
+        "official_url": "https://www.avemariacatholicparish.org/",
+        "diocese": "Diocese of Colorado Springs",
+        "diocese_url": "https://www.diocs.org/parishfinder",
+        "evidence": null
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://www.avemariacatholicparish.org/parish-staff.html",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Rev. Nathaniel Hinds",
+              "role": "Pastor"
+            },
+            {
+              "name": "Rev. Tim O’Connell",
+              "role": "Parochial Vicar"
+            },
+            {
+              "name": "Fr. Matt Kane",
+              "role": "Parochial Vicar"
+            }
+          ],
+          "date_status": "Undated current official page observed 2026-11-06; not historical event-speaker evidence.",
+          "turnover_note": null
+        },
+        {
+          "source_url": "https://www.diocs.org/parishfinder",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Rev. Nathaniel J. Hinds",
+              "role": "Pastor"
+            },
+            {
+              "name": "Rev. Timothy O’Connell",
+              "role": "Parochial Vicar"
+            },
+            {
+              "name": "Rev. Anthony Ambuul",
+              "role": "Parochial Vicar"
+            }
+          ],
+          "date_status": "Current undated directory differs from parish staff list for one vicar. Do not resolve by assuming either page is current.",
+          "turnover_note": null
+        }
+      ],
+      "clergy_conflict": true,
+      "documented_clergy_change": false,
+      "routes": [
+        {
+          "type": "Official parish landing page",
+          "url": "https://www.avemariacatholicparish.org/",
+          "outcome": "Parish page read; no homily archive identified. “From Our Pastor” is a biography.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Official pastor biography",
+          "url": "https://www.avemariacatholicparish.org/from-our-pastor.html",
+          "outcome": "Pastor biography read; no dated sermon item.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [],
+      "limits": [
+        "A local homily archive has not been identified. Historical coverage remains unknown.",
+        "The Father Vidal archive in Ave Maria, Florida belongs to a different parish.",
+        "Parish and diocesan lists agree on the pastor but differ on one vicar. Neither list identifies the 2022 or 2025 event speakers."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-098",
+      "name": "Saint Cecilia Catholic Church",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "dates": [
+        "2022-06-26",
+        "2022-07-24",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "strong_current_name_locality",
+      "identity_label": "Current official name and locality supported",
+      "route_tier": "unresolved",
+      "route_label": "Sermon route not identified",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. Cecilia Catholic Church",
+        "spanish_name": null,
+        "locality": "Bainbridge Island, Washington",
+        "status": "Strong name/locality match; official diocese explicitly identifies Kitsap County. Historical individual sermon IDs not linked.",
+        "official_url": "https://www.saintcparish.org/",
+        "diocese": "Archdiocese of Seattle",
+        "diocese_url": "https://archseattle.org/parish/st-cecilia-bainbridge-island-98110/",
+        "evidence": "Parish homepage identifies St. Cecilia in Bainbridge Island. Diocesan directory links saintcparish.org and places the parish in Kitsap County and Parish Family 50 with St. Olaf and St. Peter."
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://archseattle.org/parish/st-cecilia-bainbridge-island-98110/",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Rev. Philip H. Raether",
+              "role": "Pastor"
+            },
+            {
+              "name": "Rev. Albert Arulappan, H.G.N.",
+              "role": "Parochial Vicar"
+            }
+          ],
+          "date_status": "Undated current directory observed 2026-11-06, not evidence of a 2022 or 2025 speaker.",
+          "turnover_note": "The official directory dates the move into parish families to 2024. This is structural-change evidence, not a proven change of preacher. Exact clergy appointment/turnover dates not verified."
+        }
+      ],
+      "clergy_conflict": false,
+      "documented_clergy_change": false,
+      "routes": [
+        {
+          "type": "Official parish landing page",
+          "url": "https://www.saintcparish.org/",
+          "outcome": "Parish page read; no homily archive identified. Its featured video concerns a papal prayer campaign, not a local sermon.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked bulletin archive, not a sermon archive",
+          "url": "https://parishesonline.com/organization/west-sound-catholic",
+          "outcome": "No readable bulletin content returned; no dated bulletin item inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [],
+      "limits": [
+        "A parish homily route has not been established. This is not evidence that no archive exists.",
+        "A partner-parish leadership page returned 404; its search description was not accepted as appointment evidence.",
+        "No 2022 or 2025 homily item was inspected."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-101",
+      "name": "Santa Maria Navidad Catholic Church",
+      "county": "Monterey County",
+      "state": "California",
+      "dates": [
+        "2022-06-26",
+        "2022-11-06",
+        "2022-12-18"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "probable_unconfirmed",
+      "identity_label": "Probable match; historical identity unconfirmed",
+      "route_tier": "mass_stream_route",
+      "route_label": "Whole-Mass streaming route",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. Mary of the Nativity Catholic Church",
+        "spanish_name": "Santa María de la Natividad, Iglesia Católica",
+        "locality": "Salinas, California",
+        "status": "Probable candidate only. The official bilingual name and locality fit, but exact historical roster name Santa Maria Navidad is not corroborated. Do not silently rename or count this as a confirmed historical identity.",
+        "official_url": "https://www.stmarysalinas.org/",
+        "diocese": "Diocese of Monterey",
+        "diocese_url": "https://www.dioceseofmonterey.org/parishfinder",
+        "evidence": "Diocesan directory lists St. Mary of the Nativity Church in Salinas and links stmarysalinas.org. The parish homepage supplies both English and Spanish names and links the Santa María Natividad, Salinas / S. Mary Nativity YouTube channel."
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://www.stmarysalinas.org/clergy--staff--clero-y-personal.html",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Rev. Gerson Espinosa",
+              "role": "Parish Administrator"
+            },
+            {
+              "name": "Rev. Luis Rodriguez",
+              "role": "Vicar"
+            }
+          ],
+          "date_status": "Undated current staff page observed 2026-11-06.",
+          "turnover_note": "Appointment dates, predecessors, and individual sermon speakers not verified."
+        }
+      ],
+      "clergy_conflict": false,
+      "documented_clergy_change": false,
+      "routes": [
+        {
+          "type": "Official livestream landing page",
+          "url": "https://www.stmarysalinas.org/st-maria-salinas-en-vivo.html",
+          "outcome": "HTTP 502; no dated items inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked YouTube channel for Masses",
+          "url": "https://www.youtube.com/channel/UCMWVFQ7sAx5cf8jMUtqGU9w",
+          "outcome": "Channel title and generic page footer only; no dated video metadata or media acquired.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [],
+      "limits": [
+        "The official bilingual name and Salinas location fit the historical listing, but the exact name match remains unconfirmed.",
+        "The linked media pages supplied no dated 2022 or 2025 item.",
+        "The Spanish name does not establish sermon language, and current clergy names do not identify historical homilists."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-109",
+      "name": "St. Elizabeth Ann Seton Parish",
+      "county": "Washington County",
+      "state": "Oregon",
+      "dates": [
+        "2022-06-26",
+        "2022-07-03",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "strong_current_name_locality",
+      "identity_label": "Current official name and locality supported",
+      "route_tier": "homily_specific_route",
+      "route_label": "Homily-specific route",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. Elizabeth Ann Seton Parish",
+        "spanish_name": null,
+        "locality": "Aloha, Oregon",
+        "status": "Strong parish/diocese name and locality match. Historical individual sermon IDs not linked.",
+        "official_url": "https://seas-aloha.org/",
+        "diocese": "Archdiocese of Portland in Oregon",
+        "diocese_url": "https://archdioceseofportland.com/parishfinder",
+        "evidence": "Diocesan directory lists the Aloha parish and links seas-aloha.org. Parish homepage identifies the same parish."
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://seas-aloha.org/staff",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Fr. Edgar Rivera",
+              "role": "Pastor"
+            },
+            {
+              "name": "Dcn. Jesus Espinoza",
+              "role": "Pastoral Associate"
+            }
+          ],
+          "date_status": "Undated current staff page observed 2026-11-06.",
+          "turnover_note": "The parish archives a July 2, 2023 introduction in which Fr. Edgar announces his arrival. A 2022 note was signed Fr. Jeff. Do not assign Edgar to 2022 sermons."
+        },
+        {
+          "source_url": "https://seas-aloha.org/memories-intro-from-fr-edgar-2023",
+          "date": "2023-07-02",
+          "names_roles": [
+            {
+              "name": "Fr. Edgar Rivera",
+              "role": "Newly arriving parish priest, per introduction"
+            }
+          ],
+          "date_status": "Date displayed on official introduction; not a sermon event.",
+          "turnover_note": "Provides direct evidence of a leadership change between roster year 2022 and comparison year 2025."
+        },
+        {
+          "source_url": "https://seas-aloha.org/fathers-notes-2022",
+          "date": "2022-08-21",
+          "names_roles": [
+            {
+              "name": "Fr. Jeff",
+              "role": "Signer of parish note; surname not established here"
+            }
+          ],
+          "date_status": "Date displayed on official parish note; not a verified homily.",
+          "turnover_note": null
+        }
+      ],
+      "clergy_conflict": false,
+      "documented_clergy_change": true,
+      "routes": [
+        {
+          "type": "Official homily landing page",
+          "url": "https://seas-aloha.org/father-on-youtube",
+          "outcome": "Parish describes Sunday homilies by Fr. Edgar, deacons and visiting priests; no dated item inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked Sunday Homilies (English) YouTube playlist",
+          "url": "https://www.youtube.com/playlist?list=PLn8vtDzGvZHLYrUSujBDAyzRiRPjPWjFM",
+          "outcome": "Request rate-limited; playlist dates and items were not inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Written parish notes archive, not automatically a homily archive",
+          "url": "https://seas-aloha.org/fathers-notes-2022",
+          "outcome": "A dated catechesis staffing note signed Fr. Jeff is visible. It is not a verified homily.",
+          "target_year_items_inspected": true,
+          "qualifying_sermon": false
+        }
+      ],
+      "other_dated_items": [
+        {
+          "date": "2022-08-21",
+          "kind": "Parish note, not verified sermon",
+          "title": "Introducing our new Director of Catechesis Sister Stella Maris Namae!",
+          "author": "Fr. Jeff",
+          "source_url": "https://seas-aloha.org/fathers-notes-2022",
+          "date_basis": "Displayed heading on official archive page",
+          "qualifying_target_year_sermon": false
+        },
+        {
+          "date": "2023-07-02",
+          "kind": "Clergy introduction, not sermon",
+          "title": "Introduction from Fr. Edgar",
+          "author": "Fr. Edgar Rivera",
+          "source_url": "https://seas-aloha.org/memories-intro-from-fr-edgar-2023",
+          "date_basis": "Displayed heading on official page",
+          "qualifying_target_year_sermon": false
+        }
+      ],
+      "limits": [
+        "An official homily route exists; its 2022 and 2025 coverage remains unknown.",
+        "The parish describes multiple speakers. The playlist is labelled English, but individual historical items have not been checked.",
+        "The 2022 written parish note is not a verified sermon."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-116",
+      "name": "St. John the Evangelist Catholic Parish",
+      "county": "Larimer County",
+      "state": "Colorado",
+      "dates": [
+        "2022-06-05",
+        "2022-06-26",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "strong_current_name_locality",
+      "identity_label": "Current official name and locality supported",
+      "route_tier": "mass_stream_route",
+      "route_label": "Whole-Mass streaming route",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. John the Evangelist Catholic Parish",
+        "spanish_name": null,
+        "locality": "Loveland, Colorado",
+        "status": "Strong name/locality and official parish/diocese match. Historical original sermon IDs remain unlinked.",
+        "official_url": "https://www.saintjohns.us/",
+        "diocese": "Archdiocese of Denver",
+        "diocese_url": "https://archden.org/social-media-directory/parishes/",
+        "evidence": null
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://www.saintjohns.us/meet-our-staff",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Father Shannon Thurman",
+              "role": "Pastor"
+            },
+            {
+              "name": "Father Stephen Sanguinetti",
+              "role": "Parochial Vicar"
+            },
+            {
+              "name": "Father Charles Berni",
+              "role": "Parochial Vicar"
+            }
+          ],
+          "date_status": "Undated current official page observed 2026-11-06; not historical event-speaker evidence.",
+          "turnover_note": null
+        },
+        {
+          "source_url": "https://www.saintjohns.us/news-and-events/2022/4/29/rev-shannon-thurman-announced-as-new-pastor-at-st-johns",
+          "date": "2022-04-29",
+          "names_roles": [
+            {
+              "name": "Rev. Shannon Thurman",
+              "role": "Announced incoming pastor, starting July 2022"
+            }
+          ],
+          "date_status": "Dated parish announcement; not a verified sermon. Two roster dates in June precede the announced July appointment.",
+          "turnover_note": null
+        }
+      ],
+      "clergy_conflict": false,
+      "documented_clergy_change": true,
+      "routes": [
+        {
+          "type": "Official weekend Mass streaming page",
+          "url": "https://www.saintjohns.us/livestream",
+          "outcome": "Parish advertises one streamed weekend Mass with a variable schedule and links previous streams. No dated inventory inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked YouTube channel",
+          "url": "https://www.youtube.com/channel/UC4N_y-C7zRxZE2HCrD-AFoA",
+          "outcome": "Request rate-limited; no dated video metadata acquired.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [
+        {
+          "date": "2022-03-30",
+          "kind": "Retirement announcement, not sermon",
+          "title": "Father Steve to retire",
+          "author": null,
+          "source_url": "https://www.saintjohns.us/news-and-events/2022/3/30/father-steve-to-retire",
+          "date_basis": "Official page dated March 30; announces July retirement. Exact URL verified by observed link.",
+          "qualifying_target_year_sermon": false
+        },
+        {
+          "date": "2022-04-10",
+          "kind": "Service schedule, not recording",
+          "title": "Holy Week and Easter Schedule",
+          "author": null,
+          "source_url": "https://www.saintjohns.us/news-and-events/2022/4/10/holy-week-and-easter-schedule",
+          "date_basis": "Page publication date; lists April 16 Easter Vigil and Easter Sunday streaming plans.",
+          "qualifying_target_year_sermon": false
+        }
+      ],
+      "limits": [
+        "The two June 2022 roster dates precede the current pastor’s announced July arrival.",
+        "A common parish does not establish the same homilist, service time or recording format.",
+        "The 2022 Easter streaming schedule describes planned services; no corresponding recording was recovered."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-127",
+      "name": "St. Michael's Catholic Church",
+      "county": "Matanuska-Susitna Borough",
+      "state": "Alaska",
+      "dates": [
+        "2022-05-29",
+        "2022-06-26",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "strong_current_name_locality",
+      "identity_label": "Current official name and locality supported",
+      "route_tier": "homily_specific_route",
+      "route_label": "Homily-specific route",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. Michael Parish Catholic Church",
+        "spanish_name": null,
+        "locality": "Palmer, Alaska",
+        "status": "Strong parish/diocese name and locality match. Historical individual sermon IDs not linked.",
+        "official_url": "https://www.saintmichaelcatholicchurch.org/",
+        "diocese": "Archdiocese of Anchorage-Juneau",
+        "diocese_url": "https://aoaj.org/parishfinder",
+        "evidence": "Diocesan directory lists St. Michael Parish in Palmer and links the official parish website."
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://www.saintmichaelcatholicchurch.org/staff",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Father Michael Shields",
+              "role": "Pastor"
+            },
+            {
+              "name": "Deacon Curt Leuenberger",
+              "role": "Deacon"
+            },
+            {
+              "name": "Deacon Harry Moore",
+              "role": "Deacon"
+            }
+          ],
+          "date_status": "Undated current staff page observed 2026-11-06.",
+          "turnover_note": "A named Father Shields homily is dated 2020-09-27 on the official media page, but continuous service and 2022/2025 event speakers are not established."
+        }
+      ],
+      "clergy_conflict": false,
+      "documented_clergy_change": false,
+      "routes": [
+        {
+          "type": "Official written homily and parish-media page",
+          "url": "https://www.saintmichaelcatholicchurch.org/homilies-parish-media",
+          "outcome": "A Father Shields written homily is labelled September 27, 2020. The page links Facebook for online Mass.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked Facebook streaming page",
+          "url": "https://www.facebook.com/PalmersPatron",
+          "outcome": "Request rate-limited; no dated items inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked YouTube channel",
+          "url": "https://www.youtube.com/channel/UCzTZzIR3kXl-Alk0EtMJA8w",
+          "outcome": "Generic platform footer only; no dated video metadata inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [
+        {
+          "date": "2020-09-27",
+          "kind": "Written homily",
+          "title": "Forming Consciences for Faithful Citizenship",
+          "author": "Father Shields",
+          "source_url": "https://www.saintmichaelcatholicchurch.org/homilies-parish-media",
+          "date_basis": "Page explicitly labels the homily Sunday, September 27, 2020",
+          "qualifying_target_year_sermon": false
+        }
+      ],
+      "limits": [
+        "The identified written homily is dated 2020, outside the two comparison years.",
+        "Unavailable Facebook content does not establish that archives are absent or private.",
+        "A current pastor listing and one 2020 homily do not establish continuous tenure or identify the 2022 and 2025 speakers."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-131",
+      "name": "St. Paul's Catholic Church",
+      "county": "El Paso County",
+      "state": "Colorado",
+      "dates": [
+        "2022-05-29",
+        "2022-06-26",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "strong_current_name_locality",
+      "identity_label": "Current official name and locality supported",
+      "route_tier": "mass_stream_route",
+      "route_label": "Whole-Mass streaming route",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. Paul Catholic Church",
+        "spanish_name": null,
+        "locality": "Colorado Springs, Colorado",
+        "status": "Strong name/locality and official parish/diocese match. Historical original sermon IDs remain unlinked.",
+        "official_url": "https://www.stpaulcos.org/",
+        "diocese": "Diocese of Colorado Springs",
+        "diocese_url": "https://www.diocs.org/parishfinder",
+        "evidence": null
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://www.stpaulcos.org/staff",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Fr. Kyle Ingels",
+              "role": "Pastor"
+            },
+            {
+              "name": "Fr. Sean O’Connor",
+              "role": "Parochial Vicar"
+            },
+            {
+              "name": "Msgr. Robert Jaeger",
+              "role": "Retired, In Residence"
+            }
+          ],
+          "date_status": "Undated current official page observed 2026-11-06; not historical event-speaker evidence.",
+          "turnover_note": null
+        },
+        {
+          "source_url": "https://www.diocs.org/parishfinder",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Msgr. Robert E. Jaeger",
+              "role": "Listed as pastor"
+            },
+            {
+              "name": "Rev. Sijo George, OSB",
+              "role": "Listed as parochial vicar"
+            }
+          ],
+          "date_status": "Undated diocesan directory conflicts with parish staff page. Current pastor and historical appointment timing not reconciled.",
+          "turnover_note": null
+        }
+      ],
+      "clergy_conflict": true,
+      "documented_clergy_change": false,
+      "routes": [
+        {
+          "type": "Official livestream page",
+          "url": "https://www.stpaulcos.org/livestream",
+          "outcome": "Parish page links YouTube; no dated 2022 or 2025 item inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially linked YouTube channel",
+          "url": "https://www.youtube.com/@saintpaul3572",
+          "outcome": "Request rate-limited; no dated items inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Monsignor message page linked in navigation",
+          "url": "https://www.stpaulcos.org/monsignor-messages",
+          "outcome": "Initial navigation was visible; the later page read returned HTTP 404. No text acquired.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [],
+      "limits": [
+        "Parish and diocesan clergy lists conflict. Neither is used to assign historical sermon speakers.",
+        "The Ingels succession and Jaeger retirement dates remain unknown. Jaeger’s earlier July 2008 appointment does not resolve the current conflict.",
+        "No 2022 or 2025 video or manuscript was verified."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    },
+    {
+      "id": "YALE2022-137",
+      "name": "St. Pioux X Catholic Church",
+      "county": "Pima County",
+      "state": "Arizona",
+      "dates": [
+        "2022-06-26",
+        "2022-08-21",
+        "2022-11-06"
+      ],
+      "source_url": "https://doi.org/10.60600/YU/C1PIEY",
+      "file_url": "https://dataverse.yale.edu/file.xhtml?fileId=42422&version=2.0",
+      "checked_on": "2026-11-06",
+      "identity_tier": "probable_unconfirmed",
+      "identity_label": "Probable match; historical identity unconfirmed",
+      "route_tier": "mass_stream_route",
+      "route_label": "Whole-Mass streaming route",
+      "year_coverage": {
+        "2022": null,
+        "2025": null
+      },
+      "current_identity": {
+        "name": "St. Pius X Catholic Church",
+        "spanish_name": null,
+        "locality": "Tucson, Arizona",
+        "status": "Probable candidate only. Official St. Pius X fits Pima County/Tucson, but the source spelling St. Pioux X is not independently corroborated. Preserve the source name until original event evidence resolves it.",
+        "official_url": "https://www.stpiusxtucson.org/",
+        "diocese": "Diocese of Tucson",
+        "diocese_url": "https://diocesetucson.org/parishfinder",
+        "evidence": null
+      },
+      "clergy_evidence": [
+        {
+          "source_url": "https://www.stpiusxtucson.org/staff-directory",
+          "date": null,
+          "names_roles": [
+            {
+              "name": "Fr. Richard Rivera",
+              "role": "Pastor"
+            }
+          ],
+          "date_status": "Undated current official page observed 2026-11-06; not historical event-speaker evidence.",
+          "turnover_note": null
+        }
+      ],
+      "clergy_conflict": false,
+      "documented_clergy_change": false,
+      "routes": [
+        {
+          "type": "Official livestream archive landing page",
+          "url": "https://www.stpiusxtucson.org/livestream-archives",
+          "outcome": "Parish page embeds a named eCatholic archive; no dated items inspected.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        },
+        {
+          "type": "Officially embedded archive player",
+          "url": "https://cache.stl.ecatholic.live/E5EiTE5ePkdyYSVUPfgfY8HCmU0v0l2C/channels/1/embeds/players/UyHxtrJt0E7txhgV/render",
+          "outcome": "Player page supplied no dated item metadata. No media requested; date range remains unknown.",
+          "target_year_items_inspected": false,
+          "qualifying_sermon": null
+        }
+      ],
+      "other_dated_items": [],
+      "limits": [
+        "The official parish advertises a Sunday 9 a.m. livestream; historical archive coverage remains unknown.",
+        "The historical spelling “St. Pioux X” has not been independently linked to the candidate parish.",
+        "No 2022 or 2025 transcript, language or homilist was verified."
+      ],
+      "rights": "Bulk collection, transcript export and sermon redistribution rights have not been established.",
+      "roster_dates_status": "These three dates come from the historical Tally. No original sermon was newly matched to them in this review."
+    }
+  ],
+  "sources": [
+    {
+      "id": "catholic-irvine-tony",
+      "name": "St. Thomas More Catholic Church",
+      "city": "Irvine",
+      "state": "California",
+      "tradition": "Roman Catholic",
+      "official_url": "https://stmirvine.org/",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "speaker_name": "Tony Patronite",
+      "speaker_role": "Historical deacon; died 2025-02-17",
+      "speaker_source_urls": [
+        "https://stmirvine.org/about-us/",
+        "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/"
+      ],
+      "counts": {
+        "2022": 7,
+        "2025": 2,
+        "body_observations": 4,
+        "distinct_2022_dates": null
+      },
+      "coverage": "Sparse historical source, not a consistent weekly or full-year panel. Counts cover the inspected visible year sections, not all sermons delivered.",
+      "affiliation": "The parish-hosted named homily archive and clergy listing associate him with this church; selected December 2022 text explicitly situates an upcoming penance service at St Thomas More.",
+      "comparability": "Parish hosting and explicit 2022 local reference establish affiliation. Selected 2025 PDF headers do not independently print church/place; hosting is affiliation evidence, not proof of exact delivery venue. Written texts presented as homilies; no audio/video was inspected, and word-for-word correspondence to actual delivery is unverified. Do not label them verified transcripts.",
+      "limits": [
+        "Do not call the deceased deacon a current pastor.",
+        "2022-01-08 date is based on archive label and filename, not a printed PDF date.",
+        "2025-02-09 archive/PDF heading conflicts with 2026 in filename/document title.",
+        "Selected texts contain Scripture, catechism and liturgical quotations.",
+        "The 2022-12-11 item is after the 2022-11-30 cutoff; 2022 must not be treated wholly as pre-release."
+      ],
+      "rights": "All Rights Reserved notice observed. No explicit open reuse grant found; precise research uses and rights ownership remain unreviewed.",
+      "rights_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "pair": {
+        "dates": [
+          "2022-01-08",
+          "2025-01-12"
+        ],
+        "topic": "The Baptism of Jesus",
+        "usefulness": "Possible qualitative same-person/same-feast comparison, with date and borrowed-liturgical-text caveats."
+      },
+      "matching_status": "Not matched to the existing 86 or historical 150 records; no change to either count.",
+      "baseline_church_id": null,
+      "historical_roster_id": null
+    },
+    {
+      "id": "catholic-ave-maria-florida-vidal",
+      "name": "Ave Maria Catholic Church",
+      "city": "Ave Maria",
+      "state": "Florida",
+      "tradition": "Roman Catholic",
+      "official_url": "https://www.avemariaparish.org/",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "speaker_name": "David Mariano Vidal",
+      "speaker_role": "Historical pastor in 2022 and 2025; transferred from parish effective 2026-10-19",
+      "speaker_source_urls": [
+        "https://www.avemariaparish.org/a-brief-history",
+        "https://dioceseofvenice.org/community-celebrates-the-annunciation-of-the-lord/",
+        "https://dioceseofvenice.org/ave-maria-parish-school-celebrates-2025-high-school-graduation/",
+        "https://dioceseofvenice.org/clergy-appointments-for-oct-10-2026/"
+      ],
+      "counts": {
+        "2022": 38,
+        "2025": 2,
+        "body_observations": 4,
+        "distinct_2022_dates": 35
+      },
+      "coverage": "Bounded visible archive links only. The page did not expose further entries after one expansion; full-year coverage remains unresolved. The two 2025 dates are 79 days apart.",
+      "affiliation": "Official parish history, contemporaneous diocesan references in both target years and four selected PDF bylines support the historical association.",
+      "comparability": "2025 includes a university baccalaureate Mass and an ordinary Sunday. The selected 2022 July item explicitly uses the Extraordinary Form. These are not interchangeable occasions or rites. Written manuscript-to-delivery correspondence is unverified.",
+      "limits": [
+        "This is Ave Maria, Florida, not the Parker, Colorado roster candidate.",
+        "2022 visible dates run January 1 to October 9 and include multiple links on three dates.",
+        "Current parish Administrator is Shawn Roser; do not assign current roles to historical manuscripts.",
+        "The transfer effective date is explicit; conflicting publication labels on the appointment page are not used as the effective date."
+      ],
+      "rights": "Copyright notice observed. No explicit open reuse grant found; precise research uses and rights ownership remain unreviewed.",
+      "rights_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "pair": null,
+      "matching_status": "Not matched to the existing 86 or historical 150 records; no change to either count.",
+      "baseline_church_id": null,
+      "historical_roster_id": null
+    }
+  ],
+  "items": [
+    {
+      "id": "catholic-item:49557b203e0934b1",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-01-08",
+      "title": "Deacon Tony’s January 8, 2022 Homily – The Baptism of Jesus",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-January-8-2022-Homily-The-Baptism-of-Jesus.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 2,
+      "date_basis": "Archive label and filename only; no date visible in inspected PDF body.",
+      "body_summary": "Two pages of homily prose on baptism, including questions to listeners, catechism and Scripture quotations.",
+      "byline": null,
+      "byline_basis": "PDF heading attributes the homily to Deacon Tony.",
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:bb1b59b92621ebda",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-03-20",
+      "title": "Deacon Tony’s March 20, 2022 Homily – 3rd Sunday of Lent",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-March-20-2022-Homily-3rd-Sunday-of-Lent.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive title",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:3bf7c4fc9f6f5071",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-05-08",
+      "title": "Deacon Tony’s May 8, 2022 Homily – 4th Sunday in Eastertime",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-May-8-2022-Homily-Fourth-Sunday-in-Eastertime.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive title",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:4244497be66c50e2",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-06-12",
+      "title": "Deacon Tony’s June 12, 2022 Homily – Trinity Sunday",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-June-12-2022-Homily-Trinity-Sunday.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive title",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:83a98c4a282b91f9",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-09-25",
+      "title": "Deacon Tony’s September 25, 2022 Homily – 26th Sunday in Ordinary Time",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-September-25-2022-Homily-26th-Sunday-in-Ordinary-Time.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive title",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:48c4fcc15ccd87d2",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-11-13",
+      "title": "Deacon Tony’s November 13, 2022 Homily – 33rd Sunday in Ordinary Time",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-November-13-2022-Homily-33rd-Sunday-in-Ordinary-Time-v1.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive title",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:62bbf9c749f8cf4b",
+      "source_id": "catholic-irvine-tony",
+      "date": "2022-12-11",
+      "title": "Deacon Tony’s December 11, 2022 Homily – 3rd Sunday of Advent",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-December-11-2022-Homily-3rd-Sunday-in-Advent.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 2,
+      "date_basis": "Archive title and PDF heading agree on 2022-12-11. PDF says 'in Advent' while archive says 'of Advent'.",
+      "body_summary": "Two pages of homily prose on joy, prophecy and repentance. A local penance-service announcement names St Thomas More; the text is signed Deacon Tony.",
+      "byline": null,
+      "byline_basis": "PDF heading and signature.",
+      "event_observation": null,
+      "cutoff": "on_or_after",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:bdb9522f5038e2e4",
+      "source_id": "catholic-irvine-tony",
+      "date": "2025-01-12",
+      "title": "Deacon Tony’s January 12, 2025 Homily – The Baptism of Jesus",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-January-12-2025-Homily-The-Baptism-of-Jesus.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 2,
+      "date_basis": "Archive title, filename and PDF heading agree.",
+      "body_summary": "Homily prose followed by substantial baptismal-rite wording and a list of ritual elements. It combines author prose with quoted liturgy.",
+      "byline": null,
+      "byline_basis": "PDF heading.",
+      "event_observation": null,
+      "cutoff": "on_or_after",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:afdc55f1a952bce4",
+      "source_id": "catholic-irvine-tony",
+      "date": "2025-02-09",
+      "title": "Deacon Tony’s February 9, 2025 Homily – 5th Sunday in Ordinary Time",
+      "source_url": "https://stmirvine.org/wp-content/uploads/Deacon-Tonys-February-9-2026-Homily-5th-Sunday-in-Ordinary-Time.pdf",
+      "archive_url": "https://stmirvine.org/ministries/deacon/deacon-tonys-homilies/",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 3,
+      "date_basis": "Archive label and repeated PDF page headings state 2025-02-09. URL filename and PDF document title say 2026; preserve this conflict rather than deriving year from URL.",
+      "body_summary": "Three pages on calling, trust and World Marriage Day, including Scripture and sacramental teaching. Apparent character substitutions require checking before text analysis.",
+      "byline": null,
+      "byline_basis": "Repeated PDF headings.",
+      "event_observation": null,
+      "cutoff": "on_or_after",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:da408f4a23d2d6e9",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2025-07-27",
+      "title": "Our Father Who Art in Heaven!",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_753a58fd55f247f8aaca818ca6bb5dcb.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 3,
+      "date_basis": "Archive label and printed document date agree.",
+      "body_summary": "Three pages of developed homily prose with numbered sections, Scripture and catechism references, and a conclusion.",
+      "byline": "Fr. David M Vidal",
+      "byline_basis": null,
+      "event_observation": "Sunday liturgy; parish named in document",
+      "cutoff": "on_or_after",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:5284924bf9a14574",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2025-05-09",
+      "title": "AMU Baccalaureate Mass",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_60618d3357bc4f2aa96c305a7d7a2768.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 3,
+      "date_basis": "Archive label and printed document date agree.",
+      "body_summary": "Three-page written address to graduates, with acknowledgements, three developed points and a conclusion.",
+      "byline": "Fr. David M Vidal",
+      "byline_basis": null,
+      "event_observation": "University Baccalaureate Mass; special event, not a regular Sunday sample",
+      "cutoff": "on_or_after",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:7dbf6ca3c9fe5cc1",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-10-09",
+      "title": "Good Friends",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_404d6b3e3ac14534ba38ab0897df2e58.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:bae18a38a1d6f4dc",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-10-09",
+      "title": "The Ten Lepers",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_a722b4ba612f4cd0a2e77e649c148d45.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:d102b5ac4464f76f",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-10-02",
+      "title": "Increase our Faith!",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_bff4819e07ce46188d4e34ed8fbf9fe1.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:14bd255eaeee3312",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-09-25",
+      "title": "The Silence of the Pharisees",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_cb159f93fe4443dbbe9e322d692a9d90.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:d754ed071e9fe7bf",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-09-25",
+      "title": "The Rich Man & Lazarus",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_6cdc88de651c4bdd91a9e6790fdc3e31.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:22f76490a247d82d",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-09-18",
+      "title": "God or mammon",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_fe665ed8aea84c47bed603fb5061684c.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:47bf15538b47869c",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-09-04",
+      "title": "The Love of the Crowd",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_00973485e1a2442dab44ce5c460e475a.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:110d0babb2fcf80d",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-08-28",
+      "title": "Who Is My Neighbor?",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_a4595555095d4dbc849b7d285a61a1c5.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:ab62fb09fe93046b",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-08-14",
+      "title": "“Usque ad Sanguinem”",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_a7cdc2359b7442ef974e1539c5dd9f0d.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:532c8dc50d75fc1e",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-08-07",
+      "title": "Examination and Amendment",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_ba22d32a8cc247ef93d44c83ceb2e60a.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:c4c3f76c1ab9d9ea",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-08-07",
+      "title": "Zeal For Your House",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_dc9d45f6d7204aa99348653b3a14a4d2.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:e6a429f1628a98a0",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-07-31",
+      "title": "Deliver Us, Lord, From All Distress",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_426bdbe897e9440c8edcb64ace490e9c.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:87ab2ca024c6c04b",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-07-24",
+      "title": "By Your Fruits You Are Known",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_34c868e4fdaa41ba85dd7087aebf00a1.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 4,
+      "date_basis": "Archive label and printed document date agree.",
+      "body_summary": "Four-page PDF: liturgical readings on page one; a named, dated homily begins on page two and continues through page four.",
+      "byline": "Fr. David M. Vidal",
+      "byline_basis": null,
+      "event_observation": "Seventh Sunday after Pentecost; Extraordinary Form explicitly stated",
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:ac811f1a0b78fed8",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-07-17",
+      "title": "Communion With His Death",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_32d6a5fb549f4c94903c369da5805bd6.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:0b180afbb2c64512",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-07-04",
+      "title": "Independence Day",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_70198a874a874d0fa5031131629be6d8.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:99f54d7a0e317291",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-07-03",
+      "title": "Lambs Among Wolves",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_fdb6f8865c374047b8988ea0f40b37d9.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:a7d8acaf1ac1fc60",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-06-26",
+      "title": "The Defense of Life",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_a777d5c36fe44f378fb8e91338776534.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:39078e5a9ec29559",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-06-24",
+      "title": "The Most Sacred Heart of Jesus",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_1d35ee90d0444d7b8af16f79aeeb1d76.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:633b790912a316de",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-06-19",
+      "title": "Corpus Christi: Sacrament of Unity & Peace",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_eab38fb3ec2f412f98017fd9e2f186f3.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:91c9c800e253f143",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-05-22",
+      "title": "The Battle of Prayer",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_2f952f2dc726409699fe86e2b8767e84.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:ff179af587298733",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-05-15",
+      "title": "The Cenacle of Jerusalem",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_d276f6a1dc434cd3932b495a12b4cfa8.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:07b3b0d048cd1e76",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-05-08",
+      "title": "A Joyful Heart",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_45804fd6be9e4f0086e1a7e3603856d7.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:4bc1b563be68e741",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-05-01",
+      "title": "Eyewitnesses to the Resurrection",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_c0a018492b20410bae8c2133eea5d9ac.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:a91a7be11287ee2b",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-04-15",
+      "title": "Our Lady of Sorrows",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_7eee7c3692354e80876b1f228e442a22.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:1a390ab3c8a0ec84",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-04-14",
+      "title": "Institution of the Holy Eucharist",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_201ac5d693894fce9736e24bd5bacffb.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:28113de5c9ebe7df",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-04-03",
+      "title": "Diocese of Venice - CFA",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_eaa3d8f4bbeb447dbb0ab07a51bc9231.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:80d1265d035ab52b",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-03-27",
+      "title": "Rich In Mercy",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_dc9d0bb1e39a42bdba58b7fe6bdf57d0.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:1ef671141f4ed949",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-03-13",
+      "title": "The Transfiguration in God's Plan of Salvation",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_439668200b814c6da737bec0f5f5c52a.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:24d8cccbb4d69d50",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-03-06",
+      "title": "Temptations",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_b22be306b9fd419bbfadea7539274ac5.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:852a580164505a44",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-02-27",
+      "title": "Measuring Our Love",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_e4c131d0070542db83ef09a090a7e10a.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:bcf91782e87dc125",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-02-20",
+      "title": "Measuring Our Spiritual Life",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_5517faabc8ce47b694ccb7c73c8b661b.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:06662634d6a395aa",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-02-13",
+      "title": "The Spirit of the Beatitudes",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_126addbf4ac1496e9ceb1ad17cdf5108.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:5ffdef172f09386e",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-02-06",
+      "title": "Here I Am, Lord, Send Me!",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_c13d875d832e46a09313ccf2c71082a8.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:453d5518d0b193c9",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-01-29",
+      "title": "Love Never Fails",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_0243408080d94004b13c1d89990eb97a.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:ea004f3fc4c40388",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-01-23",
+      "title": "Domine, Non Sum Dignus",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_d0f9f37f55a34887935e59603b5556ba.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:a0693a4d23e54407",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-01-08",
+      "title": "Let Us Remember Our Baptism",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_06ef4851465d43aab45444f5aa3d1ee6.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:639e71b748e20d22",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-01-02",
+      "title": "The Vocation of the Magi",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_7622f9a4389d48dfa1c2cd254bf87d03.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": true,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": 3,
+      "date_basis": "Archive label and printed document date agree.",
+      "body_summary": "Three pages of developed homily prose with headings, scriptural references, a cited passage and a closing exhortation.",
+      "byline": "Fr. David M Vidal",
+      "byline_basis": null,
+      "event_observation": "Epiphany of the Lord; Mt 2:1-12 named",
+      "cutoff": "before",
+      "delivery_date": null
+    },
+    {
+      "id": "catholic-item:93bda100d1e33eeb",
+      "source_id": "catholic-ave-maria-florida-vidal",
+      "date": "2022-01-01",
+      "title": "Mary Our Hope",
+      "source_url": "https://www.avemariaparish.org/_files/ugd/030821_b21b48bf0bc74e859f216403676f7b83.pdf",
+      "archive_url": "https://www.avemariaparish.org/father-vidals-homilies",
+      "format": "PDF",
+      "body_observed": false,
+      "publication_date": null,
+      "attribution_scope": "Dedicated named archive; selected items also have PDF author headers. Unselected bodies have not been checked.",
+      "pages": null,
+      "date_basis": "Archive label only; document body not inspected.",
+      "body_summary": null,
+      "byline": null,
+      "byline_basis": null,
+      "event_observation": null,
+      "cutoff": "before",
+      "delivery_date": null
+    }
+  ],
+  "limits": [
+    "The 24 historical Tally dates are not 24 newly matched sermons. Both target-year coverage fields remain unknown for all eight groups.",
+    "Current parish identity, current clergy role and historical event speaker are separate claims.",
+    "The two supplementary written sources are outside the eight roster reviews. They are not merged into the 150 historical entities or 86 supported identities.",
+    "49 PDF links were observed, and eight selected bodies were inspected for metadata and genre. No manuscript bodies, recordings or captions are hosted.",
+    "The November 30, 2022 cutoff is descriptive and does not establish AI use or non-use."
+  ]
+}
