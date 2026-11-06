@@ -1,0 +1,22 @@
+{
+  "source": "Approved public Site v20 catalogue",
+  "site_url": "https://sermon-research-jenny.landenini.chatgpt.site/",
+  "snapshot_date": "2026-11-06",
+  "index_sha256": "f93a5bda694436785e9a1a20aeaaf56a4a307ecbe116fa3587913a336ab95fca",
+  "counts": {
+    "churches": 86,
+    "original_churches": 48,
+    "additional_churches": 38,
+    "churches_with_named_clergy": 28,
+    "named_clergy_records": 41,
+    "affiliation_not_established": 48,
+    "items": 47,
+    "earlier_items": 36,
+    "separate_items": 11,
+    "full_texts_hosted": 0,
+    "source_records": 83,
+    "eligible_formal_sermons": 0
+  },
+  "full_texts_included": false,
+  "data_origin": "data/catalogue.json is exactly the dataset embedded in index.html; CSV files contain selected fields from it."
+}
